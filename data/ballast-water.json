@@ -1,0 +1,137 @@
+{
+  "title": "Ballast Water",
+  "questions": [
+    {
+      "question": "Why do ships carry ballast water?",
+      "options": [
+        "To cool the main engine",
+        "To improve stability, trim and draft",
+        "To increase fuel capacity",
+        "To lubricate the propeller shaft"
+      ],
+      "answer": 1,
+      "explanation": "Ballast water is carried to improve a ship's stability, maintain proper trim and ensure sufficient draft when cargo is not onboard."
+    },
+    {
+      "question": "Where is ballast water normally stored?",
+      "options": [
+        "Fuel tanks",
+        "Cargo holds",
+        "Dedicated ballast tanks",
+        "Fresh water tanks"
+      ],
+      "answer": 2,
+      "explanation": "Ships have dedicated ballast tanks designed specifically to carry ballast water."
+    },
+    {
+      "question": "When does a ship usually require the greatest amount of ballast water?",
+      "options": [
+        "When fully loaded",
+        "When sailing with no cargo",
+        "During bunkering",
+        "When entering dry dock"
+      ],
+      "answer": 1,
+      "explanation": "An unloaded ship is much lighter and therefore requires ballast water to maintain safe stability and draft."
+    },
+    {
+      "question": "What is one of the main purposes of ballast water?",
+      "options": [
+        "Increase engine power",
+        "Improve ship stability",
+        "Reduce fuel consumption",
+        "Improve cargo ventilation"
+      ],
+      "answer": 1,
+      "explanation": "Ballast water helps keep the vessel stable and reduces excessive rolling and pitching."
+    },
+    {
+      "question": "Which system is responsible for filling and emptying ballast tanks?",
+      "options": [
+        "Bilge system",
+        "Fuel oil system",
+        "Ballast system",
+        "Cooling water system"
+      ],
+      "answer": 2,
+      "explanation": "The ballast system uses pumps, valves and piping to move ballast water into and out of ballast tanks."
+    },
+    {
+      "question": "What could happen if ballast is distributed incorrectly?",
+      "options": [
+        "The ship may lose stability",
+        "Fuel consumption becomes zero",
+        "The engine automatically stops",
+        "Cargo weight increases"
+      ],
+      "answer": 0,
+      "explanation": "Incorrect ballast distribution can create excessive trim, list or even lead to loss of stability."
+    },
+    {
+      "question": "Which ship characteristic is directly influenced by ballast water?",
+      "options": [
+        "Hull paint colour",
+        "Ship stability",
+        "Bridge equipment",
+        "Crew size"
+      ],
+      "answer": 1,
+      "explanation": "Ballast water directly affects a vessel's stability, trim and draft."
+    },
+    {
+      "question": "What does 'trim' describe?",
+      "options": [
+        "The sideways inclination of the ship",
+        "The difference between the forward and aft draft",
+        "The cargo capacity",
+        "The engine RPM"
+      ],
+      "answer": 1,
+      "explanation": "Trim refers to the difference between the draft forward and the draft aft."
+    },
+    {
+      "question": "Why is ballast water important during rough weather?",
+      "options": [
+        "It improves stability and vessel handling",
+        "It increases engine speed",
+        "It reduces propeller diameter",
+        "It cools the cargo"
+      ],
+      "answer": 0,
+      "explanation": "Proper ballast improves the ship's behaviour in heavy seas and reduces excessive motion."
+    },
+    {
+      "question": "Which equipment is commonly used to move ballast water?",
+      "options": [
+        "Air compressors",
+        "Ballast pumps",
+        "Steering gear",
+        "Boilers"
+      ],
+      "answer": 1,
+      "explanation": "Ballast pumps are specifically designed to transfer ballast water between tanks and overboard."
+    },
+    {
+      "question": "Why must ballast operations be carefully planned?",
+      "options": [
+        "To maintain safe stability and structural loading",
+        "To increase engine temperature",
+        "To reduce crew workload",
+        "To improve radar performance"
+      ],
+      "answer": 0,
+      "explanation": "Poor ballast planning may overload parts of the hull or reduce vessel stability."
+    },
+    {
+      "question": "What can happen if too much ballast water is carried?",
+      "options": [
+        "The ship becomes unnecessarily heavy and uses more fuel",
+        "The cargo disappears",
+        "The engine stops automatically",
+        "The bridge loses electrical power"
+      ],
+      "answer": 0,
+      "explanation": "Excess ballast increases displacement and fuel consumption while reducing cargo efficiency."
+    }
+  ]
+}
