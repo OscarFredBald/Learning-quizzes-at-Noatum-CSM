@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maritime Practice Quiz</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #eef3f8;
+      margin: 0;
+      padding: 0;
+      color: #102033;
+    }
+
+    .container {
+      max-width: 850px;
+      margin: 40px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+    }
+
+    h1 {
+      text-align: center;
+      color: #003b5c;
+    }
+
+    .subtitle {
+      text-align: center;
+      color: #557;
+      margin-bottom: 30px;
+    }
+
+    .question {
+      font-size: 1.25rem;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .option {
+      display: block;
+      background: #f4f7fa;
+      margin: 10px 0;
+      padding: 14px;
+      border-radius: 10px;
+      cursor: pointer;
+      border: 2px solid transparent;
+    }
+
+    .option:hover {
+      border-color: #0077b6;
+    }
+
+    .correct {
+      background: #d4edda;
+      border-color: #28a745;
+    }
+
+    .wrong {
+      background: #f8d7da;
+      border-color: #dc3545;
+    }
+
+    button {
+      background: #003b5c;
+      color: white;
+      border: none;
+      padding: 14px 22px;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 1rem;
+      margin-top: 20px;
+    }
+
+    button:hover {
+      background: #005f8f;
+    }
+
+    .explanation {
+      margin-top: 20px;
+      padding: 15px;
+      background: #eef6ff;
+      border-left: 5px solid #0077b6;
+      border-radius: 8px;
+    }
+
+    .progress {
+      margin-bottom: 15px;
+      font-weight: bold;
+      color: #444;
+    }
+
+    .result {
+      text-align: center;
+      font-size: 1.3rem;
+    }
+
+    .source {
+      margin-top: 30px;
+      font-size: 0.85rem;
+      color: #666;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h1>🚢 Maritime Practice Quiz</h1>
+  <p class="subtitle">Topic: Marine Diesel Engines</p>
+
+  <div id="quiz-box">
+    <div class="progress" id="progress"></div>
+    <div class="question" id="question"></div>
+    <div id="options"></div>
+    <div id="explanation" class="explanation" style="display:none;"></div>
+    <button id="next-btn" onclick="nextQuestion()" style="display:none;">Next Question</button>
+  </div>
+
+  <div class="source">
+    Based on material from Depco Power Systems: “What is a marine diesel engine and how is it different from a regular diesel engine?”
+  </div>
+</div>
+
+<script>
+const questions = [
+  {
+    question: "What is a marine diesel engine primarily designed for?",
+    options: [
+      "Use in aircraft propulsion",
+      "Use in marine environments such as workboats, ships and commercial vessels",
+      "Use only in small cars",
+      "Use only as emergency household generators"
+    ],
+    answer: 1,
+    explanation: "A marine diesel engine is designed or adapted for marine environments, typically powering workboats, ships and light-duty commercial vessels."
+  },
+  {
+    question: "What basic combustion principle does a marine diesel engine share with regular diesel engines?",
+    options: [
+      "Spark ignition",
+      "Steam expansion",
+      "Compression ignition",
+      "Battery ignition"
+    ],
+    answer: 2,
+    explanation: "Diesel engines compress air inside the cylinder. Fuel is then injected into the hot compressed air and ignites."
+  },
+  {
+    question: "Why are marine diesel engines modified compared with regular diesel engines?",
+    options: [
+      "To operate safely and efficiently in high-moisture, high-load environments",
+      "To make them lighter than petrol engines",
+      "To remove the need for fuel filters",
+      "To make them run only at low temperature"
+    ],
+    answer: 0,
+    explanation: "Marine engines need modifications for saltwater exposure, moisture, heavy load and continuous operation."
+  },
+  {
+    question: "Which cooling system is commonly used in marine diesel engines?",
+    options: [
+      "Only air cooling",
+      "Raw-water or closed-loop seawater-cooled heat exchangers",
+      "Only radiator-based cooling",
+      "Dry ice cooling"
+    ],
+    answer: 1,
+    explanation: "Marine diesel engines commonly use raw-water or closed-loop seawater-cooled heat exchangers."
+  },
+  {
+    question: "What is a regular diesel engine usually cooled by?",
+    options: [
+      "A radiator-based cooling system",
+      "Seawater heat exchangers only",
+      "No cooling system",
+      "Compressed air tanks"
+    ],
+    answer: 0,
+    explanation: "Regular land-based diesel engines usually use radiator-based cooling systems."
+  },
+  {
+    question: "Why do marine diesel engines need corrosion-resistant materials?",
+    options: [
+      "Because they operate in saltwater and high-moisture environments",
+      "Because diesel fuel is always acidic",
+      "Because they operate only in deserts",
+      "Because corrosion increases fuel efficiency"
+    ],
+    answer: 0,
+    explanation: "Marine engines are exposed to moisture and saltwater, so they require marine-grade alloys and protective coatings."
+  },
+  {
+    question: "What does ignition protection mean in marine diesel engines?",
+    options: [
+      "The engine uses spark plugs",
+      "Electrical components are sealed and spark-proof",
+      "The engine cannot start in cold weather",
+      "The fuel tank is removed"
+    ],
+    answer: 1,
+    explanation: "In enclosed marine spaces, electrical components are often sealed and spark-proof to reduce ignition risk from fuel vapors."
+  },
+  {
+    question: "What duty cycle are marine diesel engines designed for?",
+    options: [
+      "Short, occasional use only",
+      "Continuous high-load operation",
+      "Only idle operation",
+      "Only low-speed operation on land"
+    ],
+    answer: 1,
+    explanation: "Marine diesel engines are designed for continuous high-load operation."
+  },
+  {
+    question: "How is power from a marine diesel engine normally transferred to move a vessel?",
+    options: [
+      "Through a propeller shaft or jet system",
+      "Through rubber tires",
+      "Through aircraft wings",
+      "Through a railway gearbox"
+    ],
+    answer: 0,
+    explanation: "The crankshaft generates mechanical power, which is transferred to a propeller shaft or jet system to move the vessel."
+  },
+  {
+    question: "What is a common feature of marine diesel fuel systems?",
+    options: [
+      "No filtration",
+      "Water separation and marine-specific filtration",
+      "Only petrol injection",
+      "No fuel pump"
+    ],
+    answer: 1,
+    explanation: "Marine fuel systems often include water separation and marine-specific filtration because of contamination risks."
+  },
+  {
+    question: "Can regular diesel usually be used in a marine diesel engine?",
+    options: [
+      "In most cases, yes, but engine specifications and local regulations must be checked",
+      "No, never",
+      "Only if mixed with petrol",
+      "Only in aircraft engines"
+    ],
+    answer: 0,
+    explanation: "The source states that in most cases marine diesel engines can run on ultra-low sulfur diesel, but specifications and regulations should always be checked."
+  },
+  {
+    question: "What is one disadvantage of marine diesel engines?",
+    options: [
+      "They are always unreliable",
+      "They cannot operate continuously",
+      "They can be more expensive, heavier and require specific maintenance",
+      "They do not tolerate high loads"
+    ],
+    answer: 2,
+    explanation: "Marine diesel engines are durable, but they may have higher upfront cost, more weight and more specific maintenance needs."
+  }
+];
+
+let currentQuestion = 0;
+let score = 0;
+let answered = false;
+
+function loadQuestion() {
+  answered = false;
+  const q = questions[currentQuestion];
+
+  document.getElementById("progress").textContent =
+    `Question ${currentQuestion + 1} of ${questions.length}`;
+
+  document.getElementById("question").textContent = q.question;
+  document.getElementById("options").innerHTML = "";
+  document.getElementById("explanation").style.display = "none";
+  document.getElementById("next-btn").style.display = "none";
+
+  q.options.forEach((option, index) => {
+    const div = document.createElement("div");
+    div.className = "option";
+    div.textContent = option;
+    div.onclick = () => selectAnswer(div, index);
+    document.getElementById("options").appendChild(div);
+  });
+}
+
+function selectAnswer(selectedDiv, selectedIndex) {
+  if (answered) return;
+  answered = true;
+
+  const q = questions[currentQuestion];
+  const options = document.querySelectorAll(".option");
+
+  options.forEach((option, index) => {
+    if (index === q.answer) {
+      option.classList.add("correct");
+    }
+  });
+
+  if (selectedIndex !== q.answer) {
+    selectedDiv.classList.add("wrong");
+  } else {
+    score++;
+  }
+
+  document.getElementById("explanation").style.display = "block";
+  document.getElementById("explanation").innerHTML =
+    `<strong>Explanation:</strong><br>${q.explanation}`;
+
+  document.getElementById("next-btn").style.display = "inline-block";
+}
+
+function nextQuestion() {
+  currentQuestion++;
+
+  if (currentQuestion < questions.length) {
+    loadQuestion();
+  } else {
+    showResult();
+  }
+}
+
+function showResult() {
+  const percent = Math.round((score / questions.length) * 100);
+
+  document.getElementById("quiz-box").innerHTML = `
+    <div class="result">
+      <h2>Quiz completed</h2>
+      <p>You scored <strong>${score}</strong> out of <strong>${questions.length}</strong>.</p>
+      <p>Result: <strong>${percent}%</strong></p>
+      <button onclick="restartQuiz()">Restart Quiz</button>
+    </div>
+  `;
+}
+
+function restartQuiz() {
+  currentQuestion = 0;
+  score = 0;
+  document.getElementById("quiz-box").innerHTML = `
+    <div class="progress" id="progress"></div>
+    <div class="question" id="question"></div>
+    <div id="options"></div>
+    <div id="explanation" class="explanation" style="display:none;"></div>
+    <button id="next-btn" onclick="nextQuestion()" style="display:none;">Next Question</button>
+  `;
+  loadQuestion();
+}
+
+loadQuestion();
+</script>
+
+</body>
+</html>
