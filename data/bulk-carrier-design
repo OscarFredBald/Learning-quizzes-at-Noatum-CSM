@@ -1,0 +1,149 @@
+{
+  "title": "Bulk Carrier Design",
+  "questions": [
+    {
+      "question": "What is the main purpose of the long parallel mid-body on a bulk carrier?",
+      "options": [
+        "To improve passenger comfort",
+        "To maximize cargo carrying volume",
+        "To reduce ballast capacity",
+        "To increase engine room space"
+      ],
+      "answer": 1,
+      "difficulty": "Easy",
+      "explanation": "The long parallel mid-body provides maximum internal volume for cargo holds, increasing cargo capacity."
+    },
+    {
+      "question": "What is the typical block coefficient (Cb) of a bulk carrier?",
+      "options": [
+        "0.20–0.35",
+        "0.40–0.55",
+        "0.70–0.80",
+        "0.90–1.00"
+      ],
+      "answer": 2,
+      "difficulty": "Medium",
+      "explanation": "Bulk carriers have a full-form hull with a block coefficient typically between 0.70 and 0.80."
+    },
+    {
+      "question": "Why do bulk carriers usually have a high ballast capacity?",
+      "options": [
+        "To carry additional fuel",
+        "To increase cargo density",
+        "To maintain an efficient draft and propeller immersion when unloaded",
+        "To reduce the size of the cargo holds"
+      ],
+      "answer": 2,
+      "difficulty": "Medium",
+      "explanation": "Large ballast tanks help maintain proper draft, trim and propeller immersion during ballast voyages."
+    },
+    {
+      "question": "Which stern design is commonly used on modern bulk carriers?",
+      "options": [
+        "Cruiser stern",
+        "Elliptical stern",
+        "Clipper stern",
+        "Transom stern"
+      ],
+      "answer": 3,
+      "difficulty": "Medium",
+      "explanation": "Modern bulk carriers almost universally use a transom stern for improved hydrodynamic performance."
+    },
+    {
+      "question": "Why are bulk carrier hulls longitudinally stiffened?",
+      "options": [
+        "To simplify painting",
+        "To resist longitudinal bending moments",
+        "To reduce fuel consumption",
+        "To make hatch covers lighter"
+      ],
+      "answer": 1,
+      "difficulty": "Difficult",
+      "explanation": "Bulk carriers experience significant longitudinal bending loads, making longitudinal stiffening the preferred structural arrangement."
+    },
+    {
+      "question": "What is the primary purpose of a duct keel in a double-bottom bulk carrier?",
+      "options": [
+        "To store drinking water",
+        "To provide space for pipelines and support loads during dry docking",
+        "To improve cargo ventilation",
+        "To reduce propeller vibration"
+      ],
+      "answer": 1,
+      "difficulty": "Difficult",
+      "explanation": "The duct keel carries pipelines and also transfers loads to keel blocks when the vessel is dry docked."
+    },
+    {
+      "question": "What is the purpose of hopper tanks in bulk carrier cargo holds?",
+      "options": [
+        "To increase engine room space",
+        "To improve cargo trimming and reduce cargo shifting",
+        "To store lubricating oil",
+        "To cool the cargo"
+      ],
+      "answer": 1,
+      "difficulty": "Difficult",
+      "explanation": "Hopper tanks create sloped sides that help cargo flow toward the centerline, making the holds self-trimming."
+    },
+    {
+      "question": "Why is the sheer strake normally thicker than the adjacent deck or side shell plating?",
+      "options": [
+        "To improve corrosion resistance only",
+        "To reduce hull weight",
+        "Because this area experiences high stress concentrations",
+        "To provide insulation"
+      ],
+      "answer": 2,
+      "difficulty": "Difficult",
+      "explanation": "The deck-to-side shell connection experiences high stresses, requiring increased plate thickness."
+    },
+    {
+      "question": "What is one major advantage of a double-hull bulk carrier compared to a single-hull design?",
+      "options": [
+        "Lower construction cost",
+        "Improved stability and additional ballast capacity",
+        "Smaller cargo holds",
+        "Elimination of hatch covers"
+      ],
+      "answer": 1,
+      "difficulty": "Medium",
+      "explanation": "Double-hull designs provide wing ballast tanks that improve stability and increase safety."
+    },
+    {
+      "question": "What is the main purpose of corrugated transverse bulkheads?",
+      "options": [
+        "To eliminate the need for separate stiffeners",
+        "To reduce engine noise",
+        "To increase fuel storage",
+        "To improve cargo ventilation"
+      ],
+      "answer": 0,
+      "difficulty": "Difficult",
+      "explanation": "Corrugations provide structural strength without requiring additional stiffeners, resulting in a better strength-to-weight ratio."
+    },
+    {
+      "question": "What is the primary advantage of alternate hold loading?",
+      "options": [
+        "It allows higher vessel speed",
+        "It reduces fuel consumption",
+        "It improves cargo weight distribution and minimizes cargo shifting",
+        "It increases ballast tank capacity"
+      ],
+      "answer": 2,
+      "difficulty": "Difficult",
+      "explanation": "Alternate hold loading distributes heavy cargo more evenly and keeps holds either full or empty, reducing cargo movement."
+    },
+    {
+      "question": "Why are bulk carrier hatch openings made very large?",
+      "options": [
+        "To improve accommodation ventilation",
+        "To allow rapid loading and unloading of bulk cargo",
+        "To reduce wind resistance",
+        "To increase ballast capacity"
+      ],
+      "answer": 1,
+      "difficulty": "Easy",
+      "explanation": "Large hatch openings allow efficient loading and discharge using grabs, conveyors and shore equipment."
+    }
+  ]
+}
