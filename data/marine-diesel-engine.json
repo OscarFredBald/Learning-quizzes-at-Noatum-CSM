@@ -4,36 +4,36 @@
     {
       "question": "What is the main purpose of a marine diesel engine?",
       "options": [
-        "To propel the vessel or generate electrical power",
         "To store ballast water",
+        "To propel the vessel or generate electrical power",
         "To cool the cargo holds",
         "To clean the exhaust gas"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "Easy",
       "explanation": "Marine diesel engines are mainly used for propulsion or for driving generators that produce electrical power."
     },
     {
       "question": "Which fuel is commonly used in large marine diesel engines?",
       "options": [
-        "Heavy fuel oil or marine diesel oil",
         "Aviation gasoline",
         "Fresh water",
+        "Heavy fuel oil or marine diesel oil",
         "Hydraulic oil"
       ],
-      "answer": 0,
+      "answer": 2,
       "difficulty": "Easy",
       "explanation": "Large marine engines commonly operate on heavy fuel oil, marine diesel oil or other approved marine fuels."
     },
     {
       "question": "What happens inside the cylinder during combustion?",
       "options": [
-        "Fuel burns and produces expanding gases that push the piston",
         "Cooling water pushes the piston downward",
         "Lubricating oil is converted into fuel",
-        "Exhaust gas is stored in the cylinder"
+        "Exhaust gas is stored in the cylinder",
+        "Fuel burns and produces expanding gases that push the piston"
       ],
-      "answer": 0,
+      "answer": 3,
       "difficulty": "Easy",
       "explanation": "The injected fuel ignites in the hot compressed air, creating high-pressure gases that force the piston downward."
     },
@@ -52,24 +52,24 @@
     {
       "question": "Why is lubricating oil used in a marine diesel engine?",
       "options": [
-        "To reduce friction and wear between moving components",
         "To increase exhaust temperature",
+        "To reduce friction and wear between moving components",
         "To replace the cooling water",
         "To increase the vessel's draft"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "Medium",
       "explanation": "Lubricating oil reduces friction, limits wear, removes some heat and helps protect engine components from corrosion."
     },
     {
       "question": "What is the purpose of the engine cooling system?",
       "options": [
-        "To remove excess heat and maintain safe operating temperatures",
         "To increase fuel viscosity",
         "To raise exhaust pressure",
+        "To remove excess heat and maintain safe operating temperatures",
         "To reduce propeller diameter"
       ],
-      "answer": 0,
+      "answer": 2,
       "difficulty": "Medium",
       "explanation": "The cooling system transfers heat away from components such as cylinder liners, cylinder heads and pistons."
     },
@@ -77,11 +77,11 @@
       "question": "In a four-stroke diesel engine, how many crankshaft revolutions are required to complete one operating cycle?",
       "options": [
         "One revolution",
-        "Two revolutions",
         "Three revolutions",
-        "Four revolutions"
+        "Four revolutions",
+        "Two revolutions"
       ],
-      "answer": 1,
+      "answer": 3,
       "difficulty": "Difficult",
       "explanation": "A four-stroke cycle consists of intake, compression, power and exhaust strokes and requires two crankshaft revolutions."
     },
@@ -100,36 +100,36 @@
     {
       "question": "What is scavenging in a two-stroke marine diesel engine?",
       "options": [
-        "Removing exhaust gases and supplying fresh air to the cylinder",
         "Cleaning fuel tanks with seawater",
+        "Removing exhaust gases and supplying fresh air to the cylinder",
         "Filtering lubricating oil",
         "Heating the cylinder liner"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "Difficult",
       "explanation": "Scavenging replaces exhaust gases in the cylinder with fresh pressurized air before the next combustion cycle."
     },
     {
       "question": "What is the purpose of a turbocharger on a marine diesel engine?",
       "options": [
-        "To use exhaust energy to compress more intake air into the engine",
         "To cool the lubricating oil",
         "To operate the ballast pumps",
+        "To use exhaust energy to compress more intake air into the engine",
         "To reduce the crankshaft speed to zero"
       ],
-      "answer": 0,
+      "answer": 2,
       "difficulty": "Difficult",
       "explanation": "The turbocharger uses exhaust-gas energy to drive a compressor, increasing the mass of air supplied to the cylinders."
     },
     {
       "question": "Why must heavy fuel oil normally be heated before injection?",
       "options": [
-        "To reduce its viscosity and improve atomization",
         "To increase its water content",
         "To prevent compression in the cylinder",
-        "To reduce the amount of intake air"
+        "To reduce the amount of intake air",
+        "To reduce its viscosity and improve atomization"
       ],
-      "answer": 0,
+      "answer": 3,
       "difficulty": "Difficult",
       "explanation": "Heavy fuel oil is heated so that it reaches the correct viscosity for pumping, injection and fine atomization."
     },
