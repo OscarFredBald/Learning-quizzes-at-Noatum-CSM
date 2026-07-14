@@ -1,246 +1,246 @@
 {
   "title": "MARPOL – Prevention of Pollution from Ships",
-  "description": "Test your knowledge of the MARPOL Convention, its six technical annexes and the main controls used to prevent pollution from ships.",
+  "description": "Test your understanding of MARPOL, pollution-prevention equipment, operational controls, documentation and practical compliance onboard ships.",
   "questions": [
     {
-      "question": "What is the main purpose of the MARPOL Convention?",
+      "question": "Which statement best describes the scope of MARPOL?",
       "options": [
-        "To prevent and minimize pollution of the marine environment from ships",
-        "To regulate the construction of passenger terminals",
-        "To establish international rules for collision avoidance",
-        "To determine minimum wages for seafarers"
+        "It only regulates pollution caused by oil tanker accidents",
+        "It covers pollution from both routine ship operations and accidental incidents",
+        "It primarily regulates port construction and dredging activities",
+        "It applies only when a ship operates inside territorial waters"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "Easy",
-      "explanation": "MARPOL is the main international convention covering prevention of pollution from ships caused by routine operations or accidents."
+      "explanation": "MARPOL addresses pollution from routine ship operations as well as pollution resulting from accidents."
     },
     {
-      "question": "How many technical annexes are currently included in MARPOL?",
+      "question": "A crew member is unsure whether plastic packaging may be discharged far from land. What is the correct general rule?",
       "options": [
-        "Four",
-        "Five",
-        "Six",
-        "Seven"
+        "Plastics may be discharged when the vessel is outside a Special Area",
+        "Plastics may be discharged after being shredded",
+        "Disposal of plastics into the sea is prohibited",
+        "Plastics may be discharged when entered in the Garbage Record Book"
       ],
       "answer": 2,
       "difficulty": "Easy",
-      "explanation": "MARPOL currently contains six technical annexes, each dealing with a different type of ship-source pollution."
+      "explanation": "MARPOL Annex V prohibits the disposal of plastics into the sea regardless of the vessel's distance from land."
     },
     {
-      "question": "Which MARPOL annex covers pollution by oil?",
+      "question": "What is the main purpose of an Oil Record Book?",
       "options": [
-        "Annex I",
-        "Annex II",
-        "Annex IV",
-        "Annex VI"
+        "To document relevant oil-handling and machinery-space operations",
+        "To record fuel prices and bunker consumption",
+        "To list the vessel's approved lubricating oils",
+        "To document garbage delivered to reception facilities"
       ],
       "answer": 0,
       "difficulty": "Easy",
-      "explanation": "Annex I contains regulations for the prevention of pollution by oil."
+      "explanation": "The Oil Record Book documents specified operations involving oil, oily mixtures and oil residues."
     },
     {
-      "question": "Which MARPOL annex deals with garbage from ships?",
+      "question": "Which shipboard activity is primarily regulated by MARPOL Annex IV?",
       "options": [
-        "Annex II",
-        "Annex III",
-        "Annex V",
-        "Annex VI"
+        "The discharge and treatment of sewage",
+        "The carriage of chemicals in bulk",
+        "The disposal of cargo residues classified as garbage",
+        "The control of sulphur emissions from fuel oil"
       ],
-      "answer": 2,
+      "answer": 0,
       "difficulty": "Easy",
-      "explanation": "Annex V regulates the handling and disposal of garbage from ships."
+      "explanation": "MARPOL Annex IV contains regulations for the prevention of pollution by sewage from ships."
     },
     {
-      "question": "Which MARPOL annex covers air pollution from ships?",
+      "question": "Why are some sea areas designated as MARPOL Special Areas?",
       "options": [
-        "Annex I",
-        "Annex III",
-        "Annex V",
-        "Annex VI"
+        "To prohibit all commercial navigation in environmentally sensitive waters",
+        "To apply additional pollution controls because of environmental conditions and sea traffic",
+        "To transfer enforcement responsibility from coastal States to classification societies",
+        "To allow ships to discharge waste under simplified procedures"
       ],
-      "answer": 3,
+      "answer": 1,
       "difficulty": "Easy",
-      "explanation": "Annex VI sets requirements concerning air pollution from ships, including limits on certain exhaust emissions."
-    },
-    {
-      "question": "Which type of pollution is regulated by MARPOL Annex II?",
-      "options": [
-        "Oil carried as fuel or cargo",
-        "Noxious liquid substances carried in bulk",
-        "Sewage discharged from accommodation spaces",
-        "Harmful substances carried in packaged form"
-      ],
-      "answer": 1,
-      "difficulty": "Medium",
-      "explanation": "Annex II controls pollution by noxious liquid substances carried in bulk and establishes discharge criteria for their residues."
-    },
-    {
-      "question": "What is the main focus of MARPOL Annex III?",
-      "options": [
-        "Preventing pollution by harmful substances carried in packaged form",
-        "Controlling oil discharged from machinery spaces",
-        "Regulating sewage treatment systems",
-        "Limiting sulphur emissions from ship engines"
-      ],
-      "answer": 0,
-      "difficulty": "Medium",
-      "explanation": "Annex III addresses harmful substances transported in packaged form and includes requirements relating to packing, marking, labelling, documentation and stowage."
-    },
-    {
-      "question": "What is a MARPOL Special Area?",
-      "options": [
-        "A sea area where all commercial navigation is prohibited",
-        "An area where stricter controls apply to certain operational discharges",
-        "A designated anchorage used only by oil tankers",
-        "A port area where flag State regulations replace MARPOL"
-      ],
-      "answer": 1,
-      "difficulty": "Medium",
-      "explanation": "Special Areas are designated sea areas where stricter controls apply because of their environmental condition, traffic or other characteristics."
-    },
-    {
-      "question": "Which statement correctly describes MARPOL Annex V?",
-      "options": [
-        "It allows plastics to be discharged if they are shredded",
-        "It prohibits the disposal of all forms of plastics into the sea",
-        "It only applies to garbage generated in cargo areas",
-        "It permits plastics to be discharged outside Special Areas"
-      ],
-      "answer": 1,
-      "difficulty": "Medium",
-      "explanation": "A central feature of Annex V is the complete prohibition on disposing of plastics into the sea."
-    },
-    {
-      "question": "Which of the following is regulated under MARPOL Annex VI?",
-      "options": [
-        "Sulphur oxide and nitrogen oxide emissions",
-        "Oil residues from cargo tanks",
-        "Sewage discharged from passenger accommodation",
-        "Noxious liquid cargo residues"
-      ],
-      "answer": 0,
-      "difficulty": "Medium",
-      "explanation": "Annex VI establishes controls for air pollution, including limits on sulphur oxides, nitrogen oxides and deliberate emissions of ozone-depleting substances."
-    },
-    {
-      "question": "A vessel plans to discharge machinery-space bilge water overboard. Which MARPOL annex is primarily relevant?",
-      "options": [
-        "Annex I",
-        "Annex II",
-        "Annex IV",
-        "Annex V"
-      ],
-      "answer": 0,
-      "difficulty": "Hard",
-      "explanation": "Machinery-space bilge water may contain oil and is therefore primarily regulated under Annex I."
-    },
-    {
-      "question": "A chemical tanker is carrying a noxious liquid substance in bulk. Before disposing of cargo residues, which MARPOL annex should be consulted?",
-      "options": [
-        "Annex I",
-        "Annex II",
-        "Annex III",
-        "Annex VI"
-      ],
-      "answer": 1,
-      "difficulty": "Hard",
-      "explanation": "Annex II provides discharge criteria and pollution-control measures for noxious liquid substances carried in bulk."
-    },
-    {
-      "question": "A container contains a substance identified as a marine pollutant under the IMDG Code. Which MARPOL annex primarily governs its carriage?",
-      "options": [
-        "Annex II",
-        "Annex III",
-        "Annex IV",
-        "Annex V"
-      ],
-      "answer": 1,
-      "difficulty": "Hard",
-      "explanation": "Annex III applies to harmful substances carried in packaged form, including substances identified as marine pollutants under the IMDG Code."
-    },
-    {
-      "question": "A vessel without an approved sewage treatment plant is carrying untreated sewage. The vessel is six nautical miles from the nearest land. What is the correct action?",
-      "options": [
-        "Discharge the sewage because the vessel is more than three nautical miles from land",
-        "Retain the sewage onboard until the applicable discharge conditions are satisfied",
-        "Transfer the sewage to the bilge system before discharge",
-        "Discharge the sewage after recording it in the Garbage Record Book"
-      ],
-      "answer": 1,
-      "difficulty": "Hard",
-      "explanation": "Untreated sewage that is not comminuted or disinfected may only be discharged when the applicable Annex IV conditions are met, including the required distance from land."
-    },
-    {
-      "question": "A vessel is four nautical miles from the nearest land and has an approved system for comminuting and disinfecting sewage. Which statement is most accurate?",
-      "options": [
-        "Discharge may be permitted if the other Annex IV conditions are satisfied",
-        "Discharge is prohibited unless the vessel is at least twelve nautical miles from land",
-        "Discharge is only permitted inside a Special Area",
-        "Discharge is regulated under Annex V rather than Annex IV"
-      ],
-      "answer": 0,
-      "difficulty": "Hard",
-      "explanation": "Comminuted and disinfected sewage may be discharged more than three nautical miles from the nearest land when the applicable Annex IV requirements are satisfied."
-    },
-    {
-      "question": "A crew member proposes throwing plastic packaging overboard while the vessel is far from land. What is the correct response?",
-      "options": [
-        "Permit the discharge if the plastic is cut into small pieces",
-        "Permit the discharge outside a MARPOL Special Area",
-        "Prohibit the discharge because Annex V bans disposal of plastics into the sea",
-        "Permit the discharge if it is entered in the Oil Record Book"
-      ],
-      "answer": 2,
-      "difficulty": "Hard",
-      "explanation": "Annex V prohibits the disposal of all forms of plastics into the sea, regardless of distance from land."
-    },
-    {
-      "question": "During a voyage, a vessel enters an Emission Control Area. Which operational issue becomes particularly important under MARPOL Annex VI?",
-      "options": [
-        "Compliance with more stringent requirements for certain air emissions",
-        "Use of reception facilities for chemical cargo residues",
-        "Restrictions on discharging untreated sewage",
-        "Requirements for marking packaged marine pollutants"
-      ],
-      "answer": 0,
-      "difficulty": "Hard",
-      "explanation": "Emission Control Areas apply more stringent standards for emissions such as sulphur oxides, nitrogen oxides and particulate matter."
+      "explanation": "Special Areas require stricter pollution-prevention measures because of their oceanographical, ecological and traffic characteristics."
     },
     {
       "question": "Which statement correctly distinguishes MARPOL Annex II from Annex III?",
       "options": [
-        "Annex II concerns noxious liquid substances in bulk, while Annex III concerns harmful substances in packaged form",
-        "Annex II concerns packaged substances, while Annex III concerns sewage",
-        "Annex II concerns garbage, while Annex III concerns oil",
-        "Annex II concerns air emissions, while Annex III concerns liquid fuel"
+        "Annex II covers sewage, while Annex III covers garbage",
+        "Annex II covers harmful substances in packages, while Annex III covers chemicals in bulk",
+        "Annex II covers noxious liquid substances in bulk, while Annex III covers harmful substances in packaged form",
+        "Annex II covers oil cargoes, while Annex III covers air emissions"
       ],
-      "answer": 0,
-      "difficulty": "Hard",
-      "explanation": "Annex II applies to noxious liquid substances carried in bulk, whereas Annex III applies to harmful substances carried in packaged form."
+      "answer": 2,
+      "difficulty": "Medium",
+      "explanation": "Annex II applies to noxious liquid substances carried in bulk. Annex III applies to harmful substances carried in packaged form."
     },
     {
-      "question": "A port State control officer observes an oily discharge and discarded plastic waste from the same vessel. Which annexes are primarily involved?",
+      "question": "What is the primary function of oily-water filtering equipment used for machinery-space bilge water?",
       "options": [
-        "Annex I and Annex V",
-        "Annex II and Annex III",
-        "Annex III and Annex IV",
-        "Annex IV and Annex VI"
+        "To separate oil from water before any permitted overboard discharge",
+        "To transfer sludge directly to the incinerator",
+        "To measure the sulphur content of fuel oil",
+        "To disinfect machinery-space wastewater"
       ],
       "answer": 0,
-      "difficulty": "Hard",
-      "explanation": "Oil pollution is addressed under Annex I, while garbage including plastics is addressed under Annex V."
+      "difficulty": "Medium",
+      "explanation": "Oil-filtering equipment treats oily bilge water so that any permitted discharge complies with Annex I requirements."
     },
     {
-      "question": "Which combination correctly matches a MARPOL annex with its pollution category?",
+      "question": "A vessel is preparing to enter an Emission Control Area. Which action may be necessary when compliance is achieved through low-sulphur fuel?",
       "options": [
-        "Annex I – oil; Annex IV – sewage; Annex VI – air pollution",
-        "Annex II – garbage; Annex III – sewage; Annex V – oil",
-        "Annex III – air emissions; Annex IV – packaged goods; Annex VI – sewage",
-        "Annex I – chemicals in bulk; Annex II – plastics; Annex V – exhaust emissions"
+        "Changing over to compliant fuel before entering the area",
+        "Emptying the sludge tank before crossing the boundary",
+        "Stopping all auxiliary engines inside the area",
+        "Transferring fuel oil into the ballast tanks"
+      ],
+      "answer": 0,
+      "difficulty": "Medium",
+      "explanation": "When separate compliant fuel is used, the fuel changeover must be completed before the vessel enters the applicable Emission Control Area."
+    },
+    {
+      "question": "Which document would normally be most relevant when verifying the disposal and handling of ship-generated garbage?",
+      "options": [
+        "Cargo Record Book",
+        "Garbage Record Book",
+        "Oil Record Book Part II",
+        "International Air Pollution Prevention Certificate"
+      ],
+      "answer": 1,
+      "difficulty": "Medium",
+      "explanation": "The Garbage Record Book records specified garbage handling, discharge, incineration and delivery operations."
+    },
+    {
+      "question": "Why is delivery of waste to a port reception facility still recorded when no discharge into the sea occurred?",
+      "options": [
+        "To demonstrate how the waste was managed and removed from the vessel",
+        "To calculate the vessel's summer deadweight",
+        "To transfer responsibility for all previous waste operations to the port",
+        "To replace the vessel's Garbage Management Plan"
+      ],
+      "answer": 0,
+      "difficulty": "Medium",
+      "explanation": "Records provide traceability and evidence that regulated waste was handled through an approved disposal route."
+    },
+    {
+      "question": "An engineer discovers that the oily-water separator's monitoring equipment is defective. The holding tank is nearly full. What is the most appropriate response?",
+      "options": [
+        "Discharge slowly while visually checking the overboard outlet",
+        "Bypass the monitoring equipment because tank capacity is limited",
+        "Retain or transfer the waste and arrange an approved disposal or repair solution",
+        "Dilute the bilge water until no oil is visible"
+      ],
+      "answer": 2,
+      "difficulty": "Hard",
+      "explanation": "A defective monitoring or filtering system must not be bypassed. The waste should be retained, transferred or delivered through an approved arrangement."
+    },
+    {
+      "question": "A Port State Control officer finds recorded Oil Record Book entries that do not match sludge tank soundings and disposal receipts. What is the principal concern?",
+      "options": [
+        "The vessel may have used an incorrect fuel grade",
+        "The records may not accurately account for the handling of oil residues",
+        "The vessel may have exceeded its permitted ballast capacity",
+        "The classification society may have used the wrong survey interval"
+      ],
+      "answer": 1,
+      "difficulty": "Hard",
+      "explanation": "Inconsistent quantities may indicate inaccurate records, unexplained disposal or possible unlawful discharge of oil residues."
+    },
+    {
+      "question": "A chemical tanker is cleaning a tank that previously contained a noxious liquid substance carried in bulk. Which source should primarily govern the residue-handling procedure?",
+      "options": [
+        "The vessel's Garbage Management Plan under Annex V",
+        "The approved procedures applicable under Annex II",
+        "The engine-room Oil Record Book procedures",
+        "The fuel changeover procedure required under Annex VI"
+      ],
+      "answer": 1,
+      "difficulty": "Hard",
+      "explanation": "Tank washing and residue handling for noxious liquid substances carried in bulk are controlled under Annex II and the vessel's approved procedures."
+    },
+    {
+      "question": "A packaged cargo is identified as a marine pollutant. Which combination is most relevant to compliant carriage?",
+      "options": [
+        "Tank stripping, cargo heating and an Oil Record Book entry",
+        "Suitable packaging, marking, documentation and stowage",
+        "Sewage treatment, sampling and discharge monitoring",
+        "Fuel changeover, bunker sampling and emission certification"
+      ],
+      "answer": 1,
+      "difficulty": "Hard",
+      "explanation": "Annex III controls harmful substances in packaged form through requirements such as packaging, marking, documentation and stowage."
+    },
+    {
+      "question": "Food waste has been mixed with plastic packaging. How should the mixture generally be treated for discharge purposes?",
+      "options": [
+        "As food waste because it forms the majority of the mixture",
+        "According to the stricter requirement applicable to the plastic component",
+        "As sewage if the waste originated in the galley",
+        "As unrestricted waste after comminution"
+      ],
+      "answer": 1,
+      "difficulty": "Hard",
+      "explanation": "When garbage categories are mixed, the more stringent discharge requirement generally governs. Plastics may not be discharged into the sea."
+    },
+    {
+      "question": "A vessel changes from conventional fuel to compliant low-sulphur fuel shortly after crossing into an Emission Control Area. What is the main compliance issue?",
+      "options": [
+        "The fuel changeover should have been completed before entering the area",
+        "Fuel changeover is only permitted while the vessel is alongside",
+        "The changeover should have been entered in the Garbage Record Book",
+        "The vessel must stop before changing fuel grades"
       ],
       "answer": 0,
       "difficulty": "Hard",
-      "explanation": "Annex I concerns oil, Annex IV concerns sewage and Annex VI concerns air pollution from ships."
+      "explanation": "When low-sulphur fuel is used for compliance, the vessel must have completed the changeover before entry into the applicable area."
+    },
+    {
+      "question": "A vessel has an approved exhaust-gas cleaning system and uses fuel with sulphur content above the normally applicable fuel limit. What must the vessel principally demonstrate?",
+      "options": [
+        "That the equivalent compliance method is approved and operating as required",
+        "That the fuel was purchased outside an Emission Control Area",
+        "That the main engine is operated below its normal load",
+        "That the excess sulphur is entered in the Oil Record Book"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "An approved equivalent method, such as an exhaust-gas cleaning system, must achieve the required emission-control performance and be operated correctly."
+    },
+    {
+      "question": "A passenger ship operating in a sewage Special Area intends to discharge treated sewage. Which factor is especially important?",
+      "options": [
+        "Whether an approved treatment plant meeting the applicable Special Area standard is operating",
+        "Whether all food waste has first been discharged",
+        "Whether the vessel is using low-sulphur fuel",
+        "Whether the sewage has been entered in the Oil Record Book"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "Passenger-ship sewage discharge in a designated Special Area is generally restricted unless an approved treatment plant meeting the applicable requirements is operating."
+    },
+    {
+      "question": "An accidental oil spill occurs during bunkering. Why can MARPOL remain relevant even though the discharge was not intentional?",
+      "options": [
+        "MARPOL only applies after the coastal State proves negligence",
+        "MARPOL covers both operational and accidental pollution from ships",
+        "MARPOL applies only when the spilled oil enters a Special Area",
+        "MARPOL automatically transfers liability to the bunker supplier"
+      ],
+      "answer": 1,
+      "difficulty": "Hard",
+      "explanation": "The Convention addresses prevention and control of pollution arising from both normal operations and accidental events."
+    },
+    {
+      "question": "During an onboard audit, garbage is correctly segregated but several disposal entries are missing. Which statement is most accurate?",
+      "options": [
+        "Correct segregation removes the need for recordkeeping",
+        "The vessel may still be non-compliant because operational controls and records are separate requirements",
+        "Only the port reception facility is responsible for the missing entries",
+        "Entries are only required for plastics and no other garbage categories"
+      ],
+      "answer": 1,
+      "difficulty": "Hard",
+      "explanation": "Physical waste handling and accurate recordkeeping are both important. Correct segregation does not excuse missing required records."
     }
   ]
 }
