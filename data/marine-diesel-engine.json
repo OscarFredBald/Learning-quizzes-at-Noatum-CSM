@@ -1,5 +1,6 @@
 {
   "title": "Marine Diesel Engines",
+  "description": "Test your knowledge of marine diesel engine operation, fuel injection, lubrication, cooling, combustion, fault diagnosis and safety.",
   "questions": [
     {
       "question": "What is the main purpose of a marine diesel engine?",
@@ -82,7 +83,7 @@
         "Two revolutions"
       ],
       "answer": 3,
-      "difficulty": "Difficult",
+      "difficulty": "Hard",
       "explanation": "A four-stroke cycle consists of intake, compression, power and exhaust strokes and requires two crankshaft revolutions."
     },
     {
@@ -94,7 +95,7 @@
         "A four-stroke engine cannot drive a generator"
       ],
       "answer": 0,
-      "difficulty": "Difficult",
+      "difficulty": "Hard",
       "explanation": "A two-stroke engine completes one full operating cycle during one crankshaft revolution, while a four-stroke engine requires two."
     },
     {
@@ -106,7 +107,7 @@
         "Heating the cylinder liner"
       ],
       "answer": 2,
-      "difficulty": "Difficult",
+      "difficulty": "Hard",
       "explanation": "Scavenging replaces exhaust gases in the cylinder with fresh pressurized air before the next combustion cycle."
     },
     {
@@ -118,7 +119,7 @@
         "To reduce the crankshaft speed to zero"
       ],
       "answer": 1,
-      "difficulty": "Difficult",
+      "difficulty": "Hard",
       "explanation": "The turbocharger uses exhaust-gas energy to drive a compressor, increasing the mass of air supplied to the cylinders."
     },
     {
@@ -130,7 +131,7 @@
         "To reduce its viscosity and improve atomization"
       ],
       "answer": 3,
-      "difficulty": "Difficult",
+      "difficulty": "Hard",
       "explanation": "Heavy fuel oil is heated so that it reaches the correct viscosity for pumping, injection and fine atomization."
     },
     {
@@ -142,8 +143,116 @@
         "The cooling system stops using water"
       ],
       "answer": 0,
-      "difficulty": "Difficult",
+      "difficulty": "Hard",
       "explanation": "Poor atomization produces larger fuel droplets, resulting in incomplete combustion, smoke, deposits and reduced efficiency."
+    },
+    {
+      "question": "One cylinder has a significantly higher exhaust-gas temperature than the other cylinders at the same engine load. What is the most likely interpretation?",
+      "options": [
+        "The cylinder may have poor combustion, incorrect fuel injection or reduced air supply",
+        "The cylinder is producing no power and receives no fuel",
+        "The crankshaft speed is too low only at that cylinder",
+        "The lubricating-oil sump contains too much water"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "A high exhaust temperature on one cylinder can indicate over-fuelling, poor atomization, late injection, leaking exhaust valves or insufficient combustion air."
+    },
+    {
+      "question": "During starting, the main engine turns slowly on starting air but does not reach firing speed. Which condition is a plausible cause?",
+      "options": [
+        "Insufficient starting-air pressure or excessive mechanical resistance",
+        "Excessive fuel atomization",
+        "A fully open exhaust-gas bypass",
+        "Low seawater salinity"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "Low starting-air pressure, restricted air flow, leaking starting valves or excessive engine resistance can prevent the engine from reaching the required firing speed."
+    },
+    {
+      "question": "An oil-mist detector alarm is activated in the crankcase. What should be the primary concern?",
+      "options": [
+        "The possible development of a hot spot and crankcase explosion risk",
+        "A reduction in ballast-tank pressure",
+        "An increase in exhaust-gas cleaning efficiency",
+        "A malfunction in the freshwater generator"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "Oil mist can be produced when lubricating oil contacts an overheated bearing or other hot surface, creating a risk of crankcase explosion."
+    },
+    {
+      "question": "Why should crankcase doors not be opened immediately after a suspected crankcase fire or oil-mist alarm?",
+      "options": [
+        "Fresh air entering the crankcase could create an explosive mixture or cause re-ignition",
+        "The crankshaft may immediately rotate in reverse",
+        "Cooling water may enter the fuel system",
+        "The turbocharger may lose lubrication"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "Opening the crankcase too early may introduce oxygen into a hot oil-mist atmosphere, increasing the risk of fire or explosion."
+    },
+    {
+      "question": "A scavenge-space fire is suspected in a slow-speed two-stroke engine. Which observation would support this diagnosis?",
+      "options": [
+        "Rising scavenge temperature, smoke and sparks near the affected cylinder",
+        "Low fresh-water tank level with normal exhaust temperature",
+        "Stable scavenge temperature and reduced fuel viscosity",
+        "Increased starting-air receiver pressure"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "A scavenge fire may produce high local temperatures, smoke, sparks, unstable engine operation and elevated exhaust temperatures."
+    },
+    {
+      "question": "A main bearing temperature rises rapidly while lubricating-oil pressure remains normal. What is the most appropriate interpretation?",
+      "options": [
+        "Local bearing damage or loss of effective lubrication may still be developing",
+        "Normal oil pressure proves that the bearing cannot be damaged",
+        "The fuel injector is supplying too little fuel",
+        "The starting-air distributor is incorrectly timed"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "Normal system pressure does not guarantee that every bearing receives adequate lubrication. Local blockage, misalignment or bearing damage can still cause overheating."
+    },
+    {
+      "question": "Turbocharger fouling causes a reduction in compressor efficiency. What is the most likely effect on engine operation?",
+      "options": [
+        "Reduced air supply, poorer combustion and higher exhaust temperatures",
+        "Increased air supply and lower cylinder pressure",
+        "Lower fuel consumption with no change in combustion",
+        "Higher cooling-water pressure and improved scavenging"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "A fouled turbocharger supplies less air for combustion, which can cause smoke, increased exhaust temperatures and reduced engine efficiency."
+    },
+    {
+      "question": "Why must cylinder-oil feed rate be adjusted carefully on a low-speed two-stroke engine?",
+      "options": [
+        "Too little oil increases liner wear, while too much oil can increase deposits and operating cost",
+        "Cylinder oil controls starting-air pressure",
+        "Cylinder oil determines the engine's cooling-water temperature",
+        "Excess cylinder oil increases propeller pitch"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "Insufficient cylinder lubrication can cause corrosive and adhesive wear, while excessive lubrication may create deposits and waste oil."
+    },
+    {
+      "question": "Cylinder-pressure measurements show that one cylinder has lower peak pressure than the others, while compression pressure is approximately normal. Which fault is most plausible?",
+      "options": [
+        "Incorrect fuel injection quantity or timing in that cylinder",
+        "Severe leakage past the piston rings during compression",
+        "A blocked cooling-water outlet from the cylinder head",
+        "Excessive starting-air pressure"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "Normal compression with reduced peak pressure often points to a combustion or fuel-injection problem rather than major compression leakage."
     }
   ]
 }
