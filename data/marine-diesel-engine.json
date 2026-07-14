@@ -9,7 +9,7 @@
         "To cool the cargo holds",
         "To clean the exhaust gas"
       ],
-      "answer": 1,
+      "answer": 2,
       "difficulty": "Easy",
       "explanation": "Marine diesel engines are mainly used for propulsion or for driving generators that produce electrical power."
     },
@@ -21,7 +21,7 @@
         "Heavy fuel oil or marine diesel oil",
         "Hydraulic oil"
       ],
-      "answer": 2,
+      "answer": 0,
       "difficulty": "Easy",
       "explanation": "Large marine engines commonly operate on heavy fuel oil, marine diesel oil or other approved marine fuels."
     },
@@ -45,7 +45,7 @@
         "To remove lubricating oil",
         "To control the rudder"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "Medium",
       "explanation": "The injection system meters, pressurizes and injects fuel into the cylinder at the correct point in the engine cycle."
     },
@@ -69,7 +69,7 @@
         "To remove excess heat and maintain safe operating temperatures",
         "To reduce propeller diameter"
       ],
-      "answer": 2,
+      "answer": 0,
       "difficulty": "Medium",
       "explanation": "The cooling system transfers heat away from components such as cylinder liners, cylinder heads and pistons."
     },
@@ -105,7 +105,7 @@
         "Filtering lubricating oil",
         "Heating the cylinder liner"
       ],
-      "answer": 1,
+      "answer": 2,
       "difficulty": "Difficult",
       "explanation": "Scavenging replaces exhaust gases in the cylinder with fresh pressurized air before the next combustion cycle."
     },
@@ -117,7 +117,7 @@
         "To use exhaust energy to compress more intake air into the engine",
         "To reduce the crankshaft speed to zero"
       ],
-      "answer": 2,
+      "answer": 1,
       "difficulty": "Difficult",
       "explanation": "The turbocharger uses exhaust-gas energy to drive a compressor, increasing the mass of air supplied to the cylinders."
     },
