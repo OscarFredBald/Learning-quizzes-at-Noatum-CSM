@@ -1,52 +1,768 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    name="description"
+    content="Interactive maritime quizzes covering marine engineering, vessel operations, safety and ship systems."
+  >
+
   <title>Maritime Learning Portal</title>
-  <link rel="stylesheet" href="style.css" />
+
+  <style>
+    :root {
+      --navy: #071d35;
+      --navy-light: #0d3156;
+      --blue: #1479c9;
+      --blue-light: #38a3e8;
+      --background: #f2f6fa;
+      --card: #ffffff;
+      --text: #162536;
+      --muted: #627184;
+      --border: #dce5ed;
+      --shadow: 0 12px 30px rgba(7, 29, 53, 0.12);
+      --radius: 18px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family:
+        Inter,
+        Arial,
+        Helvetica,
+        sans-serif;
+      color: var(--text);
+      background:
+        linear-gradient(
+          180deg,
+          #eaf4fb 0,
+          var(--background) 350px
+        );
+    }
+
+    a {
+      color: inherit;
+    }
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      padding: 28px 24px 105px;
+      color: white;
+      background:
+        linear-gradient(
+          120deg,
+          rgba(7, 29, 53, 0.98),
+          rgba(13, 66, 107, 0.95)
+        );
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      width: 420px;
+      height: 420px;
+      top: -220px;
+      right: -80px;
+      border-radius: 50%;
+      background: rgba(56, 163, 232, 0.15);
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      width: 300px;
+      height: 300px;
+      left: -150px;
+      bottom: -220px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.07);
+    }
+
+    .navbar,
+    .hero-content,
+    main,
+    .footer-content {
+      width: min(1120px, 100%);
+      margin: 0 auto;
+    }
+
+    .navbar {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 1.1rem;
+      font-weight: 800;
+      letter-spacing: 0.02em;
+    }
+
+    .brand-icon {
+      display: grid;
+      place-items: center;
+      width: 46px;
+      height: 46px;
+      font-size: 1.65rem;
+      border: 1px solid rgba(255, 255, 255, 0.22);
+      border-radius: 14px;
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(8px);
+    }
+
+    .nav-badge {
+      padding: 9px 14px;
+      font-size: 0.82rem;
+      font-weight: 700;
+      border: 1px solid rgba(255, 255, 255, 0.22);
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.08);
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 1;
+      max-width: 850px;
+      margin-top: 72px;
+      text-align: center;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 18px;
+      padding: 8px 13px;
+      color: #ccecff;
+      font-size: 0.78rem;
+      font-weight: 800;
+      letter-spacing: 0.13em;
+      text-transform: uppercase;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.08);
+    }
+
+    h1 {
+      max-width: 760px;
+      margin: 0 auto;
+      font-size: clamp(2.35rem, 6vw, 4.25rem);
+      line-height: 1.04;
+      letter-spacing: -0.04em;
+    }
+
+    .hero-description {
+      max-width: 690px;
+      margin: 22px auto 0;
+      color: #d5e4f0;
+      font-size: clamp(1rem, 2vw, 1.2rem);
+      line-height: 1.7;
+    }
+
+    .hero-statistics {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-top: 32px;
+    }
+
+    .stat {
+      min-width: 145px;
+      padding: 13px 18px;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      border-radius: 14px;
+      background: rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(8px);
+    }
+
+    .stat strong {
+      display: block;
+      margin-bottom: 3px;
+      font-size: 1.08rem;
+    }
+
+    .stat span {
+      color: #c6d9e8;
+      font-size: 0.8rem;
+    }
+
+    main {
+      position: relative;
+      z-index: 2;
+      margin-top: -62px;
+      padding: 0 24px 70px;
+    }
+
+    .section-heading {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 24px;
+      margin-bottom: 25px;
+    }
+
+    .section-heading h2 {
+      margin: 0 0 8px;
+      color: white;
+      font-size: clamp(1.65rem, 3vw, 2.1rem);
+    }
+
+    .section-heading p {
+      margin: 0;
+      color: #d7e7f3;
+      line-height: 1.6;
+    }
+
+    .quiz-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 26px;
+    }
+
+    .quiz-card {
+      overflow: hidden;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: var(--card);
+      box-shadow: var(--shadow);
+      transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease;
+    }
+
+    .quiz-card:hover {
+      transform: translateY(-7px);
+      box-shadow: 0 20px 45px rgba(7, 29, 53, 0.18);
+    }
+
+    .card-image-wrapper {
+      position: relative;
+      height: 245px;
+      overflow: hidden;
+      background: #dfe8ef;
+    }
+
+    .card-image {
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: cover;
+      transition: transform 0.5s ease;
+    }
+
+    .quiz-card:hover .card-image {
+      transform: scale(1.045);
+    }
+
+    .image-overlay {
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(
+          180deg,
+          transparent 45%,
+          rgba(4, 19, 34, 0.74) 100%
+        );
+    }
+
+    .difficulty {
+      position: absolute;
+      top: 18px;
+      left: 18px;
+      padding: 8px 11px;
+      color: white;
+      font-size: 0.72rem;
+      font-weight: 800;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      border: 1px solid rgba(255, 255, 255, 0.28);
+      border-radius: 999px;
+      background: rgba(7, 29, 53, 0.75);
+      backdrop-filter: blur(6px);
+    }
+
+    .card-icon {
+      position: absolute;
+      left: 19px;
+      bottom: 17px;
+      display: grid;
+      place-items: center;
+      width: 48px;
+      height: 48px;
+      font-size: 1.45rem;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      border-radius: 14px;
+      background: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(8px);
+    }
+
+    .card-content {
+      padding: 27px;
+    }
+
+    .card-category {
+      margin-bottom: 8px;
+      color: var(--blue);
+      font-size: 0.75rem;
+      font-weight: 800;
+      letter-spacing: 0.11em;
+      text-transform: uppercase;
+    }
+
+    .card-content h3 {
+      margin: 0 0 13px;
+      color: var(--navy);
+      font-size: 1.55rem;
+      line-height: 1.25;
+    }
+
+    .card-description {
+      min-height: 76px;
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.65;
+    }
+
+    .topic-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 20px 0 24px;
+    }
+
+    .topic-tag {
+      padding: 7px 10px;
+      color: #31506d;
+      font-size: 0.74rem;
+      font-weight: 700;
+      border: 1px solid #d8e4ed;
+      border-radius: 999px;
+      background: #f1f6fa;
+    }
+
+    .card-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+    }
+
+    .question-count {
+      color: var(--muted);
+      font-size: 0.84rem;
+      font-weight: 600;
+    }
+
+    .start-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 9px;
+      min-height: 45px;
+      padding: 0 18px;
+      color: white;
+      font-size: 0.88rem;
+      font-weight: 800;
+      text-decoration: none;
+      border-radius: 12px;
+      background:
+        linear-gradient(
+          135deg,
+          var(--blue),
+          var(--blue-light)
+        );
+      box-shadow: 0 8px 20px rgba(20, 121, 201, 0.22);
+      transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+    }
+
+    .start-button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 11px 25px rgba(20, 121, 201, 0.3);
+    }
+
+    .portal-info {
+      display: grid;
+      grid-template-columns: 1.3fr 0.7fr;
+      gap: 25px;
+      margin-top: 40px;
+    }
+
+    .info-panel,
+    .status-panel {
+      padding: 30px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: white;
+      box-shadow: 0 8px 24px rgba(7, 29, 53, 0.07);
+    }
+
+    .info-panel h2,
+    .status-panel h2 {
+      margin: 0 0 12px;
+      color: var(--navy);
+      font-size: 1.45rem;
+    }
+
+    .info-panel p,
+    .status-panel p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.7;
+    }
+
+    .status-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-top: 20px;
+      color: #18733a;
+      font-size: 0.9rem;
+      font-weight: 800;
+    }
+
+    .status-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: #2eb85c;
+      box-shadow: 0 0 0 6px rgba(46, 184, 92, 0.13);
+    }
+
+    footer {
+      padding: 30px 24px;
+      color: #9eb2c3;
+      background: var(--navy);
+    }
+
+    .footer-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      font-size: 0.83rem;
+    }
+
+    .footer-brand {
+      color: white;
+      font-weight: 800;
+    }
+
+    @media (max-width: 800px) {
+      .hero {
+        padding-bottom: 90px;
+      }
+
+      .hero-content {
+        margin-top: 55px;
+      }
+
+      .quiz-grid,
+      .portal-info {
+        grid-template-columns: 1fr;
+      }
+
+      .section-heading {
+        align-items: start;
+        flex-direction: column;
+      }
+
+      .card-description {
+        min-height: auto;
+      }
+    }
+
+    @media (max-width: 520px) {
+      .hero,
+      main,
+      footer {
+        padding-left: 16px;
+        padding-right: 16px;
+      }
+
+      .nav-badge {
+        display: none;
+      }
+
+      .brand {
+        font-size: 0.98rem;
+      }
+
+      .brand-icon {
+        width: 41px;
+        height: 41px;
+      }
+
+      .hero-content {
+        text-align: left;
+      }
+
+      h1,
+      .hero-description {
+        margin-left: 0;
+      }
+
+      .hero-statistics {
+        justify-content: flex-start;
+      }
+
+      .stat {
+        flex: 1;
+        min-width: 120px;
+      }
+
+      .card-image-wrapper {
+        height: 210px;
+      }
+
+      .card-content {
+        padding: 22px;
+      }
+
+      .card-footer,
+      .footer-content {
+        align-items: stretch;
+        flex-direction: column;
+      }
+
+      .start-button {
+        width: 100%;
+      }
+    }
+  </style>
 </head>
+
 <body>
 
-  <main class="container">
-    <header class="hero">
-      <h1>🚢 Maritime Learning Portal</h1>
-      <p>
-        Interactive quizzes for maritime engineering, ship operations,
-        safety and vessel systems.
+  <header class="hero">
+    <nav class="navbar">
+      <div class="brand">
+        <div class="brand-icon">🚢</div>
+        <span>Maritime Learning Portal</span>
+      </div>
+
+      <div class="nav-badge">
+        Maritime training platform
+      </div>
+    </nav>
+
+    <div class="hero-content">
+      <div class="eyebrow">
+        ⚓ Interactive learning
+      </div>
+
+      <h1>
+        Develop your maritime knowledge
+      </h1>
+
+      <p class="hero-description">
+        Test your knowledge of marine engineering, vessel systems,
+        ship operations and maritime safety through interactive quizzes.
       </p>
-    </header>
 
-    <section class="section">
-      <h2>Available Quizzes</h2>
+      <div class="hero-statistics">
+        <div class="stat">
+          <strong>2 quizzes</strong>
+          <span>Available now</span>
+        </div>
 
-      <div class="grid">
+        <div class="stat">
+          <strong>3 levels</strong>
+          <span>Easy to difficult</span>
+        </div>
 
-        <a class="card" href="quiz.html?quiz=marine-diesel-engines" target="_blank">
+        <div class="stat">
+          <strong>Instant results</strong>
+          <span>Learn as you progress</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="section-heading">
+      <div>
+        <h2>Available quizzes</h2>
+        <p>
+          Choose a maritime subject and begin your training.
+        </p>
+      </div>
+    </div>
+
+    <section class="quiz-grid">
+
+      <!-- Marine Diesel Engines -->
+      <article class="quiz-card">
+        <div class="card-image-wrapper">
+          <img
+            class="card-image"
+            src="images/imagesMarineDieselEngine.jpg"
+            alt="Large marine diesel engine"
+          >
+
+          <div class="image-overlay"></div>
+
+          <span class="difficulty">
+            Engineering
+          </span>
+
           <div class="card-icon">⚙️</div>
+        </div>
+
+        <div class="card-content">
+          <div class="card-category">
+            Marine engineering
+          </div>
+
           <h3>Marine Diesel Engines</h3>
-          <p>Combustion, cooling, fuel systems and marine engine design.</p>
-          <span>Start quiz →</span>
-        </a>
 
-        <a class="card" href="quiz.html?quiz=ballast-water" target="_blank">
+          <p class="card-description">
+            Learn about combustion, fuel systems, cooling,
+            lubrication and the design and operation of marine engines.
+          </p>
+
+          <div class="topic-tags">
+            <span class="topic-tag">Combustion</span>
+            <span class="topic-tag">Fuel systems</span>
+            <span class="topic-tag">Cooling</span>
+            <span class="topic-tag">Engine design</span>
+          </div>
+
+          <div class="card-footer">
+            <span class="question-count">
+              Multiple difficulty levels
+            </span>
+
+            <a
+              class="start-button"
+              href="quiz.html?quiz=marine-diesel-engine"
+            >
+              Start quiz
+              <span>→</span>
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Ballast Water -->
+      <article class="quiz-card">
+        <div class="card-image-wrapper">
+          <img
+            class="card-image"
+            src="images/Ballast waters.jpg"
+            alt="Ship ballast water system"
+          >
+
+          <div class="image-overlay"></div>
+
+          <span class="difficulty">
+            Vessel operations
+          </span>
+
           <div class="card-icon">⚓</div>
-          <h3>Ballast Water</h3>
-          <p>Ballast tanks, ship stability, trim, draft and operations.</p>
-          <span>Start quiz →</span>
-        </a>
+        </div>
 
+        <div class="card-content">
+          <div class="card-category">
+            Ship systems
+          </div>
+
+          <h3>Ballast Water</h3>
+
+          <p class="card-description">
+            Explore ballast tanks, ship stability, trim, draft,
+            ballast operations and environmental requirements.
+          </p>
+
+          <div class="topic-tags">
+            <span class="topic-tag">Stability</span>
+            <span class="topic-tag">Trim</span>
+            <span class="topic-tag">Draft</span>
+            <span class="topic-tag">BWTS</span>
+          </div>
+
+          <div class="card-footer">
+            <span class="question-count">
+              Multiple difficulty levels
+            </span>
+
+            <a
+              class="start-button"
+              href="quiz.html?quiz=ballast-water"
+            >
+              Start quiz
+              <span>→</span>
+            </a>
+          </div>
+        </div>
+      </article>
+
+    </section>
+
+    <section class="portal-info">
+      <div class="info-panel">
+        <h2>Built to expand</h2>
+
+        <p>
+          New maritime subjects can be added by creating additional
+          quiz files in the data folder and adding a new subject card
+          to this page.
+        </p>
+      </div>
+
+      <div class="status-panel">
+        <h2>Project status</h2>
+
+        <p>
+          The learning portal is active and ready for additional
+          quizzes, images and maritime subjects.
+        </p>
+
+        <div class="status-row">
+          <span class="status-dot"></span>
+          Portal operational
+        </div>
       </div>
     </section>
-
-    <section class="section note">
-      <h2>Project status</h2>
-      <p>
-        This portal is built to grow. New maritime topics can be added by
-        uploading new quiz files to the <strong>data</strong> folder.
-      </p>
-    </section>
   </main>
+
+  <footer>
+    <div class="footer-content">
+      <span class="footer-brand">
+        Maritime Learning Portal
+      </span>
+
+      <span>
+        Interactive maritime training
+      </span>
+    </div>
+  </footer>
 
 </body>
 </html>
