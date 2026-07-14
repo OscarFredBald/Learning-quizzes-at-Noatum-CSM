@@ -10,7 +10,7 @@
 
   <meta
     name="description"
-    content="Interactive maritime quizzes covering marine engineering, vessel operations, safety, maritime insurance and ship systems."
+    content="Interactive maritime quizzes covering marine engineering, vessel operations, regulations, commercial shipping and ship systems."
   >
 
   <title>Maritime Learning Portal</title>
@@ -238,7 +238,8 @@
 
     .quiz-grid {
       display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
+      grid-template-columns:
+        repeat(2, minmax(0, 1fr));
       gap: 26px;
     }
 
@@ -255,14 +256,21 @@
 
     .quiz-card:hover {
       transform: translateY(-7px);
-      box-shadow: 0 20px 45px rgba(7, 29, 53, 0.18);
+      box-shadow:
+        0 20px 45px
+        rgba(7, 29, 53, 0.18);
     }
 
     .card-image-wrapper {
       position: relative;
       height: 245px;
       overflow: hidden;
-      background: #dfe8ef;
+      background:
+        linear-gradient(
+          135deg,
+          #0d3156,
+          #1479c9
+        );
     }
 
     .card-image {
@@ -270,7 +278,8 @@
       height: 100%;
       display: block;
       object-fit: cover;
-      transition: transform 0.5s ease;
+      transition:
+        transform 0.5s ease;
     }
 
     .quiz-card:hover .card-image {
@@ -298,9 +307,12 @@
       font-weight: 800;
       letter-spacing: 0.05em;
       text-transform: uppercase;
-      border: 1px solid rgba(255, 255, 255, 0.28);
+      border:
+        1px solid
+        rgba(255, 255, 255, 0.28);
       border-radius: 999px;
-      background: rgba(7, 29, 53, 0.75);
+      background:
+        rgba(7, 29, 53, 0.75);
       backdrop-filter: blur(6px);
     }
 
@@ -313,9 +325,12 @@
       width: 48px;
       height: 48px;
       font-size: 1.45rem;
-      border: 1px solid rgba(255, 255, 255, 0.3);
+      border:
+        1px solid
+        rgba(255, 255, 255, 0.3);
       border-radius: 14px;
-      background: rgba(255, 255, 255, 0.15);
+      background:
+        rgba(255, 255, 255, 0.15);
       backdrop-filter: blur(8px);
     }
 
@@ -369,7 +384,9 @@
       justify-content: space-between;
       gap: 16px;
       padding-top: 20px;
-      border-top: 1px solid var(--border);
+      border-top:
+        1px solid
+        var(--border);
     }
 
     .question-count {
@@ -396,7 +413,9 @@
           var(--blue),
           var(--blue-light)
         );
-      box-shadow: 0 8px 20px rgba(20, 121, 201, 0.22);
+      box-shadow:
+        0 8px 20px
+        rgba(20, 121, 201, 0.22);
       transition:
         transform 0.2s ease,
         box-shadow 0.2s ease;
@@ -404,12 +423,15 @@
 
     .start-button:hover {
       transform: translateY(-2px);
-      box-shadow: 0 11px 25px rgba(20, 121, 201, 0.3);
+      box-shadow:
+        0 11px 25px
+        rgba(20, 121, 201, 0.3);
     }
 
     .portal-info {
       display: grid;
-      grid-template-columns: 1.3fr 0.7fr;
+      grid-template-columns:
+        1.3fr 0.7fr;
       gap: 25px;
       margin-top: 40px;
     }
@@ -420,7 +442,9 @@
       border: 1px solid var(--border);
       border-radius: var(--radius);
       background: white;
-      box-shadow: 0 8px 24px rgba(7, 29, 53, 0.07);
+      box-shadow:
+        0 8px 24px
+        rgba(7, 29, 53, 0.07);
     }
 
     .info-panel h2,
@@ -452,7 +476,20 @@
       height: 10px;
       border-radius: 50%;
       background: #2eb85c;
-      box-shadow: 0 0 0 6px rgba(46, 184, 92, 0.13);
+      box-shadow:
+        0 0 0 6px
+        rgba(46, 184, 92, 0.13);
+    }
+
+    .loading-message {
+      grid-column: 1 / -1;
+      padding: 35px;
+      color: var(--muted);
+      text-align: center;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: white;
+      box-shadow: var(--shadow);
     }
 
     footer {
@@ -563,8 +600,16 @@
   <header class="hero">
     <nav class="navbar">
       <div class="brand">
-        <div class="brand-icon">🚢</div>
-        <span>Maritime Learning Portal</span>
+        <div
+          class="brand-icon"
+          aria-hidden="true"
+        >
+          🚢
+        </div>
+
+        <span>
+          Maritime Learning Portal
+        </span>
       </div>
 
       <div class="nav-badge">
@@ -582,25 +627,40 @@
       </h1>
 
       <p class="hero-description">
-        Test your knowledge of marine engineering, vessel systems,
-        ship operations, maritime safety and marine insurance
-        through interactive quizzes.
+        Test your knowledge of marine engineering,
+        vessel systems, ship operations, regulations
+        and commercial shipping through interactive quizzes.
       </p>
 
       <div class="hero-statistics">
         <div class="stat">
-          <strong>4 quizzes</strong>
-          <span>Available now</span>
+          <strong id="quiz-total">
+            0 quizzes
+          </strong>
+
+          <span>
+            Available now
+          </span>
         </div>
 
         <div class="stat">
-          <strong>3 levels</strong>
-          <span>Easy to difficult</span>
+          <strong>
+            3 levels
+          </strong>
+
+          <span>
+            Easy to difficult
+          </span>
         </div>
 
         <div class="stat">
-          <strong>Instant results</strong>
-          <span>Learn as you progress</span>
+          <strong>
+            Instant results
+          </strong>
+
+          <span>
+            Learn as you progress
+          </span>
         </div>
       </div>
     </div>
@@ -609,7 +669,9 @@
   <main>
     <div class="section-heading">
       <div>
-        <h2>Available quizzes</h2>
+        <h2>
+          Available quizzes
+        </h2>
 
         <p>
           Choose a maritime subject and begin your training.
@@ -617,237 +679,33 @@
       </div>
     </div>
 
-    <section class="quiz-grid">
-
-      <!-- Marine Diesel Engines -->
-      <article class="quiz-card">
-        <div class="card-image-wrapper">
-          <img
-            class="card-image"
-            src="./images/marine-diesel-engine.jpg"
-            alt="Large marine diesel engine"
-          >
-
-          <div class="image-overlay"></div>
-
-          <span class="difficulty">
-            Engineering
-          </span>
-
-          <div class="card-icon">⚙️</div>
-        </div>
-
-        <div class="card-content">
-          <div class="card-category">
-            Marine engineering
-          </div>
-
-          <h3>Marine Diesel Engines</h3>
-
-          <p class="card-description">
-            Learn about combustion, fuel systems, cooling,
-            lubrication and the design and operation of marine engines.
-          </p>
-
-          <div class="topic-tags">
-            <span class="topic-tag">Combustion</span>
-            <span class="topic-tag">Fuel systems</span>
-            <span class="topic-tag">Cooling</span>
-            <span class="topic-tag">Engine design</span>
-          </div>
-
-          <div class="card-footer">
-            <span class="question-count">
-              Multiple difficulty levels
-            </span>
-
-            <a
-              class="start-button"
-              href="quiz.html?quiz=marine-diesel-engine"
-            >
-              Start quiz
-              <span>→</span>
-            </a>
-          </div>
-        </div>
-      </article>
-
-      <!-- Ballast Water -->
-      <article class="quiz-card">
-        <div class="card-image-wrapper">
-          <img
-            class="card-image"
-            src="./images/ballast-waters.jpg"
-            alt="Ship ballast water system"
-          >
-
-          <div class="image-overlay"></div>
-
-          <span class="difficulty">
-            Vessel operations
-          </span>
-
-          <div class="card-icon">⚓</div>
-        </div>
-
-        <div class="card-content">
-          <div class="card-category">
-            Ship systems
-          </div>
-
-          <h3>Ballast Water</h3>
-
-          <p class="card-description">
-            Explore ballast tanks, ship stability, trim, draft,
-            ballast operations and environmental requirements.
-          </p>
-
-          <div class="topic-tags">
-            <span class="topic-tag">Stability</span>
-            <span class="topic-tag">Trim</span>
-            <span class="topic-tag">Draft</span>
-            <span class="topic-tag">BWTS</span>
-          </div>
-
-          <div class="card-footer">
-            <span class="question-count">
-              Multiple difficulty levels
-            </span>
-
-            <a
-              class="start-button"
-              href="quiz.html?quiz=ballast-water"
-            >
-              Start quiz
-              <span>→</span>
-            </a>
-          </div>
-        </div>
-      </article>
-
-      <!-- Bulk Carrier Design -->
-      <article class="quiz-card">
-        <div class="card-image-wrapper">
-          <img
-            class="card-image"
-            src="./images/bulk-carrier-design.jpg"
-            alt="Bulk carrier ship design"
-          >
-
-          <div class="image-overlay"></div>
-
-          <span class="difficulty">
-            Ship design
-          </span>
-
-          <div class="card-icon">🚢</div>
-        </div>
-
-        <div class="card-content">
-          <div class="card-category">
-            Naval architecture
-          </div>
-
-          <h3>Bulk Carrier Design</h3>
-
-          <p class="card-description">
-            Learn about bulk carrier hull structure, cargo holds,
-            longitudinal strength, hopper tanks, hatch openings
-            and structural design.
-          </p>
-
-          <div class="topic-tags">
-            <span class="topic-tag">Hull structure</span>
-            <span class="topic-tag">Cargo holds</span>
-            <span class="topic-tag">Hopper tanks</span>
-            <span class="topic-tag">Ship strength</span>
-          </div>
-
-          <div class="card-footer">
-            <span class="question-count">
-              Multiple difficulty levels
-            </span>
-
-            <a
-              class="start-button"
-              href="quiz.html?quiz=bulk-carrier-design"
-            >
-              Start quiz
-              <span>→</span>
-            </a>
-          </div>
-        </div>
-      </article>
-
-      <!-- Maritime Insurance -->
-      <article class="quiz-card">
-        <div class="card-image-wrapper">
-          <img
-            class="card-image"
-            src="./images/maritime-insurance.jpg"
-            alt="Cargo vessel representing maritime insurance"
-          >
-
-          <div class="image-overlay"></div>
-
-          <span class="difficulty">
-            Maritime law
-          </span>
-
-          <div class="card-icon">🛡️</div>
-        </div>
-
-        <div class="card-content">
-          <div class="card-category">
-            Insurance and risk
-          </div>
-
-          <h3>Maritime Insurance</h3>
-
-          <p class="card-description">
-            Learn the essential principles of marine insurance,
-            including insurable interest, indemnity, proximate cause,
-            warranties, subrogation and contribution.
-          </p>
-
-          <div class="topic-tags">
-            <span class="topic-tag">Indemnity</span>
-            <span class="topic-tag">Subrogation</span>
-            <span class="topic-tag">Warranties</span>
-            <span class="topic-tag">Claims</span>
-          </div>
-
-          <div class="card-footer">
-            <span class="question-count">
-              20 questions
-            </span>
-
-            <a
-              class="start-button"
-              href="quiz.html?quiz=maritime-insurance"
-            >
-              Start quiz
-              <span>→</span>
-            </a>
-          </div>
-        </div>
-      </article>
-
+    <section
+      class="quiz-grid"
+      id="quiz-grid"
+      aria-live="polite"
+    >
+      <div class="loading-message">
+        Loading quizzes...
+      </div>
     </section>
 
     <section class="portal-info">
       <div class="info-panel">
-        <h2>Built to expand</h2>
+        <h2>
+          Built to expand
+        </h2>
 
         <p>
-          New maritime subjects can be added by creating additional
-          quiz files in the data folder and adding a new subject card
-          to this page.
+          New maritime subjects can be added by creating a
+          corresponding JSON file and adding one entry to the
+          quiz list in index.js.
         </p>
       </div>
 
       <div class="status-panel">
-        <h2>Project status</h2>
+        <h2>
+          Project status
+        </h2>
 
         <p>
           The learning portal is active and ready for additional
@@ -856,6 +714,7 @@
 
         <div class="status-row">
           <span class="status-dot"></span>
+
           Portal operational
         </div>
       </div>
@@ -874,5 +733,6 @@
     </div>
   </footer>
 
+  <script src="index.js"></script>
 </body>
 </html>
