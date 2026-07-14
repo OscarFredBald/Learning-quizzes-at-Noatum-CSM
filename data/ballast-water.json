@@ -1,137 +1,246 @@
 {
-  "title": "Ballast Water",
+  "title": "Ballast Water and BWTS",
+  "description": "Test your knowledge of ballast water operations, vessel stability, the Ballast Water Management Convention and Ballast Water Treatment Systems.",
   "questions": [
     {
       "question": "Why do ships carry ballast water?",
       "options": [
-        "To cool the main engine",
         "To improve stability, trim and draft",
-        "To increase fuel capacity",
-        "To lubricate the propeller shaft"
+        "To increase fuel storage capacity",
+        "To cool the main engine",
+        "To reduce cargo density"
       ],
-      "answer": 1,
-      "explanation": "Ballast water is carried to improve a ship's stability, maintain proper trim and ensure sufficient draft when cargo is not onboard."
+      "answer": 0,
+      "difficulty": "Easy",
+      "explanation": "Ballast water is used to maintain safe stability, trim and draft, especially when the vessel is not fully loaded."
     },
     {
       "question": "Where is ballast water normally stored?",
       "options": [
-        "Fuel tanks",
-        "Cargo holds",
         "Dedicated ballast tanks",
-        "Fresh water tanks"
-      ],
-      "answer": 2,
-      "explanation": "Ships have dedicated ballast tanks designed specifically to carry ballast water."
-    },
-    {
-      "question": "When does a ship usually require the greatest amount of ballast water?",
-      "options": [
-        "When fully loaded",
-        "When sailing with no cargo",
-        "During bunkering",
-        "When entering dry dock"
-      ],
-      "answer": 1,
-      "explanation": "An unloaded ship is much lighter and therefore requires ballast water to maintain safe stability and draft."
-    },
-    {
-      "question": "What is one of the main purposes of ballast water?",
-      "options": [
-        "Increase engine power",
-        "Improve ship stability",
-        "Reduce fuel consumption",
-        "Improve cargo ventilation"
-      ],
-      "answer": 1,
-      "explanation": "Ballast water helps keep the vessel stable and reduces excessive rolling and pitching."
-    },
-    {
-      "question": "Which system is responsible for filling and emptying ballast tanks?",
-      "options": [
-        "Bilge system",
-        "Fuel oil system",
-        "Ballast system",
-        "Cooling water system"
-      ],
-      "answer": 2,
-      "explanation": "The ballast system uses pumps, valves and piping to move ballast water into and out of ballast tanks."
-    },
-    {
-      "question": "What could happen if ballast is distributed incorrectly?",
-      "options": [
-        "The ship may lose stability",
-        "Fuel consumption becomes zero",
-        "The engine automatically stops",
-        "Cargo weight increases"
+        "Fuel oil settling tanks",
+        "Fresh water tanks",
+        "Cargo service tanks"
       ],
       "answer": 0,
-      "explanation": "Incorrect ballast distribution can create excessive trim, list or even lead to loss of stability."
+      "difficulty": "Easy",
+      "explanation": "Ballast water is normally carried in dedicated ballast tanks connected to the vessel's ballast system."
     },
     {
-      "question": "Which ship characteristic is directly influenced by ballast water?",
+      "question": "What is the main purpose of a Ballast Water Treatment System?",
       "options": [
-        "Hull paint colour",
-        "Ship stability",
-        "Bridge equipment",
-        "Crew size"
-      ],
-      "answer": 1,
-      "explanation": "Ballast water directly affects a vessel's stability, trim and draft."
-    },
-    {
-      "question": "What does 'trim' describe?",
-      "options": [
-        "The sideways inclination of the ship",
-        "The difference between the forward and aft draft",
-        "The cargo capacity",
-        "The engine RPM"
-      ],
-      "answer": 1,
-      "explanation": "Trim refers to the difference between the draft forward and the draft aft."
-    },
-    {
-      "question": "Why is ballast water important during rough weather?",
-      "options": [
-        "It improves stability and vessel handling",
-        "It increases engine speed",
-        "It reduces propeller diameter",
-        "It cools the cargo"
+        "To reduce the transfer of harmful aquatic organisms between ports",
+        "To improve ballast pump capacity",
+        "To remove oil from ballast tanks",
+        "To increase the vessel's cargo intake"
       ],
       "answer": 0,
-      "explanation": "Proper ballast improves the ship's behaviour in heavy seas and reduces excessive motion."
+      "difficulty": "Easy",
+      "explanation": "A BWTS treats ballast water to reduce the spread of invasive aquatic organisms and pathogens."
     },
     {
-      "question": "Which equipment is commonly used to move ballast water?",
+      "question": "Which international convention regulates ballast water management?",
       "options": [
-        "Air compressors",
-        "Ballast pumps",
-        "Steering gear",
-        "Boilers"
-      ],
-      "answer": 1,
-      "explanation": "Ballast pumps are specifically designed to transfer ballast water between tanks and overboard."
-    },
-    {
-      "question": "Why must ballast operations be carefully planned?",
-      "options": [
-        "To maintain safe stability and structural loading",
-        "To increase engine temperature",
-        "To reduce crew workload",
-        "To improve radar performance"
+        "The Ballast Water Management Convention",
+        "The Load Line Convention",
+        "The STCW Convention",
+        "The COLREG Convention"
       ],
       "answer": 0,
-      "explanation": "Poor ballast planning may overload parts of the hull or reduce vessel stability."
+      "difficulty": "Easy",
+      "explanation": "The IMO Ballast Water Management Convention sets international requirements for ballast water control and treatment."
     },
     {
-      "question": "What can happen if too much ballast water is carried?",
+      "question": "Which officer is normally responsible for planning ballast operations?",
       "options": [
-        "The ship becomes unnecessarily heavy and uses more fuel",
-        "The cargo disappears",
-        "The engine stops automatically",
-        "The bridge loses electrical power"
+        "Chief Officer",
+        "Chief Engineer",
+        "Second Engineer",
+        "Electrical Officer"
       ],
       "answer": 0,
-      "explanation": "Excess ballast increases displacement and fuel consumption while reducing cargo efficiency."
+      "difficulty": "Easy",
+      "explanation": "The Chief Officer normally plans cargo and ballast operations, including stability and trim calculations."
+    },
+    {
+      "question": "What does the D-1 standard primarily require?",
+      "options": [
+        "Ballast water exchange under specified conditions",
+        "Treatment to a biological discharge standard",
+        "Chemical analysis of ballast tank coatings",
+        "Continuous measurement of ballast tank pressure"
+      ],
+      "answer": 0,
+      "difficulty": "Medium",
+      "explanation": "The D-1 standard concerns ballast water exchange, while D-2 concerns the quality of treated ballast water."
+    },
+    {
+      "question": "What does the D-2 standard specify?",
+      "options": [
+        "The maximum allowable concentration of viable organisms in discharged ballast water",
+        "The minimum ballast pump capacity",
+        "The required thickness of ballast tank coatings",
+        "The permitted quantity of oil in ballast water"
+      ],
+      "answer": 0,
+      "difficulty": "Medium",
+      "explanation": "The D-2 standard defines the biological performance requirements for ballast water discharged from the vessel."
+    },
+    {
+      "question": "Why can UV-based BWTS perform poorly in highly turbid water?",
+      "options": [
+        "Suspended particles reduce UV light penetration",
+        "The ballast pump develops excessive pressure",
+        "The water becomes too saline for filtration",
+        "The ballast tanks lose structural strength"
+      ],
+      "answer": 0,
+      "difficulty": "Medium",
+      "explanation": "High turbidity reduces UV transmission because suspended solids block or scatter the ultraviolet light."
+    },
+    {
+      "question": "What is the main function of the filter in many BWTS installations?",
+      "options": [
+        "To remove larger organisms and suspended particles before treatment",
+        "To increase the salinity of ballast water",
+        "To separate oil from bilge water",
+        "To reduce ballast tank corrosion"
+      ],
+      "answer": 0,
+      "difficulty": "Medium",
+      "explanation": "The filter removes larger organisms and solids before the water enters the main treatment stage."
+    },
+    {
+      "question": "Why must ballast operations be coordinated with cargo operations?",
+      "options": [
+        "To maintain acceptable stability, trim and hull loading",
+        "To improve the efficiency of the main engine",
+        "To reduce the amount of cargo documentation",
+        "To maintain constant fuel temperature"
+      ],
+      "answer": 0,
+      "difficulty": "Medium",
+      "explanation": "Cargo and ballast changes affect stability, trim, draft and structural loading, so they must be planned together."
+    },
+    {
+      "question": "A vessel is loading cargo in a port with very muddy water. The BWTS filter repeatedly clogs. What is the most likely immediate consequence?",
+      "options": [
+        "Ballasting capacity is reduced and cargo operations may be delayed",
+        "The main engine will automatically stop",
+        "The vessel's navigation equipment will lose power",
+        "The cargo pumps will become contaminated with fuel oil"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "Repeated filter clogging can restrict ballast flow and delay cargo operations because the vessel cannot maintain the planned ballast sequence."
+    },
+    {
+      "question": "A UV lamp failure occurs during ballast water treatment. What is the main compliance concern?",
+      "options": [
+        "The system may not achieve the required D-2 biological standard",
+        "The ballast tank may become overpressurized",
+        "The ballast pump may reverse direction",
+        "The vessel may exceed its assigned load line"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "If UV intensity is insufficient, the treatment process may fail to inactivate organisms to the required standard."
+    },
+    {
+      "question": "During a Port State Control inspection, the inspector finds that the BWTS was bypassed without authorization. What is the most likely outcome?",
+      "options": [
+        "A deficiency, possible detention and further investigation",
+        "Automatic withdrawal of the vessel's class",
+        "Immediate cancellation of the ship's registration",
+        "A mandatory change of flag"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "Unauthorized bypassing of the BWTS can lead to serious deficiencies, detention and penalties."
+    },
+    {
+      "question": "What is the main risk of carrying large quantities of water in partially filled ballast tanks?",
+      "options": [
+        "Free surface effect may reduce stability",
+        "The ballast pumps may operate above design speed",
+        "The main engine may lose lubrication pressure",
+        "The vessel's propeller may rotate in reverse"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "Water moving freely in a partially filled tank creates a free surface effect, which reduces the vessel's effective stability."
+    },
+    {
+      "question": "A BWTS sensor gives unreliable readings during operation. Why is this significant?",
+      "options": [
+        "The control system may be unable to confirm that treatment conditions are satisfactory",
+        "The vessel may lose radar coverage",
+        "The ballast tanks may automatically vent to the atmosphere",
+        "The cargo manifest may become invalid"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "Incorrect sensor readings can prevent the system from controlling or verifying the treatment process properly."
+    },
+    {
+      "question": "A vessel suffers a major BWTS failure shortly before cargo operations. What should the crew do first?",
+      "options": [
+        "Follow the approved contingency procedures and notify the relevant authorities",
+        "Bypass the system and continue without recording the failure",
+        "Discharge untreated ballast water as quickly as possible",
+        "Transfer ballast water into the bilge system"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "The crew should follow the vessel's approved contingency measures, document the failure and contact the relevant flag, port or coastal State authorities."
+    },
+    {
+      "question": "Why is excessive ballast undesirable when it is not operationally required?",
+      "options": [
+        "It increases displacement and fuel consumption",
+        "It increases the vessel's cargo capacity",
+        "It reduces the vessel's draft",
+        "It improves propeller efficiency in all conditions"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "Unnecessary ballast increases vessel weight and resistance, which generally increases fuel consumption."
+    },
+    {
+      "question": "Which statement correctly distinguishes ballast water exchange from ballast water treatment?",
+      "options": [
+        "Exchange replaces coastal water with open-sea water, while treatment removes or inactivates organisms",
+        "Exchange removes oil, while treatment improves stability",
+        "Exchange is performed in port, while treatment is only performed at sea",
+        "Exchange is required only for tankers, while treatment applies only to bulk carriers"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "Ballast water exchange reduces risk by replacing water, while treatment uses approved technology to remove or inactivate organisms."
+    },
+    {
+      "question": "A ballast plan creates excessive weight concentration in one part of the vessel. What is the main structural concern?",
+      "options": [
+        "Excessive shear forces and bending moments",
+        "Loss of steering gear hydraulic pressure",
+        "Overloading of the fresh water generator",
+        "Failure of the navigation lights"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "Poor ballast distribution can create excessive hull girder shear forces and bending moments."
+    },
+    {
+      "question": "Why is BWTS reliability commercially important?",
+      "options": [
+        "Failures can delay cargo operations and create regulatory and financial consequences",
+        "It determines the vessel's registered ownership",
+        "It controls the quality of bunker fuel",
+        "It sets the vessel's deadweight tonnage"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "BWTS failures may delay port operations, require regulatory approval and create additional operating costs."
     }
   ]
 }
