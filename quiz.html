@@ -665,22 +665,22 @@
   </main>
 
   <script>
-    const quizFiles = {
-      "marine-diesel-engine": {
-        file: "data/marine-diesel-engine.json",
-        fallbackTitle: "Marine Diesel Engines"
-      },
+const quizFiles = {
+  "marine-diesel-engine": {
+    file: "data/marine-diesel-engine.json",
+    fallbackTitle: "Marine Diesel Engines"
+  },
 
-      "ballast-water": {
-        file: "data/ballast-water.json",
-        fallbackTitle: "Ballast Water"
-      }
+  "ballast-water": {
+    file: "data/ballast-water.json",
+    fallbackTitle: "Ballast Water"
+  },
 
-      "bulk-carrier-design": {
+  "bulk-carrier-design": {
     file: "data/bulk-carrier-design.json",
     fallbackTitle: "Bulk Carrier Design"
   }
-    };
+};
 
     const params = new URLSearchParams(window.location.search);
     const quizKey = params.get("quiz");
