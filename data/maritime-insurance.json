@@ -1,270 +1,246 @@
 {
   "title": "Key Concepts in Maritime Insurance",
-  "description": "Test your knowledge of the fundamental legal and commercial principles used in maritime insurance.",
+  "description": "Test your understanding of the fundamental principles used in maritime insurance, including insurable interest, utmost good faith, indemnity, proximate cause, warranties, subrogation and contribution.",
   "questions": [
     {
-      "question": "What is the primary purpose of marine insurance?",
+      "question": "What does insurable interest mean in maritime insurance?",
       "options": [
-        "To increase the value of a vessel",
-        "To protect against financial loss arising from maritime risks",
-        "To guarantee profit on every voyage",
-        "To register ships internationally"
-      ],
-      "answer": 1,
-      "difficulty": "Easy",
-      "explanation": "Marine insurance protects shipowners, cargo owners and other parties against financial losses resulting from maritime risks."
-    },
-    {
-      "question": "Which principle requires both the insurer and the insured to disclose all material facts honestly?",
-      "options": [
-        "Contribution",
-        "Indemnity",
-        "Utmost Good Faith",
-        "Subrogation"
-      ],
-      "answer": 2,
-      "difficulty": "Easy",
-      "explanation": "Marine insurance contracts are based on the principle of utmost good faith (Uberrimae Fidei), requiring full disclosure of material facts."
-    },
-    {
-      "question": "What is meant by 'insurable interest'?",
-      "options": [
-        "Owning shares in an insurance company",
-        "Having a financial interest that would suffer from a loss",
-        "Paying the highest insurance premium",
-        "Being the ship's captain"
-      ],
-      "answer": 1,
-      "difficulty": "Easy",
-      "explanation": "A person must stand to suffer a financial loss if the insured property is damaged or lost."
-    },
-    {
-      "question": "Which principle ensures that an insured party should not profit from an insurance claim?",
-      "options": [
-        "Subrogation",
-        "Contribution",
-        "Indemnity",
-        "Warranty"
-      ],
-      "answer": 2,
-      "difficulty": "Easy",
-      "explanation": "The principle of indemnity restores the insured to approximately the same financial position as before the loss."
-    },
-    {
-      "question": "What does subrogation allow an insurer to do?",
-      "options": [
-        "Increase the premium",
-        "Recover money from a third party responsible for the loss",
-        "Terminate all future insurance",
-        "Reduce the vessel's value"
-      ],
-      "answer": 1,
-      "difficulty": "Easy",
-      "explanation": "After paying a claim, the insurer may pursue the responsible third party to recover the amount paid."
-    },
-    {
-      "question": "What is the Latin term for the principle of utmost good faith?",
-      "options": [
-        "Lex Maritima",
-        "Uberrimae Fidei",
-        "Actus Reus",
-        "Prima Facie"
-      ],
-      "answer": 1,
-      "difficulty": "Medium",
-      "explanation": "Uberrimae Fidei means 'utmost good faith' and is a fundamental principle in marine insurance."
-    },
-    {
-      "question": "Which type of information is considered a material fact?",
-      "options": [
-        "The ship's favorite port",
-        "The vessel's previous damage history",
-        "The crew's favorite food",
-        "The ship's paint color"
-      ],
-      "answer": 1,
-      "difficulty": "Medium",
-      "explanation": "Any information that could influence the insurer's decision to accept or price the risk is considered material."
-    },
-    {
-      "question": "What does the principle of proximate cause determine?",
-      "options": [
-        "Who owns the vessel",
-        "The dominant cause of a loss",
-        "The insurance premium",
-        "The ship's registration country"
-      ],
-      "answer": 1,
-      "difficulty": "Medium",
-      "explanation": "Proximate cause identifies the effective cause of the loss when determining whether the policy responds."
-    },
-    {
-      "question": "When does contribution apply?",
-      "options": [
-        "When two or more insurers cover the same risk",
-        "When the ship has two engines",
-        "When two captains are onboard",
-        "When cargo is loaded twice"
+        "The insured must have a genuine financial interest in the vessel, cargo or other insured subject",
+        "The insurer must own part of the insured vessel",
+        "The insured must purchase more than one insurance policy",
+        "The vessel must operate in international waters"
       ],
       "answer": 0,
-      "difficulty": "Medium",
-      "explanation": "Contribution prevents the insured from recovering more than the actual loss by sharing payment among insurers."
+      "difficulty": "Easy",
+      "explanation": "Insurable interest exists when a person or company would suffer a genuine financial loss if the insured vessel, cargo, freight or liability were damaged or lost."
     },
     {
-      "question": "A policy warranty generally requires the insured to:",
-      "options": [
-        "Follow specific conditions stated in the policy",
-        "Pay double premium",
-        "Register in multiple countries",
-        "Hire more crew"
-      ],
-      "answer": 0,
-      "difficulty": "Medium",
-      "explanation": "Breaching a warranty may allow the insurer to reject liability depending on the policy terms."
-    },
-    {
-      "question": "A vessel owner intentionally hides serious engine problems before purchasing insurance. Which principle has been violated?",
+      "question": "Which principle requires the insured to disclose important information honestly to the insurer?",
       "options": [
         "Contribution",
-        "Indemnity",
-        "Utmost Good Faith",
-        "Subrogation"
-      ],
-      "answer": 2,
-      "difficulty": "Hard",
-      "explanation": "Failure to disclose material facts breaches the duty of utmost good faith."
-    },
-    {
-      "question": "After paying for cargo damaged due to terminal negligence, what right does the insurer have?",
-      "options": [
-        "To seize the cargo",
-        "To pursue the negligent terminal through subrogation",
-        "To cancel every future policy",
-        "To increase freight rates"
-      ],
-      "answer": 1,
-      "difficulty": "Hard",
-      "explanation": "Subrogation transfers the insured's legal rights against responsible third parties to the insurer."
-    },   
-    {
-      "question": "Why is the principle of indemnity important in marine insurance?",
-      "options": [
-        "It guarantees profit after every casualty",
-        "It restores the insured to approximately the same financial position as before the loss",
-        "It allows unlimited compensation",
-        "It eliminates deductibles"
-      ],
-      "answer": 1,
-      "difficulty": "Hard",
-      "explanation": "Indemnity ensures that insurance compensates for actual financial loss rather than creating a profit."
-    },
-    {
-      "question": "Which principle determines whether a loss is covered when several events contribute to a casualty?",
-      "options": [
-        "Warranty",
-        "Contribution",
-        "Proximate Cause",
-        "Insurable Interest"
-      ],
-      "answer": 2,
-      "difficulty": "Hard",
-      "explanation": "The dominant or effective cause of the loss is used to determine whether the insurance policy responds."
-    },
-    {
-      "question": "If the same cargo is insured by two different insurers, which principle prevents the cargo owner from collecting twice for the same loss?",
-      "options": [
-        "Subrogation",
-        "Contribution",
-        "Warranty",
-        "Proximate Cause"
-      ],
-      "answer": 1,
-      "difficulty": "Hard",
-      "explanation": "Contribution requires insurers to share the loss proportionally and prevents double recovery."
-    },
-    {
-      "question": "Which of the following best describes a material fact?",
-      "options": [
-        "Information that could affect the insurer's decision to insure the risk",
-        "The name of the ship's cook",
-        "The vessel's paint supplier",
-        "The captain's favorite route"
-      ],
-      "answer": 0,
-      "difficulty": "Hard",
-      "explanation": "Material facts are any facts that could influence the insurer's assessment of the risk."
-    },
-    {
-      "question": "What is the purpose of policy warranties?",
-      "options": [
-        "To increase the vessel's value",
-        "To define conditions that must be complied with for cover to remain valid",
-        "To reduce port fees",
-        "To calculate premiums automatically"
-      ],
-      "answer": 1,
-      "difficulty": "Hard",
-      "explanation": "Policy warranties establish conditions that the insured must comply with throughout the policy period."
-    },
-    {
-      "question": "A vessel trades outside the geographical trading limits stated in the insurance policy. Which principle is most relevant?",
-      "options": [
-        "Warranty",
-        "Contribution",
+        "Utmost good faith",
         "Subrogation",
         "Indemnity"
       ],
-      "answer": 0,
-      "difficulty": "Hard",
-      "explanation": "Trading limits are commonly included as warranties within marine insurance policies."
+      "answer": 1,
+      "difficulty": "Easy",
+      "explanation": "Utmost good faith requires the parties to disclose material facts that could influence the insurer's assessment of the risk."
     },
     {
-      "question": "Which principle requires the insured to have a genuine financial relationship to the insured property?",
+      "question": "What is the main purpose of the principle of indemnity?",
       "options": [
-        "Proximate Cause",
-        "Insurable Interest",
+        "To guarantee that every claim is paid in full",
+        "To compensate the insured for the actual financial loss",
+        "To allow the insured to recover from several insurers",
+        "To transfer ownership of damaged property to the insurer"
+      ],
+      "answer": 1,
+      "difficulty": "Easy",
+      "explanation": "Indemnity aims to restore the insured to approximately the same financial position as before the loss, subject to policy limits and deductibles."
+    },
+    {
+      "question": "What does the principle of subrogation allow an insurer to do?",
+      "options": [
+        "Increase the insured value after a casualty",
+        "Recover claim payments from a responsible third party",
+        "Require another insurer to pay the entire claim",
+        "Cancel a policy before its expiry date"
+      ],
+      "answer": 1,
+      "difficulty": "Easy",
+      "explanation": "After paying a covered claim, the insurer may step into the insured's legal position and pursue a third party responsible for the loss."
+    },
+    {
+      "question": "When does the principle of contribution normally apply?",
+      "options": [
+        "When two or more insurers cover the same interest against the same risk",
+        "When the insured pays the premium in several instalments",
+        "When a claim involves both cargo and hull damage",
+        "When a shipowner contributes to a general average fund"
+      ],
+      "answer": 0,
+      "difficulty": "Easy",
+      "explanation": "Contribution applies when the same interest is covered by multiple insurers, allowing them to share the loss proportionately."
+    },
+    {
+      "question": "Which of the following is most likely to be considered a material fact when arranging hull insurance?",
+      "options": [
+        "The agreed deductible under the proposed policy",
+        "The vessel's previous machinery failures and claims history",
+        "The insurer's internal administrative costs",
+        "The premium quoted by another insurer"
+      ],
+      "answer": 1,
+      "difficulty": "Medium",
+      "explanation": "Previous machinery failures and claims can affect the insurer's decision to accept the risk, impose conditions or calculate the premium."
+    },
+    {
+      "question": "What does proximate cause identify in a marine insurance claim?",
+      "options": [
+        "The event that occurred first chronologically",
+        "The event physically closest to the damaged property",
+        "The dominant and effective cause of the loss",
+        "The party that first reported the casualty"
+      ],
+      "answer": 2,
+      "difficulty": "Medium",
+      "explanation": "Proximate cause is the dominant and effective cause of the loss, not necessarily the first event or the event nearest in time."
+    },
+    {
+      "question": "Which of the following is the best example of a marine insurance warranty?",
+      "options": [
+        "A statement estimating the vessel's future market value",
+        "A condition requiring the vessel to remain within specified trading limits",
+        "A clause describing how the insurer calculates administrative fees",
+        "A recommendation that the master avoids severe weather"
+      ],
+      "answer": 1,
+      "difficulty": "Medium",
+      "explanation": "Trading limits may be included as an express warranty or policy condition that the insured is required to comply with."
+    },
+    {
+      "question": "Why does contribution prevent the insured from receiving more than the actual loss?",
+      "options": [
+        "It allows the first insurer contacted to cancel the other policies",
+        "It limits the insured to recovering only the lowest policy limit",
+        "It requires insurers covering the same risk to share the claim proportionately",
+        "It transfers the insured's claim rights to the vessel owner"
+      ],
+      "answer": 2,
+      "difficulty": "Medium",
+      "explanation": "Contribution divides the loss among insurers and prevents the insured from recovering the full claim separately under several policies."
+    },
+    {
+      "question": "How do deductibles affect compensation under the principle of indemnity?",
+      "options": [
+        "The deductible is added to the amount of the insured loss",
+        "The insurer compensates the actual covered loss after applying the deductible",
+        "The deductible only applies when another insurer is involved",
+        "The deductible determines whether the insured has insurable interest"
+      ],
+      "answer": 1,
+      "difficulty": "Medium",
+      "explanation": "Indemnity is still subject to the terms of the policy, including deductibles, insured values, exclusions and limits."
+    },
+    {
+      "question": "A cargo owner purchases insurance after transferring all ownership and financial risk in the goods to the buyer. The cargo owner would suffer no loss if the goods were damaged. Which principle is primarily affected?",
+      "options": [
         "Contribution",
-        "Warranty"
+        "Insurable interest",
+        "Proximate cause",
+        "Subrogation"
       ],
       "answer": 1,
       "difficulty": "Hard",
-      "explanation": "Without insurable interest, an insurance contract may not be legally enforceable."
+      "explanation": "A party that would not suffer a financial loss may no longer have the necessary insurable interest in the cargo."
     },
     {
-      "question": "Which principle helps insurers recover claim payments from negligent third parties?",
+      "question": "A shipowner fails to disclose that the vessel has experienced repeated main-engine breakdowns during the previous year. The information would have affected the insurer's underwriting decision. Which principle is most directly involved?",
       "options": [
+        "Utmost good faith",
+        "Contribution",
         "Indemnity",
+        "Subrogation"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "Repeated engine failures are material to the risk. Failure to disclose them may breach the duty of utmost good faith."
+    },
+    {
+      "question": "A vessel encounters heavy weather. Poorly maintained hatch covers allow seawater to enter the cargo holds, damaging the cargo. Which principle is used to determine whether heavy weather or defective hatch covers were the legally effective cause of the loss?",
+      "options": [
+        "Insurable interest",
+        "Contribution",
+        "Proximate cause",
+        "Subrogation"
+      ],
+      "answer": 2,
+      "difficulty": "Hard",
+      "explanation": "Proximate cause analysis identifies the dominant and effective cause when several events or conditions contribute to a casualty."
+    },
+    {
+      "question": "A cargo insurer pays a claim after cargo is damaged by a terminal operator's negligent handling. What may the insurer do next?",
+      "options": [
+        "Use contribution to recover from the vessel's hull insurer",
+        "Use subrogation to pursue the negligent terminal operator",
+        "Use indemnity to increase the insured value of the cargo",
+        "Use proximate cause to transfer the policy to the terminal operator"
+      ],
+      "answer": 1,
+      "difficulty": "Hard",
+      "explanation": "Subrogation allows the cargo insurer to pursue the negligent terminal operator after compensating the insured cargo owner."
+    },
+    {
+      "question": "The same cargo interest is fully insured under two policies covering the same voyage and the same maritime risks. A covered loss occurs. How should the insurers normally respond?",
+      "options": [
+        "Each insurer should pay the full loss independently",
+        "The insured should select one policy and permanently cancel the other",
+        "The insurers should share the loss according to the principle of contribution",
+        "Only the policy issued first should respond"
+      ],
+      "answer": 2,
+      "difficulty": "Hard",
+      "explanation": "Contribution permits insurers covering the same interest and risk to divide the claim so that the insured does not recover more than the actual loss."
+    },
+    {
+      "question": "A policy contains a condition that the vessel must not trade north of a specified latitude during winter. The vessel enters the restricted area and suffers damage. Which policy concept is most directly relevant?",
+      "options": [
+        "A trading warranty",
+        "The principle of contribution",
+        "A subrogation right",
+        "The principle of indemnity"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "Geographical trading restrictions are commonly expressed as warranties or conditions of cover."
+    },
+    {
+      "question": "An insured vessel suffers repair costs of USD 2 million. The insured value and policy limit are sufficient, but the policy contains a USD 250,000 deductible. Ignoring other adjustments, which principle best explains why the insured should not receive more than the covered financial loss after the deductible?",
+      "options": [
         "Subrogation",
+        "Indemnity",
         "Contribution",
-        "Warranty"
+        "Utmost good faith"
       ],
       "answer": 1,
       "difficulty": "Hard",
-      "explanation": "Subrogation transfers the insured's legal rights against third parties to the insurer after a claim has been paid."
+      "explanation": "Indemnity limits recovery to the actual covered loss and remains subject to the deductible and other policy terms."
     },
     {
-      "question": "Which principle ensures that marine insurance remains a mechanism for protection rather than speculation?",
+      "question": "A shipowner receives full compensation from its insurer and later independently recovers the same loss from the negligent repair yard. Why may the insurer be entitled to the third-party recovery?",
       "options": [
-        "Indemnity",
-        "Registration",
-        "Classification",
-        "General Average"
+        "Because the insurer automatically becomes the owner of the vessel",
+        "Because subrogation prevents double recovery and transfers recovery rights after payment",
+        "Because contribution requires all third parties to share insured losses",
+        "Because utmost good faith requires the repair yard to pay the insurer directly"
+      ],
+      "answer": 1,
+      "difficulty": "Hard",
+      "explanation": "Once the insurer has indemnified the insured, subrogation generally gives the insurer rights to recover from the responsible third party."
+    },
+    {
+      "question": "Which statement correctly distinguishes contribution from subrogation?",
+      "options": [
+        "Contribution concerns recovery from negligent third parties, while subrogation concerns multiple insurers",
+        "Contribution shares a loss among insurers, while subrogation allows recovery from a responsible third party",
+        "Contribution determines the cause of loss, while subrogation determines the insured value",
+        "Contribution applies before a policy is issued, while subrogation applies only when the premium is unpaid"
+      ],
+      "answer": 1,
+      "difficulty": "Hard",
+      "explanation": "Contribution allocates liability among insurers covering the same risk, while subrogation concerns recovery from a third party responsible for the loss."
+    },
+    {
+      "question": "A vessel grounds after the master deliberately deviates from the approved trading area to avoid congestion. The policy contains a clear geographical warranty. Which issue should be assessed separately from identifying the physical cause of the grounding?",
+      "options": [
+        "Whether the insured complied with the policy warranty",
+        "Whether several insurers should contribute to the claim",
+        "Whether the insurer has already exercised subrogation",
+        "Whether the vessel's market value increased after the casualty"
       ],
       "answer": 0,
       "difficulty": "Hard",
-      "explanation": "The insured should only recover the amount of the actual financial loss."
-    },
-    {
-      "question": "Which combination correctly matches the insurance principle with its purpose?",
-      "options": [
-        "Contribution – Prevents double recovery",
-        "Subrogation – Calculates premium",
-        "Warranty – Determines vessel value",
-        "Insurable Interest – Determines weather risk"
-      ],
-      "answer": 0,
-      "difficulty": "Hard",
-      "explanation": "Contribution ensures multiple insurers share the loss and prevents the insured from recovering more than the actual loss."
+      "explanation": "The physical cause of the casualty and compliance with an express policy warranty are separate coverage issues."
     }
-      ]
+  ]
 }
