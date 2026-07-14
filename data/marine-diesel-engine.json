@@ -5,8 +5,8 @@
       "question": "What is the main purpose of a marine diesel engine?",
       "options": [
         "To store ballast water",
-        "To propel the vessel or generate electrical power",
         "To cool the cargo holds",
+        "To propel the vessel or generate electrical power",
         "To clean the exhaust gas"
       ],
       "answer": 2,
@@ -16,9 +16,9 @@
     {
       "question": "Which fuel is commonly used in large marine diesel engines?",
       "options": [
+        "Heavy fuel oil or marine diesel oil",
         "Aviation gasoline",
         "Fresh water",
-        "Heavy fuel oil or marine diesel oil",
         "Hydraulic oil"
       ],
       "answer": 0,
@@ -40,8 +40,8 @@
     {
       "question": "What is the purpose of the fuel injection system?",
       "options": [
-        "To deliver the correct quantity of fuel at the correct time",
         "To pump seawater through the engine",
+        "To deliver the correct quantity of fuel at the correct time",
         "To remove lubricating oil",
         "To control the rudder"
       ],
@@ -64,9 +64,9 @@
     {
       "question": "What is the purpose of the engine cooling system?",
       "options": [
+        "To remove excess heat and maintain safe operating temperatures",
         "To increase fuel viscosity",
         "To raise exhaust pressure",
-        "To remove excess heat and maintain safe operating temperatures",
         "To reduce propeller diameter"
       ],
       "answer": 0,
@@ -101,8 +101,8 @@
       "question": "What is scavenging in a two-stroke marine diesel engine?",
       "options": [
         "Cleaning fuel tanks with seawater",
-        "Removing exhaust gases and supplying fresh air to the cylinder",
         "Filtering lubricating oil",
+        "Removing exhaust gases and supplying fresh air to the cylinder",
         "Heating the cylinder liner"
       ],
       "answer": 2,
@@ -113,8 +113,8 @@
       "question": "What is the purpose of a turbocharger on a marine diesel engine?",
       "options": [
         "To cool the lubricating oil",
-        "To operate the ballast pumps",
         "To use exhaust energy to compress more intake air into the engine",
+        "To operate the ballast pumps",
         "To reduce the crankshaft speed to zero"
       ],
       "answer": 1,
