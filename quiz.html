@@ -30,7 +30,6 @@
       --success-light: #edf9f2;
       --error: #b93a44;
       --error-light: #fff1f2;
-      --warning: #9b6a0b;
       --shadow: 0 18px 45px rgba(7, 29, 53, 0.14);
       --radius: 20px;
     }
@@ -541,6 +540,7 @@
   </header>
 
   <main class="quiz-shell">
+
     <section class="quiz-header">
       <div class="quiz-label">
         ⚓ Interactive maritime quiz
@@ -557,9 +557,12 @@
     </section>
 
     <section class="quiz-card">
+
       <div id="quiz-content">
+
         <div class="progress-section">
           <div class="progress-details">
+
             <span id="question-counter">
               Question 1
             </span>
@@ -574,6 +577,7 @@
             <span id="score-counter">
               Score: 0
             </span>
+
           </div>
 
           <div class="progress-bar">
@@ -585,6 +589,7 @@
         </div>
 
         <div class="question-area">
+
           <div
             class="question-kicker"
             id="question-kicker"
@@ -623,6 +628,7 @@
               Next question →
             </button>
           </div>
+
         </div>
       </div>
 
@@ -645,6 +651,7 @@
         ></p>
 
         <div class="result-actions">
+
           <button
             class="restart-button"
             id="restart-button"
@@ -659,32 +666,39 @@
           >
             Back to quizzes
           </a>
+
         </div>
       </div>
+
     </section>
   </main>
 
   <script>
-const quizFiles = {
-  "marine-diesel-engine": {
-    file: "data/marine-diesel-engine.json",
-    fallbackTitle: "Marine Diesel Engines"
-  },
+    const quizFiles = {
+      "marine-diesel-engine": {
+        file: "data/marine-diesel-engine.json",
+        fallbackTitle: "Marine Diesel Engines"
+      },
 
-  "ballast-water": {
-    file: "data/ballast-water.json",
-    fallbackTitle: "Ballast Water"
-  },
+      "ballast-water": {
+        file: "data/ballast-water.json",
+        fallbackTitle: "Ballast Water"
+      },
 
-  "bulk-carrier-design": {
-    file: "data/bulk-carrier-design.json",
-    fallbackTitle: "Bulk Carrier Design"
-  }
-};
+      "bulk-carrier-design": {
+        file: "data/bulk-carrier-design.json",
+        fallbackTitle: "Bulk Carrier Design"
+      }
+    };
 
-    const params = new URLSearchParams(window.location.search);
-    const quizKey = params.get("quiz");
-    const selectedQuiz = quizFiles[quizKey];
+    const params =
+      new URLSearchParams(window.location.search);
+
+    const quizKey =
+      params.get("quiz");
+
+    const selectedQuiz =
+      quizFiles[quizKey];
 
     const quizTitle =
       document.getElementById("quiz-title");
@@ -744,6 +758,7 @@ const quizFiles = {
         showError(
           "The selected quiz could not be found. Return to the home page and choose a valid quiz."
         );
+
         return;
       }
 
@@ -756,7 +771,9 @@ const quizFiles = {
       try {
         const response = await fetch(
           selectedQuiz.file,
-          { cache: "no-store" }
+          {
+            cache: "no-store"
+          }
         );
 
         if (!response.ok) {
@@ -765,7 +782,8 @@ const quizFiles = {
           );
         }
 
-        const data = await response.json();
+        const data =
+          await response.json();
 
         if (Array.isArray(data)) {
           questions = data;
@@ -776,7 +794,9 @@ const quizFiles = {
           questions = data.questions;
 
           if (data.title) {
-            quizTitle.textContent = data.title;
+            quizTitle.textContent =
+              data.title;
+
             document.title =
               `${data.title} | Maritime Learning Portal`;
           }
@@ -794,6 +814,7 @@ const quizFiles = {
 
         validateQuestions();
         showQuestion();
+
       } catch (error) {
         console.error(
           "Quiz loading error:",
@@ -807,38 +828,49 @@ const quizFiles = {
     }
 
     function validateQuestions() {
-      questions.forEach((question, index) => {
-        const answers =
-          question.answers || question.options;
+      questions.forEach(
+        (question, index) => {
+          const answers =
+            question.answers ||
+            question.options;
 
-        const correctIndex =
-          question.correct ?? question.answer;
+          const correctIndex =
+            question.correct ??
+            question.answer;
 
-        if (
-          !question.question ||
-          !Array.isArray(answers) ||
-          answers.length < 2 ||
-          !Number.isInteger(correctIndex) ||
-          correctIndex < 0 ||
-          correctIndex >= answers.length
-        ) {
-          throw new Error(
-            `Question ${index + 1} has an invalid format.`
-          );
+          if (
+            !question.question ||
+            !Array.isArray(answers) ||
+            answers.length < 2 ||
+            !Number.isInteger(correctIndex) ||
+            correctIndex < 0 ||
+            correctIndex >= answers.length
+          ) {
+            throw new Error(
+              `Question ${index + 1} has an invalid format.`
+            );
+          }
         }
-      });
+      );
     }
 
     function getAnswers(question) {
-      return question.answers || question.options;
+      return (
+        question.answers ||
+        question.options
+      );
     }
 
     function getCorrectIndex(question) {
-      return question.correct ?? question.answer;
+      return (
+        question.correct ??
+        question.answer
+      );
     }
 
     function getDifficulty(index, total) {
-      const position = (index + 1) / total;
+      const position =
+        (index + 1) / total;
 
       if (position <= 0.25) {
         return {
@@ -863,11 +895,17 @@ const quizFiles = {
     function showQuestion() {
       answered = false;
 
-      feedback.className = "feedback";
-      feedback.innerHTML = "";
+      feedback.className =
+        "feedback";
 
-      nextButton.style.display = "none";
-      answersContainer.innerHTML = "";
+      feedback.innerHTML =
+        "";
+
+      nextButton.style.display =
+        "none";
+
+      answersContainer.innerHTML =
+        "";
 
       const question =
         questions[currentQuestionIndex];
@@ -899,71 +937,103 @@ const quizFiles = {
       questionText.textContent =
         question.question;
 
+      const difficultyName =
+        question.difficulty ||
+        difficulty.label;
+
       difficultyBadge.textContent =
-        question.difficulty || difficulty.label;
+        difficultyName;
 
       difficultyBadge.className =
         "difficulty-badge";
 
       const difficultyText =
-        (
-          question.difficulty ||
-          difficulty.label
-        ).toLowerCase();
+        difficultyName.toLowerCase();
 
-      if (difficultyText.includes("easy")) {
-        difficultyBadge.classList.add("easy");
+      if (
+        difficultyText.includes("easy")
+      ) {
+        difficultyBadge.classList.add(
+          "easy"
+        );
       } else if (
         difficultyText.includes("medium")
       ) {
-        difficultyBadge.classList.add("medium");
+        difficultyBadge.classList.add(
+          "medium"
+        );
       } else {
-        difficultyBadge.classList.add("hard");
+        difficultyBadge.classList.add(
+          "hard"
+        );
       }
 
       progressFill.style.width =
         `${(questionNumber / totalQuestions) * 100}%`;
 
       if (question.image) {
-        questionImage.src = question.image;
+        questionImage.src =
+          question.image;
+
         questionImage.alt =
           question.imageAlt ||
           "Maritime quiz illustration";
-        questionImage.style.display = "block";
 
-        questionImage.onerror = () => {
-          questionImage.style.display = "none";
-        };
+        questionImage.style.display =
+          "block";
+
+        questionImage.onerror =
+          function () {
+            questionImage.style.display =
+              "none";
+          };
       } else {
-        questionImage.style.display = "none";
-        questionImage.removeAttribute("src");
+        questionImage.style.display =
+          "none";
+
+        questionImage.removeAttribute(
+          "src"
+        );
       }
 
-      answers.forEach((answer, index) => {
-        const button =
-          document.createElement("button");
+      answers.forEach(
+        (answer, index) => {
+          const button =
+            document.createElement(
+              "button"
+            );
 
-        button.type = "button";
-        button.className = "answer-button";
-        button.textContent = answer;
-        button.dataset.letter =
-          String.fromCharCode(65 + index);
+          button.type =
+            "button";
 
-        button.addEventListener(
-          "click",
-          () => selectAnswer(index)
-        );
+          button.className =
+            "answer-button";
 
-        answersContainer.appendChild(button);
-      });
+          button.textContent =
+            answer;
 
-      window.scrollTo({
-        top: 0,
-        behavior: "smooth"
-      });
+          button.dataset.letter =
+            String.fromCharCode(
+              65 + index
+            );
+
+          button.addEventListener(
+            "click",
+            function () {
+              selectAnswer(index);
+            }
+          );
+
+          answersContainer.appendChild(
+            button
+          );
+        }
+      );
     }
 
-    function selectAnswer(selectedIndex) {
+    function selectAnswer(
+      selectedIndex
+    ) {
       if (answered) {
         return;
       }
@@ -984,15 +1054,19 @@ const quizFiles = {
           ".answer-button"
         );
 
-      buttons.forEach((button) => {
-        button.disabled = true;
-      });
+      buttons.forEach(
+        function (button) {
+          button.disabled = true;
+        }
+      );
 
       buttons[correctIndex].classList.add(
         "correct"
       );
 
-      if (selectedIndex === correctIndex) {
+      if (
+        selectedIndex === correctIndex
+      ) {
         score += 1;
 
         feedback.className =
@@ -1021,11 +1095,16 @@ const quizFiles = {
       scoreCounter.textContent =
         `Score: ${score}`;
 
-      nextButton.textContent =
+      if (
         currentQuestionIndex ===
         questions.length - 1
-          ? "View results →"
-          : "Next question →";
+      ) {
+        nextButton.textContent =
+          "View results →";
+      } else {
+        nextButton.textContent =
+          "Next question →";
+      }
 
       nextButton.style.display =
         "inline-flex";
@@ -1049,12 +1128,18 @@ const quizFiles = {
     }
 
     function showResults() {
-      quizContent.style.display = "none";
-      resultCard.style.display = "block";
+      quizContent.style.display =
+        "none";
+
+      resultCard.style.display =
+        "block";
 
       const percentage =
         Math.round(
-          (score / questions.length) * 100
+          (
+            score /
+            questions.length
+          ) * 100
         );
 
       resultScore.textContent =
@@ -1063,15 +1148,21 @@ const quizFiles = {
       if (percentage >= 90) {
         resultMessage.textContent =
           "Excellent result. You demonstrated strong knowledge across both the basic and difficult questions.";
-      } else if (percentage >= 75) {
+      } else if (
+        percentage >= 75
+      ) {
         resultMessage.textContent =
-          "Very good result. You understand the main principles and handled several of the difficult questions well.";
-      } else if (percentage >= 60) {
+          "Very good result. You understand the main principles and handled several difficult questions well.";
+      } else if (
+        percentage >= 60
+      ) {
         resultMessage.textContent =
           "Good foundation. Review the explanations from the more difficult questions and try again.";
-      } else if (percentage >= 40) {
+      } else if (
+        percentage >= 40
+      ) {
         resultMessage.textContent =
-          "You understand some of the basic principles, but the medium and difficult sections need more review.";
+          "You understand some basic principles, but the medium and difficult sections need more review.";
       } else {
         resultMessage.textContent =
           "This topic needs further review. Read through the explanations and try the quiz again.";
@@ -1088,8 +1179,11 @@ const quizFiles = {
       score = 0;
       answered = false;
 
-      resultCard.style.display = "none";
-      quizContent.style.display = "block";
+      resultCard.style.display =
+        "none";
+
+      quizContent.style.display =
+        "block";
 
       showQuestion();
     }
@@ -1099,7 +1193,16 @@ const quizFiles = {
         "Quiz unavailable";
 
       quizContent.innerHTML =
-        `<div class="error-message">${message}</div>`;
+        `
+          <div class="error-message">
+            <p>${message}</p>
+            <p>
+              <a href="index.html">
+                Return to the quiz portal
+              </a>
+            </p>
+          </div>
+        `;
     }
 
     nextButton.addEventListener(
