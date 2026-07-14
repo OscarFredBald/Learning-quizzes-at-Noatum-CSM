@@ -1,0 +1,245 @@
+{
+  "title": "Important Parties in Shipping",
+  "questions": [
+    {
+      "question": "Which party normally arranges for goods to be transported from the seller to the buyer?",
+      "options": [
+        "Shipper",
+        "Consignee",
+        "Ship Manager",
+        "Classification Society"
+      ],
+      "answer": 0,
+      "difficulty": "Easy",
+      "explanation": "The shipper is the party sending the cargo and arranging its transportation."
+    },
+    {
+      "question": "Who is the consignee?",
+      "options": [
+        "The company operating the vessel",
+        "The intended receiver of the cargo",
+        "The company providing marine insurance",
+        "The organization inspecting the vessel"
+      ],
+      "answer": 1,
+      "difficulty": "Easy",
+      "explanation": "The consignee is the party to whom the cargo is delivered."
+    },
+    {
+      "question": "Who normally owns the vessel?",
+      "options": [
+        "The Charterer",
+        "The Shipowner",
+        "The Freight Forwarder",
+        "The Cargo Surveyor"
+      ],
+      "answer": 1,
+      "difficulty": "Easy",
+      "explanation": "The shipowner has legal ownership of the vessel."
+    },
+    {
+      "question": "Which party primarily organizes the movement of cargo without necessarily owning ships?",
+      "options": [
+        "Freight Forwarder",
+        "Chief Engineer",
+        "P&I Club",
+        "Ship Broker"
+      ],
+      "answer": 0,
+      "difficulty": "Easy",
+      "explanation": "Freight forwarders arrange transportation and logistics for cargo."
+    },
+    {
+      "question": "Who is responsible for navigating and operating the vessel at sea?",
+      "options": [
+        "The Crew",
+        "The Charterer",
+        "The Consignee",
+        "The Freight Forwarder"
+      ],
+      "answer": 0,
+      "difficulty": "Easy",
+      "explanation": "The crew safely operates and navigates the vessel."
+    },
+    {
+      "question": "Which party normally decides what cargo will be carried under a time charter?",
+      "options": [
+        "The Charterer",
+        "The Shipowner",
+        "The Classification Society",
+        "The P&I Club"
+      ],
+      "answer": 0,
+      "difficulty": "Medium",
+      "explanation": "Under a time charter, the charterer controls the commercial employment of the vessel."
+    },
+    {
+      "question": "Which responsibility most commonly belongs to a Ship Management Company?",
+      "options": [
+        "Finding buyers for the cargo",
+        "Technical management, crewing and maintenance",
+        "Issuing bills of lading",
+        "Providing cargo insurance"
+      ],
+      "answer": 1,
+      "difficulty": "Medium",
+      "explanation": "Ship managers often provide technical management, crewing and vessel maintenance."
+    },
+    {
+      "question": "Which party usually pays freight charges under a CIF contract?",
+      "options": [
+        "The Seller (Shipper)",
+        "The Consignee",
+        "The Master",
+        "The Ship Manager"
+      ],
+      "answer": 0,
+      "difficulty": "Medium",
+      "explanation": "Under CIF contracts, the seller generally arranges and pays for freight."
+    },
+    {
+      "question": "Which party has the strongest commercial interest in ensuring cargo reaches the correct destination?",
+      "options": [
+        "The Consignee",
+        "The Crew",
+        "The Ship Manager",
+        "The Classification Society"
+      ],
+      "answer": 0,
+      "difficulty": "Medium",
+      "explanation": "The consignee expects to receive the cargo."
+    },
+    {
+      "question": "What is the primary role of a Freight Forwarder?",
+      "options": [
+        "To own vessels",
+        "To coordinate transportation and logistics",
+        "To classify ships",
+        "To inspect cargo damage"
+      ],
+      "answer": 1,
+      "difficulty": "Medium",
+      "explanation": "Freight forwarders coordinate transportation through multiple carriers."
+    },
+    {
+      "question": "A vessel is on a time charter. The charterer orders the vessel to load coal in Australia and discharge it in Japan. Who normally provides the officers and engineers?",
+      "options": [
+        "The Shipowner or Ship Manager",
+        "The Charterer",
+        "The Shipper",
+        "The Consignee"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "Under a time charter, the owner normally provides the crew while the charterer controls commercial employment."
+    },
+    {
+      "question": "A vessel suffers a main engine failure. Which party would normally arrange repairs if technical management has been outsourced?",
+      "options": [
+        "Ship Management Company",
+        "Consignee",
+        "Freight Forwarder",
+        "Cargo Owner"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "Technical managers typically arrange repairs and maintenance."
+    },
+    {
+      "question": "Who has the greatest commercial interest in minimizing off-hire during a time charter?",
+      "options": [
+        "The Charterer",
+        "The Pilot",
+        "The Freight Forwarder",
+        "The Cargo Surveyor"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "The charterer loses commercial use of the vessel during off-hire."
+    },
+    {
+      "question": "Which party would most likely negotiate voyage instructions with terminals and ports on behalf of the vessel's commercial operation?",
+      "options": [
+        "The Charterer",
+        "The Crew",
+        "The Consignee",
+        "The Ship Chandler"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "Commercial voyage instructions are usually provided by the charterer."
+    },
+    {
+      "question": "A cargo arrives damaged. Which party ultimately receives the damaged cargo?",
+      "options": [
+        "The Consignee",
+        "The Freight Forwarder",
+        "The Charterer",
+        "The Ship Manager"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "The consignee receives the cargo, whether damaged or not."
+    },
+    {
+      "question": "Which party normally has contractual responsibility for maintaining the vessel's seaworthiness?",
+      "options": [
+        "The Shipowner",
+        "The Shipper",
+        "The Consignee",
+        "The Freight Forwarder"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "Maintaining seaworthiness is primarily the owner's responsibility."
+    },
+    {
+      "question": "Which combination correctly distinguishes commercial management from technical management?",
+      "options": [
+        "Commercial management concerns cargo employment, while technical management concerns maintenance and crewing.",
+        "Commercial management concerns maintenance, while technical management concerns cargo sales.",
+        "Commercial management concerns insurance, while technical management concerns chartering.",
+        "Commercial management concerns vessel ownership, while technical management concerns financing."
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "Commercial management deals with employment of the vessel, while technical management deals with operating it safely."
+    },
+    {
+      "question": "A company owns a vessel but hires another company to operate it technically. Which statement is most accurate?",
+      "options": [
+        "The owner retains ownership while the manager handles technical operations.",
+        "The manager automatically becomes the legal owner.",
+        "The charterer becomes responsible for maintenance.",
+        "The consignee assumes operational responsibility."
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "Ownership and technical management are often performed by different companies."
+    },
+    {
+      "question": "Which party is most likely to coordinate several transport modes, customs documentation and inland delivery?",
+      "options": [
+        "Freight Forwarder",
+        "Shipowner",
+        "Master",
+        "P&I Club"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "Freight forwarders coordinate the complete logistics chain."
+    },
+    {
+      "question": "Which sequence correctly follows the normal cargo flow?",
+      "options": [
+        "Shipper → Carrier → Consignee",
+        "Consignee → Charterer → Shipowner",
+        "Freight Forwarder → Crew → Shipper",
+        "Ship Manager → Cargo Surveyor → Consignee"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "Cargo normally moves from the shipper, through the carrier, to the consignee."
+    }
+  ]
+}
