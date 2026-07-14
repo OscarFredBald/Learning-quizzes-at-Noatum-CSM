@@ -1,1 +1,149 @@
-
+{
+  "title": "Marine Diesel Engines",
+  "questions": [
+    {
+      "question": "What is the main purpose of a marine diesel engine?",
+      "options": [
+        "To propel the vessel or generate electrical power",
+        "To store ballast water",
+        "To cool the cargo holds",
+        "To clean the exhaust gas"
+      ],
+      "answer": 0,
+      "difficulty": "Easy",
+      "explanation": "Marine diesel engines are mainly used for propulsion or for driving generators that produce electrical power."
+    },
+    {
+      "question": "Which fuel is commonly used in large marine diesel engines?",
+      "options": [
+        "Heavy fuel oil or marine diesel oil",
+        "Aviation gasoline",
+        "Fresh water",
+        "Hydraulic oil"
+      ],
+      "answer": 0,
+      "difficulty": "Easy",
+      "explanation": "Large marine engines commonly operate on heavy fuel oil, marine diesel oil or other approved marine fuels."
+    },
+    {
+      "question": "What happens inside the cylinder during combustion?",
+      "options": [
+        "Fuel burns and produces expanding gases that push the piston",
+        "Cooling water pushes the piston downward",
+        "Lubricating oil is converted into fuel",
+        "Exhaust gas is stored in the cylinder"
+      ],
+      "answer": 0,
+      "difficulty": "Easy",
+      "explanation": "The injected fuel ignites in the hot compressed air, creating high-pressure gases that force the piston downward."
+    },
+    {
+      "question": "What is the purpose of the fuel injection system?",
+      "options": [
+        "To deliver the correct quantity of fuel at the correct time",
+        "To pump seawater through the engine",
+        "To remove lubricating oil",
+        "To control the rudder"
+      ],
+      "answer": 0,
+      "difficulty": "Medium",
+      "explanation": "The injection system meters, pressurizes and injects fuel into the cylinder at the correct point in the engine cycle."
+    },
+    {
+      "question": "Why is lubricating oil used in a marine diesel engine?",
+      "options": [
+        "To reduce friction and wear between moving components",
+        "To increase exhaust temperature",
+        "To replace the cooling water",
+        "To increase the vessel's draft"
+      ],
+      "answer": 0,
+      "difficulty": "Medium",
+      "explanation": "Lubricating oil reduces friction, limits wear, removes some heat and helps protect engine components from corrosion."
+    },
+    {
+      "question": "What is the purpose of the engine cooling system?",
+      "options": [
+        "To remove excess heat and maintain safe operating temperatures",
+        "To increase fuel viscosity",
+        "To raise exhaust pressure",
+        "To reduce propeller diameter"
+      ],
+      "answer": 0,
+      "difficulty": "Medium",
+      "explanation": "The cooling system transfers heat away from components such as cylinder liners, cylinder heads and pistons."
+    },
+    {
+      "question": "In a four-stroke diesel engine, how many crankshaft revolutions are required to complete one operating cycle?",
+      "options": [
+        "One revolution",
+        "Two revolutions",
+        "Three revolutions",
+        "Four revolutions"
+      ],
+      "answer": 1,
+      "difficulty": "Difficult",
+      "explanation": "A four-stroke cycle consists of intake, compression, power and exhaust strokes and requires two crankshaft revolutions."
+    },
+    {
+      "question": "What is the main difference between a two-stroke and a four-stroke marine diesel engine?",
+      "options": [
+        "A two-stroke engine completes a cycle in one crankshaft revolution",
+        "A two-stroke engine does not require fuel",
+        "A four-stroke engine has no exhaust system",
+        "A four-stroke engine cannot drive a generator"
+      ],
+      "answer": 0,
+      "difficulty": "Difficult",
+      "explanation": "A two-stroke engine completes one full operating cycle during one crankshaft revolution, while a four-stroke engine requires two."
+    },
+    {
+      "question": "What is scavenging in a two-stroke marine diesel engine?",
+      "options": [
+        "Removing exhaust gases and supplying fresh air to the cylinder",
+        "Cleaning fuel tanks with seawater",
+        "Filtering lubricating oil",
+        "Heating the cylinder liner"
+      ],
+      "answer": 0,
+      "difficulty": "Difficult",
+      "explanation": "Scavenging replaces exhaust gases in the cylinder with fresh pressurized air before the next combustion cycle."
+    },
+    {
+      "question": "What is the purpose of a turbocharger on a marine diesel engine?",
+      "options": [
+        "To use exhaust energy to compress more intake air into the engine",
+        "To cool the lubricating oil",
+        "To operate the ballast pumps",
+        "To reduce the crankshaft speed to zero"
+      ],
+      "answer": 0,
+      "difficulty": "Difficult",
+      "explanation": "The turbocharger uses exhaust-gas energy to drive a compressor, increasing the mass of air supplied to the cylinders."
+    },
+    {
+      "question": "Why must heavy fuel oil normally be heated before injection?",
+      "options": [
+        "To reduce its viscosity and improve atomization",
+        "To increase its water content",
+        "To prevent compression in the cylinder",
+        "To reduce the amount of intake air"
+      ],
+      "answer": 0,
+      "difficulty": "Difficult",
+      "explanation": "Heavy fuel oil is heated so that it reaches the correct viscosity for pumping, injection and fine atomization."
+    },
+    {
+      "question": "What may happen if a fuel injector does not atomize the fuel correctly?",
+      "options": [
+        "Poor combustion, increased smoke and carbon deposits",
+        "Improved fuel efficiency",
+        "Lower cylinder pressure with perfect combustion",
+        "The cooling system stops using water"
+      ],
+      "answer": 0,
+      "difficulty": "Difficult",
+      "explanation": "Poor atomization produces larger fuel droplets, resulting in incomplete combustion, smoke, deposits and reduced efficiency."
+    }
+  ]
+}
