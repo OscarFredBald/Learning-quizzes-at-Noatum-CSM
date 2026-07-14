@@ -144,6 +144,103 @@
       "answer": 1,
       "difficulty": "Easy",
       "explanation": "Large hatch openings allow efficient loading and discharge using grabs, conveyors and shore equipment."
-    }
+    }, 
+
+    {
+  "question": "A bulk carrier is loaded with a very dense cargo such as iron ore. Why may the loading plan require some cargo holds to remain empty?",
+  "options": [
+    "To reduce longitudinal bending moments and hull stresses",
+    "To improve accommodation comfort",
+    "To increase ballast pump efficiency",
+    "To improve radar performance"
+  ],
+  "answer": 0,
+  "difficulty": "Hard",
+  "explanation": "Very dense cargo can produce excessive bending moments if every hold is filled. Loading manuals specify allowable loading patterns."
+},
+{
+  "question": "What is the primary purpose of top-side ballast tanks on many bulk carriers?",
+  "options": [
+    "To improve transverse strength and provide ballast capacity",
+    "To store heavy fuel oil",
+    "To ventilate cargo holds",
+    "To cool cargo during loading"
+  ],
+  "answer": 0,
+  "difficulty": "Hard",
+  "explanation": "Top-side tanks contribute to hull strength while also providing ballast capacity and reducing free cargo surface."
+},
+{
+  "question": "Why are hatch covers on bulk carriers designed to withstand very high loads?",
+  "options": [
+    "Because they are part of the vessel's longitudinal strength and must withstand green seas",
+    "Because they support the accommodation block",
+    "Because ballast tanks are located inside them",
+    "Because they carry the ship's propeller shaft"
+  ],
+  "answer": 0,
+  "difficulty": "Hard",
+  "explanation": "Hatch covers contribute to hull girder integrity and must resist sea loads, cargo loads and weather conditions."
+},
+{
+  "question": "Why are stress concentrations around hatch corners carefully reinforced?",
+  "options": [
+    "To reduce the risk of fatigue cracks developing during service",
+    "To improve cargo ventilation",
+    "To reduce propeller cavitation",
+    "To simplify hull painting"
+  ],
+  "answer": 0,
+  "difficulty": "Hard",
+  "explanation": "Large hatch openings interrupt deck continuity and create stress concentrations that can initiate fatigue cracks."
+},
+{
+  "question": "A bulk carrier experiences excessive sagging during loading. What does this indicate?",
+  "options": [
+    "The middle part of the vessel is bending downward relative to the ends",
+    "The bow is trimming excessively by the head",
+    "The stern has lost buoyancy due to flooding",
+    "The vessel has excessive transverse list"
+  ],
+  "answer": 0,
+  "difficulty": "Hard",
+  "explanation": "Sagging occurs when buoyancy is greater near the ends than in the middle, causing the hull girder to bend downward amidships."
+},
+{
+  "question": "Why is a loading computer considered an essential tool on modern bulk carriers?",
+  "options": [
+    "It continuously verifies stability, shear forces and bending moments during cargo operations",
+    "It automatically controls the main engine",
+    "It replaces the need for cargo planning",
+    "It determines fuel consumption based only on weather forecasts"
+  ],
+  "answer": 0,
+  "difficulty": "Hard",
+  "explanation": "Loading computers calculate stability, trim, shear forces and bending moments to ensure the vessel remains within allowable limits."
+},
+{
+  "question": "A survey finds corrosion in the lower stool of a cargo hold. Why is this area particularly important?",
+  "options": [
+    "It transfers structural loads between the hopper tank and transverse bulkhead",
+    "It supports the main engine foundation",
+    "It houses the ballast pumps",
+    "It carries electrical cables to the bridge"
+  ],
+  "answer": 0,
+  "difficulty": "Hard",
+  "explanation": "Lower stools are major structural members that transfer cargo and hull loads through the bulkhead structure."
+},
+{
+  "question": "Why can repeated loading and unloading cycles eventually lead to structural fatigue in a bulk carrier?",
+  "options": [
+    "Repeated cyclic stresses gradually initiate and propagate cracks even below the material's ultimate strength",
+    "Cargo permanently increases the hull's weight after each voyage",
+    "Steel becomes softer every time ballast water is changed",
+    "The propeller produces permanent bending in the stern structure"
+  ],
+  "answer": 0,
+  "difficulty": "Hard",
+  "explanation": "Fatigue damage develops from repeated stress cycles over many years, making inspections of critical structural areas essential."
+}
   ]
 }
