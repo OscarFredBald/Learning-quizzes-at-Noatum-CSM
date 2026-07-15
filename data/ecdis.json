@@ -1,0 +1,318 @@
+{
+  "title": "ECDIS and Electronic Navigation",
+  "description": "Test your understanding of ECDIS, electronic navigational charts, safety settings, route planning, route monitoring, chart updates, sensor inputs and practical bridge procedures.",
+  "questions": [
+    {
+      "question": "What is the main purpose of ECDIS onboard a ship?",
+      "options": [
+        "To display electronic chart information together with the vessel's position for route planning and monitoring",
+        "To replace all bridge watchkeeping responsibilities",
+        "To control the vessel's propulsion and steering systems",
+        "To transmit navigational warnings to coastal radio stations"
+      ],
+      "answer": 0,
+      "difficulty": "Easy",
+      "explanation": "ECDIS combines official electronic chart information with position and other navigational data to support route planning and route monitoring."
+    },
+    {
+      "question": "What does ENC stand for?",
+      "options": [
+        "Electronic Navigational Chart",
+        "Emergency Navigation Control",
+        "Electronic Nautical Communication",
+        "Enhanced Navigation Calculation"
+      ],
+      "answer": 0,
+      "difficulty": "Easy",
+      "explanation": "ENC means Electronic Navigational Chart. It is an official vector chart produced or authorized by a hydrographic office."
+    },
+    {
+      "question": "Which sensor normally supplies the vessel's geographical position to ECDIS?",
+      "options": [
+        "GNSS or GPS receiver",
+        "Gyrocompass",
+        "Speed log",
+        "Echo sounder"
+      ],
+      "answer": 0,
+      "difficulty": "Easy",
+      "explanation": "A GNSS receiver, commonly referred to as GPS, normally provides the vessel's latitude and longitude to ECDIS."
+    },
+    {
+      "question": "What is the main purpose of route monitoring in ECDIS?",
+      "options": [
+        "To compare the vessel's actual movement with the planned route",
+        "To create cargo-loading sequences",
+        "To calculate engine fuel injection timing",
+        "To transmit the voyage plan to nearby vessels"
+      ],
+      "answer": 0,
+      "difficulty": "Easy",
+      "explanation": "Route monitoring allows the bridge team to observe the vessel's progress and position relative to the approved route."
+    },
+    {
+      "question": "Why must electronic charts be kept updated?",
+      "options": [
+        "To include the latest navigational changes and safety information",
+        "To increase the display brightness",
+        "To improve the accuracy of the gyrocompass",
+        "To reduce the vessel's fuel consumption"
+      ],
+      "answer": 0,
+      "difficulty": "Easy",
+      "explanation": "Chart updates include changes such as new dangers, altered aids to navigation, revised depths and amended restricted areas."
+    },
+    {
+      "question": "Which statement correctly distinguishes an ENC from an RNC?",
+      "options": [
+        "An ENC contains structured vector data, while an RNC is a digital image of a paper chart",
+        "An ENC is unofficial, while an RNC is always official",
+        "An ENC can only be used in port, while an RNC is used at sea",
+        "An ENC contains radar data, while an RNC contains AIS data"
+      ],
+      "answer": 0,
+      "difficulty": "Medium",
+      "explanation": "ENCs are vector databases containing individual chart objects. RNCs are raster images that resemble scanned paper charts."
+    },
+    {
+      "question": "What is the safety contour in ECDIS?",
+      "options": [
+        "A depth contour used to distinguish potentially unsafe water from safer water",
+        "The vessel's planned cross-track distance",
+        "The maximum permitted speed on the route",
+        "A line showing the range of the vessel's radar"
+      ],
+      "answer": 0,
+      "difficulty": "Medium",
+      "explanation": "The safety contour is emphasized on the display and is used by ECDIS when warning about entry into potentially unsafe water."
+    },
+    {
+      "question": "What is the purpose of the safety depth setting?",
+      "options": [
+        "To emphasize individual soundings that are equal to or shallower than a selected value",
+        "To determine the vessel's minimum engine-room depth",
+        "To set the maximum depth displayed on the chart",
+        "To calculate the vessel's arrival draft automatically"
+      ],
+      "answer": 0,
+      "difficulty": "Medium",
+      "explanation": "Safety depth helps the mariner identify individual depth soundings that may represent insufficient water."
+    },
+    {
+      "question": "Why should a route check be performed after modifying a planned route?",
+      "options": [
+        "To identify dangers, restricted areas and safety-contour crossings along the revised route",
+        "To certify that the vessel's engines can maintain the selected speed",
+        "To confirm that all crew members have read the voyage plan",
+        "To update the vessel's official logbook automatically"
+      ],
+      "answer": 0,
+      "difficulty": "Medium",
+      "explanation": "Any route amendment can introduce new hazards. The route should therefore be checked again after changes."
+    },
+    {
+      "question": "What does overscale mean on an ECDIS display?",
+      "options": [
+        "The chart is being displayed at a larger scale than the compilation scale of the available data",
+        "The vessel's speed exceeds the value entered in the voyage plan",
+        "The selected safety contour is deeper than the vessel's draft",
+        "The displayed route contains too many waypoints"
+      ],
+      "answer": 0,
+      "difficulty": "Medium",
+      "explanation": "Overscaling enlarges the chart beyond its intended compilation scale and may make the display appear more detailed than the underlying data actually is."
+    },
+    {
+      "question": "Which input is normally provided by the gyrocompass to ECDIS?",
+      "options": [
+        "Heading",
+        "Depth below keel",
+        "Speed through water",
+        "Geographical position"
+      ],
+      "answer": 0,
+      "difficulty": "Medium",
+      "explanation": "The gyrocompass normally supplies the vessel's heading."
+    },
+    {
+      "question": "Which input is commonly supplied by the speed log?",
+      "options": [
+        "Speed through the water",
+        "Position accuracy",
+        "Chart update status",
+        "Rate of turn"
+      ],
+      "answer": 0,
+      "difficulty": "Medium",
+      "explanation": "A speed log generally supplies speed through the water and may also provide distance travelled."
+    },
+    {
+      "question": "Why is type-specific ECDIS familiarization important?",
+      "options": [
+        "Different manufacturers use different menus, controls, alarm presentations and operating procedures",
+        "It replaces the need for general ECDIS training",
+        "It allows the officer to modify official ENC data",
+        "It removes the requirement for a backup arrangement"
+      ],
+      "answer": 0,
+      "difficulty": "Medium",
+      "explanation": "Although ECDIS equipment follows common performance standards, practical operation varies between manufacturers and models."
+    },
+    {
+      "question": "The vessel's calculated safe water requirement is 11 metres, but the ENC contains contours at 10 and 15 metres only. Which contour will ECDIS normally use as the safety contour?",
+      "options": [
+        "The next deeper available contour, 15 metres",
+        "The next shallower contour, 10 metres",
+        "An automatically created 11-metre contour",
+        "The deepest contour visible on the display"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "When the exact selected value is unavailable, ECDIS normally uses the next deeper available contour to provide a conservative boundary."
+    },
+    {
+      "question": "The officer enters the vessel's present draft as the safety contour without allowing for squat, under-keel clearance or tidal uncertainty. What is the main risk?",
+      "options": [
+        "The displayed safe-water boundary may not provide sufficient clearance for the vessel",
+        "The ECDIS will automatically cancel the voyage plan",
+        "The gyrocompass heading will become unreliable",
+        "The ENC licence will expire earlier than expected"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "Safety settings should reflect the vessel's required safe depth, including draft and all relevant under-keel-clearance allowances."
+    },
+    {
+      "question": "During route planning, the route-check function reports no dangers. The display is heavily filtered and some chart layers are hidden. What should the navigator understand?",
+      "options": [
+        "The route check does not remove the need to inspect the route at appropriate scales and with suitable information displayed",
+        "A successful route check proves that the passage is safe under all conditions",
+        "Hidden chart objects cannot affect the vessel",
+        "The system automatically accounts for every local navigation requirement"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "Automated route checking supports, but does not replace, careful visual examination, appropriate display settings and professional judgement."
+    },
+    {
+      "question": "The primary GNSS position suddenly jumps several hundred metres, while radar ranges and visual bearings do not support the new position. What is the most appropriate action?",
+      "options": [
+        "Treat the position as unreliable and verify the vessel's position using independent methods",
+        "Alter course immediately to place the ECDIS symbol back on the route",
+        "Assume the radar and visual observations are incorrect",
+        "Disable all ECDIS alarms and continue monitoring"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "Sensor data must be cross-checked. A sudden unexplained position shift may indicate sensor failure, interference or spoofing."
+    },
+    {
+      "question": "The ECDIS position source fails during coastal navigation. Which action is most appropriate?",
+      "options": [
+        "Change to a verified secondary position source and increase position monitoring by independent means",
+        "Continue using the frozen last known position",
+        "Use AIS targets as the vessel's own position source",
+        "Continue without position fixing because the planned route remains displayed"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "The bridge team should use an independent backup position source and strengthen monitoring with radar, visual bearings, depth information and other available methods."
+    },
+    {
+      "question": "An officer selects the base display because it appears less cluttered during navigation in confined waters. What is the main danger?",
+      "options": [
+        "Important navigational information not included in the base display may be hidden",
+        "The vessel's position will no longer be updated",
+        "The safety contour will be deleted from the ENC",
+        "The radar overlay will automatically become the primary chart"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "The base display contains only a minimum set of information. Other safety-relevant objects may need to be selected and displayed."
+    },
+    {
+      "question": "The bridge team observes that the radar overlay is consistently offset from charted coastlines and buoys. What should this indicate?",
+      "options": [
+        "A possible position, heading, radar-alignment or chart-reference error requiring investigation",
+        "Proof that all charted objects are incorrectly surveyed",
+        "A normal condition caused by using vector charts",
+        "A requirement to increase the safety depth"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "A consistent radar-overlay mismatch may reveal errors in sensor inputs, alignment, position or chart datum and must be investigated."
+    },
+    {
+      "question": "A planned route passes close to an isolated danger, but the cross-track limit is wider than the available safe-water corridor. What is the principal concern?",
+      "options": [
+        "The vessel could remain within the permitted cross-track limit while entering unsafe water",
+        "The ECDIS will automatically reduce the vessel's speed",
+        "The ENC will remove the isolated-danger symbol",
+        "The route will no longer contain valid waypoints"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "Cross-track limits must be appropriate for the available navigable width and should not extend into hazards or unsafe water."
+    },
+    {
+      "question": "The chart status indicates that an ENC permit has expired for part of the upcoming voyage. What should the navigator do before departure?",
+      "options": [
+        "Obtain valid chart coverage or arrange an approved alternative before using the route",
+        "Continue because expired permits only affect chart colours",
+        "Use the previously displayed chart without checking its status",
+        "Replace the ENC with an unofficial internet chart"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "The vessel must have valid, appropriate and up-to-date chart coverage for the intended voyage."
+    },
+    {
+      "question": "An ECDIS update report shows that several updates failed to install. What is the most appropriate response?",
+      "options": [
+        "Investigate the failed updates and ensure the affected charts are corrected before relying on them",
+        "Ignore the report if the route appears visually unchanged",
+        "Delete the affected ENC cells permanently",
+        "Continue because chart updates are only required in port"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "Failed updates may leave chart information incomplete or outdated. The issue must be resolved or covered by an approved alternative."
+    },
+    {
+      "question": "The vessel is navigating with an RNC because no suitable ENC is available. Which limitation is particularly important?",
+      "options": [
+        "The raster chart does not contain the same object-based intelligence and automated safety checking as an ENC",
+        "The vessel's GPS cannot be displayed on an RNC",
+        "RNCs cannot show charted depths",
+        "RNCs automatically update without official corrections"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "An RNC is essentially a digital image, so individual objects cannot be interrogated or assessed in the same way as ENC vector data."
+    },
+    {
+      "question": "The look-ahead alarm repeatedly activates because the predicted vessel movement crosses the safety contour. What should the officer do?",
+      "options": [
+        "Determine whether the route, safety settings, vessel position and manoeuvring situation are safe before taking action",
+        "Silence and permanently disable the alarm",
+        "Reduce the safety contour until the warning disappears",
+        "Assume the alarm is false because the vessel remains on the route line"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "A safety-contour warning requires assessment of the actual navigational situation. Settings should not be altered merely to suppress alarms."
+    },
+    {
+      "question": "Why must an ECDIS-equipped vessel have an adequate backup arrangement?",
+      "options": [
+        "To ensure safe navigation can continue if the primary ECDIS fails",
+        "To allow the vessel to operate without updated charts",
+        "To provide additional AIS transmission capacity",
+        "To replace the requirement for bridge watchkeeping"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "The backup arrangement must permit safe navigation following failure of the primary ECDIS and may consist of an independent second ECDIS or another approved arrangement."
+    }
+  ]
+}
