@@ -10,10 +10,10 @@
 
   <meta
     name="description"
-    content="Interactive maritime quizzes covering marine engineering, ship systems, vessel operations and maritime insurance."
+    content="Interactive maritime quizzes covering marine engineering, vessel operations, regulations, ship security and commercial shipping."
   >
 
-  <title>Maritime Quiz | Maritime Learning Portal</title>
+  <title>Maritime Learning Portal</title>
 
   <style>
     :root {
@@ -26,12 +26,6 @@
       --text: #162536;
       --muted: #627184;
       --border: #dce5ed;
-      --success: #18864b;
-      --success-light: #eaf8f0;
-      --danger: #c5382b;
-      --danger-light: #fff0ee;
-      --warning: #9a6500;
-      --warning-light: #fff6dc;
       --shadow: 0 12px 30px rgba(7, 29, 53, 0.12);
       --radius: 18px;
     }
@@ -57,49 +51,60 @@
         linear-gradient(
           180deg,
           #eaf4fb 0,
-          var(--background) 380px
+          var(--background) 350px
         );
-    }
-
-    button,
-    a {
-      font: inherit;
-      -webkit-tap-highlight-color: transparent;
     }
 
     a {
       color: inherit;
     }
 
-    .site-header {
+    .hero {
       position: relative;
       overflow: hidden;
-      padding: 24px;
+      padding: 28px 24px 105px;
       color: white;
       background:
         linear-gradient(
           120deg,
-          rgba(7, 29, 53, 0.99),
-          rgba(13, 66, 107, 0.96)
+          rgba(7, 29, 53, 0.98),
+          rgba(13, 66, 107, 0.95)
         );
     }
 
-    .site-header::before {
+    .hero::before {
       content: "";
       position: absolute;
-      width: 360px;
-      height: 360px;
+      width: 420px;
+      height: 420px;
       top: -220px;
-      right: -100px;
+      right: -80px;
       border-radius: 50%;
       background: rgba(56, 163, 232, 0.15);
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      width: 300px;
+      height: 300px;
+      left: -150px;
+      bottom: -220px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.07);
+    }
+
+    .navbar,
+    .hero-content,
+    main,
+    .footer-content {
+      width: min(1120px, 100%);
+      margin: 0 auto;
     }
 
     .navbar {
       position: relative;
       z-index: 1;
-      width: min(980px, 100%);
-      margin: 0 auto;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -107,476 +112,390 @@
     }
 
     .brand {
-      display: inline-flex;
+      display: flex;
       align-items: center;
       gap: 12px;
-      color: white;
-      font-size: 1.05rem;
+      font-size: 1.1rem;
       font-weight: 800;
-      text-decoration: none;
+      letter-spacing: 0.02em;
     }
 
     .brand-icon {
       display: grid;
-      width: 44px;
-      height: 44px;
       place-items: center;
+      width: 46px;
+      height: 46px;
+      font-size: 1.65rem;
       border: 1px solid rgba(255, 255, 255, 0.22);
       border-radius: 14px;
       background: rgba(255, 255, 255, 0.1);
       backdrop-filter: blur(8px);
-      font-size: 1.5rem;
     }
 
-    .back-link {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
+    .nav-badge {
       padding: 9px 14px;
-      color: white;
-      font-size: 0.85rem;
-      font-weight: 800;
-      text-decoration: none;
+      font-size: 0.82rem;
+      font-weight: 700;
       border: 1px solid rgba(255, 255, 255, 0.22);
       border-radius: 999px;
       background: rgba(255, 255, 255, 0.08);
-      transition:
-        background 0.2s ease,
-        transform 0.2s ease;
     }
 
-    .back-link:hover {
-      transform: translateY(-1px);
-      background: rgba(255, 255, 255, 0.14);
-    }
-
-    main {
-      width: min(980px, calc(100% - 32px));
-      margin: 38px auto 70px;
-    }
-
-    .quiz-shell {
-      overflow: hidden;
-      border: 1px solid var(--border);
-      border-radius: 22px;
-      background: var(--card);
-      box-shadow: var(--shadow);
-    }
-
-    .quiz-header {
-      padding: 30px 32px 25px;
-      border-bottom: 1px solid var(--border);
-      background:
-        linear-gradient(
-          135deg,
-          #ffffff,
-          #f4f9fc
-        );
-    }
-
-    .quiz-header-top {
-      display: flex;
-      align-items: flex-start;
-      justify-content: space-between;
-      gap: 24px;
-    }
-
-    .quiz-heading {
-      min-width: 0;
-    }
-
-    .quiz-label {
-      display: inline-block;
-      margin-bottom: 9px;
-      color: var(--blue);
-      font-size: 0.75rem;
-      font-weight: 900;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-    }
-
-    #quiz-title {
-      margin: 0;
-      color: var(--navy);
-      font-size: clamp(1.7rem, 4vw, 2.7rem);
-      line-height: 1.15;
-      letter-spacing: -0.035em;
-    }
-
-    .score-box {
-      min-width: 102px;
-      padding: 12px 17px;
-      border: 1px solid #d7e9f4;
-      border-radius: 14px;
-      background: #edf7fc;
-      text-align: center;
-    }
-
-    .score-box span {
-      display: block;
-      color: var(--muted);
-      font-size: 0.72rem;
-      font-weight: 800;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-    }
-
-    .score-box strong {
-      display: block;
-      margin-top: 2px;
-      color: var(--blue);
-      font-size: 1.45rem;
-    }
-
-    .progress-information {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 16px;
-      margin-top: 28px;
-      color: var(--muted);
-      font-size: 0.87rem;
-      font-weight: 700;
-    }
-
-    .progress-track {
-      height: 9px;
-      margin-top: 10px;
-      overflow: hidden;
-      border-radius: 999px;
-      background: #e5edf3;
-    }
-
-    .progress-fill {
-      width: 0;
-      height: 100%;
-      border-radius: inherit;
-      background:
-        linear-gradient(
-          90deg,
-          var(--blue),
-          var(--blue-light)
-        );
-      transition: width 0.3s ease;
-    }
-
-    .quiz-content {
-      padding: 34px 32px 32px;
-    }
-
-    .question-meta {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 16px;
-      margin-bottom: 18px;
-    }
-
-    .question-kicker {
-      color: var(--blue);
-      font-size: 0.78rem;
-      font-weight: 900;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-    }
-
-    .difficulty-badge {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      min-width: 76px;
-      padding: 7px 12px;
-      border-radius: 999px;
-      font-size: 0.72rem;
-      font-weight: 900;
-      letter-spacing: 0.06em;
-      text-transform: uppercase;
-    }
-
-    .difficulty-badge.easy {
-      color: #15643d;
-      background: #e6f6ed;
-    }
-
-    .difficulty-badge.medium {
-      color: #865900;
-      background: #fff3cc;
-    }
-
-    .difficulty-badge.hard {
-      color: #a23227;
-      background: #ffe9e6;
-    }
-
-    .question-text {
-      margin: 0;
-      color: var(--navy);
-      font-size: clamp(1.35rem, 3vw, 1.85rem);
-      line-height: 1.42;
-      letter-spacing: -0.02em;
-    }
-
-    .question-image {
-      display: none;
-      width: 100%;
-      max-height: 390px;
-      margin-top: 25px;
-      object-fit: cover;
-      border: 1px solid var(--border);
-      border-radius: 16px;
-      background: #e5edf3;
-    }
-
-    .answers {
-      display: grid;
-      gap: 13px;
-      margin-top: 29px;
-    }
-
-    .answer-button {
+    .hero-content {
       position: relative;
-      display: flex;
-      width: 100%;
-      align-items: center;
-      gap: 15px;
-      min-height: 62px;
-      padding: 14px 17px;
-      color: var(--text);
-      text-align: left;
-      cursor: pointer;
-      border: 1px solid var(--border);
-      border-radius: 14px;
-      background: white;
-      transition:
-        transform 0.18s ease,
-        border-color 0.18s ease,
-        background 0.18s ease,
-        box-shadow 0.18s ease;
-    }
-
-    .answer-button::before {
-      content: attr(data-letter);
-      display: grid;
-      width: 36px;
-      height: 36px;
-      flex: 0 0 36px;
-      place-items: center;
-      color: #405b72;
-      font-size: 0.85rem;
-      font-weight: 900;
-      border-radius: 10px;
-      background: #edf3f7;
-    }
-
-    .answer-button:hover:not(:disabled) {
-      transform: translateX(4px);
-      border-color: #72b8dd;
-      background: #f7fcff;
-      box-shadow: 0 7px 18px rgba(20, 121, 201, 0.08);
-    }
-
-    .answer-button:disabled {
-      cursor: default;
-    }
-
-    .answer-button.correct {
-      border-color: #65bd8c;
-      background: var(--success-light);
-    }
-
-    .answer-button.correct::before {
-      color: white;
-      background: var(--success);
-    }
-
-    .answer-button.incorrect {
-      border-color: #e89b94;
-      background: var(--danger-light);
-    }
-
-    .answer-button.incorrect::before {
-      color: white;
-      background: var(--danger);
-    }
-
-    .feedback {
-      display: none;
-      margin-top: 23px;
-      padding: 18px 19px;
-      border-radius: 13px;
-      line-height: 1.65;
-    }
-
-    .feedback strong {
-      display: block;
-      margin-bottom: 5px;
-    }
-
-    .feedback.correct {
-      display: block;
-      color: #145b37;
-      border: 1px solid #9dd6b6;
-      background: var(--success-light);
-    }
-
-    .feedback.incorrect {
-      display: block;
-      color: #8e2b23;
-      border: 1px solid #efb4af;
-      background: var(--danger-light);
-    }
-
-    .controls {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 14px;
-      margin-top: 28px;
-      padding-top: 24px;
-      border-top: 1px solid var(--border);
-    }
-
-    .previous-button,
-    .next-button,
-    .restart-button,
-    .home-button {
-      display: inline-flex;
-      min-height: 49px;
-      align-items: center;
-      justify-content: center;
-      padding: 0 22px;
-      font-weight: 800;
-      text-decoration: none;
-      border-radius: 12px;
-      transition:
-        transform 0.2s ease,
-        box-shadow 0.2s ease,
-        background 0.2s ease,
-        border-color 0.2s ease;
-    }
-
-    .previous-button {
-      color: var(--navy);
-      cursor: pointer;
-      border: 1px solid var(--border);
-      background: white;
-    }
-
-    .previous-button:hover:not(:disabled) {
-      transform: translateY(-2px);
-      border-color: var(--blue);
-      box-shadow: 0 9px 22px rgba(7, 29, 53, 0.1);
-    }
-
-    .previous-button:disabled {
-      opacity: 0.42;
-      cursor: not-allowed;
-    }
-
-    .next-button,
-    .restart-button {
-      color: white;
-      cursor: pointer;
-      border: 0;
-      background:
-        linear-gradient(
-          135deg,
-          var(--blue),
-          var(--blue-light)
-        );
-      box-shadow: 0 8px 20px rgba(20, 121, 201, 0.22);
-    }
-
-    .next-button:hover,
-    .restart-button:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 11px 25px rgba(20, 121, 201, 0.3);
-    }
-
-    .next-button {
-      display: none;
-    }
-
-    .result-card {
-      display: none;
-      padding: 58px 32px;
+      z-index: 1;
+      max-width: 850px;
+      margin-top: 72px;
       text-align: center;
     }
 
-    .result-icon {
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
       margin-bottom: 18px;
-      font-size: 4.2rem;
-    }
-
-    .result-label {
-      display: inline-block;
-      margin-bottom: 11px;
-      color: var(--blue);
-      font-size: 0.76rem;
-      font-weight: 900;
+      padding: 8px 13px;
+      color: #ccecff;
+      font-size: 0.78rem;
+      font-weight: 800;
       letter-spacing: 0.13em;
       text-transform: uppercase;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.08);
     }
 
-    .result-card h2 {
-      margin: 0;
-      color: var(--navy);
-      font-size: clamp(2rem, 5vw, 3.4rem);
+    h1 {
+      max-width: 760px;
+      margin: 0 auto;
+      font-size: clamp(2.35rem, 6vw, 4.25rem);
+      line-height: 1.04;
       letter-spacing: -0.04em;
     }
 
-    .result-score {
-      margin: 19px 0 9px;
-      color: var(--blue);
-      font-size: 1.35rem;
-      font-weight: 900;
-    }
-
-    .result-message {
-      max-width: 650px;
-      margin: 0 auto;
-      color: var(--muted);
-      font-size: 1.02rem;
+    .hero-description {
+      max-width: 690px;
+      margin: 22px auto 0;
+      color: #d5e4f0;
+      font-size: clamp(1rem, 2vw, 1.2rem);
       line-height: 1.7;
     }
 
-    .result-actions {
+    .hero-statistics {
       display: flex;
       justify-content: center;
-      gap: 13px;
-      margin-top: 31px;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-top: 32px;
     }
 
-    .home-button {
-      color: var(--navy);
+    .stat {
+      min-width: 145px;
+      padding: 13px 18px;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      border-radius: 14px;
+      background: rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(8px);
+    }
+
+    .stat strong {
+      display: block;
+      margin-bottom: 3px;
+      font-size: 1.08rem;
+    }
+
+    .stat span {
+      color: #c6d9e8;
+      font-size: 0.8rem;
+    }
+
+    main {
+      position: relative;
+      z-index: 2;
+      margin-top: -62px;
+      padding: 0 24px 70px;
+    }
+
+    .section-heading {
+      margin-bottom: 25px;
+    }
+
+    .section-heading h2 {
+      margin: 0 0 8px;
+      color: white;
+      font-size: clamp(1.65rem, 3vw, 2.1rem);
+    }
+
+    .section-heading p {
+      margin: 0;
+      color: #d7e7f3;
+      line-height: 1.6;
+    }
+
+    .quiz-grid {
+      display: grid;
+      grid-template-columns:
+        repeat(2, minmax(0, 1fr));
+      gap: 26px;
+    }
+
+    .quiz-card {
+      overflow: hidden;
       border: 1px solid var(--border);
-      background: white;
+      border-radius: var(--radius);
+      background: var(--card);
+      box-shadow: var(--shadow);
+      transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease;
     }
 
-    .home-button:hover {
+    .quiz-card:hover {
+      transform: translateY(-7px);
+      box-shadow:
+        0 20px 45px
+        rgba(7, 29, 53, 0.18);
+    }
+
+    .card-image-wrapper {
+      position: relative;
+      height: 245px;
+      overflow: hidden;
+      background:
+        linear-gradient(
+          135deg,
+          var(--navy-light),
+          var(--blue)
+        );
+    }
+
+    .card-image {
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: cover;
+      transition: transform 0.5s ease;
+    }
+
+    .quiz-card:hover .card-image {
+      transform: scale(1.045);
+    }
+
+    .image-overlay {
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(
+          180deg,
+          transparent 45%,
+          rgba(4, 19, 34, 0.74) 100%
+        );
+    }
+
+    .difficulty {
+      position: absolute;
+      top: 18px;
+      left: 18px;
+      padding: 8px 11px;
+      color: white;
+      font-size: 0.72rem;
+      font-weight: 800;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      border: 1px solid rgba(255, 255, 255, 0.28);
+      border-radius: 999px;
+      background: rgba(7, 29, 53, 0.75);
+      backdrop-filter: blur(6px);
+    }
+
+    .card-icon {
+      position: absolute;
+      left: 19px;
+      bottom: 17px;
+      display: grid;
+      place-items: center;
+      width: 48px;
+      height: 48px;
+      font-size: 1.45rem;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      border-radius: 14px;
+      background: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(8px);
+    }
+
+    .card-content {
+      padding: 27px;
+    }
+
+    .card-category {
+      margin-bottom: 8px;
+      color: var(--blue);
+      font-size: 0.75rem;
+      font-weight: 800;
+      letter-spacing: 0.11em;
+      text-transform: uppercase;
+    }
+
+    .card-content h3 {
+      margin: 0 0 13px;
+      color: var(--navy);
+      font-size: 1.55rem;
+      line-height: 1.25;
+    }
+
+    .card-description {
+      min-height: 80px;
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.65;
+    }
+
+    .topic-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 20px 0 24px;
+    }
+
+    .topic-tag {
+      padding: 7px 10px;
+      color: #31506d;
+      font-size: 0.74rem;
+      font-weight: 700;
+      border: 1px solid #d8e4ed;
+      border-radius: 999px;
+      background: #f1f6fa;
+    }
+
+    .card-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+    }
+
+    .question-count {
+      color: var(--muted);
+      font-size: 0.84rem;
+      font-weight: 600;
+    }
+
+    .start-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 9px;
+      min-height: 45px;
+      padding: 0 18px;
+      color: white;
+      font-size: 0.88rem;
+      font-weight: 800;
+      text-decoration: none;
+      border-radius: 12px;
+      background:
+        linear-gradient(
+          135deg,
+          var(--blue),
+          var(--blue-light)
+        );
+      box-shadow:
+        0 8px 20px
+        rgba(20, 121, 201, 0.22);
+      transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+    }
+
+    .start-button:hover {
       transform: translateY(-2px);
-      border-color: var(--blue);
-      box-shadow: 0 9px 22px rgba(7, 29, 53, 0.1);
+      box-shadow:
+        0 11px 25px
+        rgba(20, 121, 201, 0.3);
+    }
+
+    .loading-message,
+    .error-message {
+      grid-column: 1 / -1;
+      padding: 38px;
+      text-align: center;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: white;
+      box-shadow: var(--shadow);
+    }
+
+    .loading-message {
+      color: var(--muted);
     }
 
     .error-message {
-      padding: 24px;
-      color: var(--danger);
-      line-height: 1.65;
-      border: 1px solid #efb4af;
-      border-radius: 14px;
-      background: var(--danger-light);
+      color: #a23227;
+      background: #fff0ee;
+      border-color: #efb4af;
+    }
+
+    .portal-info {
+      display: grid;
+      grid-template-columns:
+        1.3fr 0.7fr;
+      gap: 25px;
+      margin-top: 40px;
+    }
+
+    .info-panel,
+    .status-panel {
+      padding: 30px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: white;
+      box-shadow:
+        0 8px 24px
+        rgba(7, 29, 53, 0.07);
+    }
+
+    .info-panel h2,
+    .status-panel h2 {
+      margin: 0 0 12px;
+      color: var(--navy);
+      font-size: 1.45rem;
+    }
+
+    .info-panel p,
+    .status-panel p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.7;
+    }
+
+    .status-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-top: 20px;
+      color: #18733a;
+      font-size: 0.9rem;
+      font-weight: 800;
+    }
+
+    .status-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: #2eb85c;
+      box-shadow:
+        0 0 0 6px
+        rgba(46, 184, 92, 0.13);
     }
 
     footer {
-      padding: 28px 24px;
+      padding: 30px 24px;
       color: #9eb2c3;
       background: var(--navy);
     }
 
     .footer-content {
-      width: min(980px, 100%);
-      margin: 0 auto;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -589,65 +508,80 @@
       font-weight: 800;
     }
 
-    @media (max-width: 650px) {
-      .site-header {
-        padding: 18px 16px;
+    @media (max-width: 800px) {
+      .hero {
+        padding-bottom: 90px;
       }
 
-      .brand span:last-child {
+      .hero-content {
+        margin-top: 55px;
+      }
+
+      .quiz-grid,
+      .portal-info {
+        grid-template-columns: 1fr;
+      }
+
+      .card-description {
+        min-height: auto;
+      }
+    }
+
+    @media (max-width: 520px) {
+      .hero,
+      main,
+      footer {
+        padding-left: 16px;
+        padding-right: 16px;
+      }
+
+      .nav-badge {
         display: none;
       }
 
-      .back-link {
-        padding: 8px 12px;
+      .brand {
+        font-size: 0.98rem;
       }
 
-      main {
-        width: min(100% - 20px, 980px);
-        margin-top: 20px;
+      .brand-icon {
+        width: 41px;
+        height: 41px;
       }
 
-      .quiz-header,
-      .quiz-content {
-        padding-left: 20px;
-        padding-right: 20px;
+      .hero-content {
+        text-align: left;
       }
 
-      .quiz-header-top {
-        align-items: flex-start;
+      h1,
+      .hero-description {
+        margin-left: 0;
       }
 
-      .score-box {
-        min-width: 82px;
-        padding: 10px 12px;
+      .hero-statistics {
+        justify-content: flex-start;
       }
 
-      .question-meta {
-        align-items: flex-start;
+      .stat {
+        flex: 1;
+        min-width: 120px;
       }
 
-      .controls {
-        align-items: stretch;
-        flex-direction: column-reverse;
+      .card-image-wrapper {
+        height: 210px;
       }
 
-      .previous-button,
-      .next-button {
-        width: 100%;
+      .card-content {
+        padding: 22px;
       }
 
-      .result-actions {
-        flex-direction: column;
-      }
-
-      .restart-button,
-      .home-button {
-        width: 100%;
-      }
-
+      .card-footer,
       .footer-content {
-        align-items: flex-start;
+        align-items: stretch;
         flex-direction: column;
+      }
+
+      .start-button {
+        width: 100%;
       }
     }
   </style>
@@ -655,164 +589,124 @@
 
 <body>
 
-  <header class="site-header">
+  <header class="hero">
     <nav class="navbar">
-      <a class="brand" href="index.html">
-        <span class="brand-icon">🚢</span>
-        <span>Maritime Learning Portal</span>
-      </a>
+      <div class="brand">
+        <div
+          class="brand-icon"
+          aria-hidden="true"
+        >
+          🚢
+        </div>
 
-      <a class="back-link" href="index.html">
-        ← All quizzes
-      </a>
+        <span>
+          Maritime Learning Portal
+        </span>
+      </div>
+
+      <div class="nav-badge">
+        Maritime training platform
+      </div>
     </nav>
+
+    <div class="hero-content">
+      <div class="eyebrow">
+        ⚓ Interactive learning
+      </div>
+
+      <h1>
+        Develop your maritime knowledge
+      </h1>
+
+      <p class="hero-description">
+        Test your knowledge of marine engineering,
+        vessel systems, ship operations, regulations,
+        ship security and commercial shipping.
+      </p>
+
+      <div class="hero-statistics">
+        <div class="stat">
+          <strong id="quiz-total">
+            0 quizzes
+          </strong>
+
+          <span>
+            Available now
+          </span>
+        </div>
+
+        <div class="stat">
+          <strong>
+            3 levels
+          </strong>
+
+          <span>
+            Easy to difficult
+          </span>
+        </div>
+
+        <div class="stat">
+          <strong>
+            Instant results
+          </strong>
+
+          <span>
+            Learn as you progress
+          </span>
+        </div>
+      </div>
+    </div>
   </header>
 
   <main>
-    <section class="quiz-shell">
+    <div class="section-heading">
+      <h2>
+        Available quizzes
+      </h2>
 
-      <div id="quiz-content">
-        <header class="quiz-header">
-          <div class="quiz-header-top">
-            <div class="quiz-heading">
-              <span class="quiz-label">
-                Interactive maritime training
-              </span>
+      <p>
+        Choose a maritime subject and begin your training.
+      </p>
+    </div>
 
-              <h1 id="quiz-title">
-                Loading quiz...
-              </h1>
-            </div>
+    <section
+      class="quiz-grid"
+      id="quiz-grid"
+      aria-live="polite"
+    >
+      <div class="loading-message">
+        Loading quizzes...
+      </div>
+    </section>
 
-            <div class="score-box">
-              <span>Current score</span>
-              <strong id="score-counter">0</strong>
-            </div>
-          </div>
+    <section class="portal-info">
+      <div class="info-panel">
+        <h2>
+          Built to expand
+        </h2>
 
-          <div class="progress-information">
-            <span id="question-counter">
-              Loading questions...
-            </span>
-
-            <span id="progress-percentage">
-              0%
-            </span>
-          </div>
-
-          <div
-            class="progress-track"
-            aria-hidden="true"
-          >
-            <div
-              class="progress-fill"
-              id="progress-fill"
-            ></div>
-          </div>
-        </header>
-
-        <div class="quiz-content">
-          <div class="question-meta">
-            <span
-              class="question-kicker"
-              id="question-kicker"
-            >
-              Question
-            </span>
-
-            <span
-              class="difficulty-badge easy"
-              id="difficulty-badge"
-            >
-              Easy
-            </span>
-          </div>
-
-          <h2
-            class="question-text"
-            id="question-text"
-          >
-            Loading question...
-          </h2>
-
-          <img
-            class="question-image"
-            id="question-image"
-            alt=""
-          >
-
-          <div
-            class="answers"
-            id="answers"
-          ></div>
-
-          <div
-            class="feedback"
-            id="feedback"
-            aria-live="polite"
-          ></div>
-
-          <div class="controls">
-            <button
-              class="previous-button"
-              id="previous-button"
-              type="button"
-              disabled
-            >
-              ← Previous question
-            </button>
-
-            <button
-              class="next-button"
-              id="next-button"
-              type="button"
-            >
-              Next question →
-            </button>
-          </div>
-        </div>
+        <p>
+          New maritime subjects can be added by creating a
+          corresponding JSON file and adding one entry to the
+          quiz list in index.js.
+        </p>
       </div>
 
-      <section
-        class="result-card"
-        id="result-card"
-      >
-        <div class="result-icon">🏁</div>
+      <div class="status-panel">
+        <h2>
+          Project status
+        </h2>
 
-        <span class="result-label">
-          Quiz completed
-        </span>
+        <p>
+          The learning portal is active and ready for additional
+          quizzes, images and maritime subjects.
+        </p>
 
-        <h2>Your result</h2>
-
-        <p
-          class="result-score"
-          id="result-score"
-        ></p>
-
-        <p
-          class="result-message"
-          id="result-message"
-        ></p>
-
-        <div class="result-actions">
-          <button
-            class="restart-button"
-            id="restart-button"
-            type="button"
-          >
-            Try the quiz again
-          </button>
-
-          <a
-            class="home-button"
-            href="index.html"
-          >
-            Choose another quiz
-          </a>
+        <div class="status-row">
+          <span class="status-dot"></span>
+          Portal operational
         </div>
-      </section>
-
+      </div>
     </section>
   </main>
 
@@ -828,672 +722,6 @@
     </div>
   </footer>
 
-  <script>
-const quizFiles = {
-  "marine-diesel-engine": {
-    file: "data/marine-diesel-engine.json",
-    fallbackTitle: "Marine Diesel Engines"
-  },
-
-  "ballast-water": {
-    file: "data/ballast-water.json",
-    fallbackTitle: "Ballast Water and BWTS"
-  },
-
-  "bulk-carrier-design": {
-    file: "data/bulk-carrier-design.json",
-    fallbackTitle: "Bulk Carrier Design"
-  },
-
-  "maritime-insurance": {
-    file: "data/maritime-insurance.json",
-    fallbackTitle: "Maritime Insurance"
-  },
-
-  "important-parties-in-shipping": {
-    file: "data/important-parties-in-shipping.json",
-    fallbackTitle: "Important Parties in Shipping"
-  },
-
-  "marpol": {
-    file: "data/marpol.json",
-    fallbackTitle: "MARPOL"
-  },
-
-  "ship-security-plan": {
-    file: "data/ship-security-plan.json",
-    fallbackTitle: "Ship Security Plan (ISPS)"
-}
-};
-
-    const params =
-      new URLSearchParams(window.location.search);
-
-    const quizKey =
-      params.get("quiz");
-
-    const selectedQuiz =
-      quizFiles[quizKey];
-
-    const quizContent =
-      document.getElementById("quiz-content");
-
-    const quizTitle =
-      document.getElementById("quiz-title");
-
-    const questionCounter =
-      document.getElementById("question-counter");
-
-    const progressPercentage =
-      document.getElementById("progress-percentage");
-
-    const scoreCounter =
-      document.getElementById("score-counter");
-
-    const progressFill =
-      document.getElementById("progress-fill");
-
-    const questionKicker =
-      document.getElementById("question-kicker");
-
-    const difficultyBadge =
-      document.getElementById("difficulty-badge");
-
-    const questionText =
-      document.getElementById("question-text");
-
-    const questionImage =
-      document.getElementById("question-image");
-
-    const answersContainer =
-      document.getElementById("answers");
-
-    const feedback =
-      document.getElementById("feedback");
-
-    const previousButton =
-      document.getElementById("previous-button");
-
-    const nextButton =
-      document.getElementById("next-button");
-
-    const resultCard =
-      document.getElementById("result-card");
-
-    const resultScore =
-      document.getElementById("result-score");
-
-    const resultMessage =
-      document.getElementById("result-message");
-
-    const restartButton =
-      document.getElementById("restart-button");
-
-    let questions = [];
-    let currentQuestionIndex = 0;
-    let score = 0;
-    let userAnswers = [];
-
-    async function loadQuiz() {
-      if (!selectedQuiz) {
-        showError(
-          "The selected quiz could not be found. Return to the home page and choose a valid quiz."
-        );
-        return;
-      }
-
-      quizTitle.textContent =
-        selectedQuiz.fallbackTitle;
-
-      document.title =
-        `${selectedQuiz.fallbackTitle} | Maritime Learning Portal`;
-
-      try {
-        const response = await fetch(
-          selectedQuiz.file,
-          {
-            cache: "no-store"
-          }
-        );
-
-        if (!response.ok) {
-          throw new Error(
-            `The quiz file returned status ${response.status}.`
-          );
-        }
-
-        const data =
-          await response.json();
-
-        if (Array.isArray(data)) {
-          questions = data;
-        } else if (
-          data &&
-          Array.isArray(data.questions)
-        ) {
-          questions = data.questions;
-
-          if (data.title) {
-            quizTitle.textContent =
-              data.title;
-
-            document.title =
-              `${data.title} | Maritime Learning Portal`;
-          }
-        } else {
-          throw new Error(
-            "The JSON file does not contain a valid questions list."
-          );
-        }
-
-        if (questions.length === 0) {
-          throw new Error(
-            "The quiz contains no questions."
-          );
-        }
-
-        validateQuestions();
-
-        userAnswers =
-          new Array(questions.length).fill(null);
-
-        showQuestion();
-      } catch (error) {
-        console.error(
-          "Quiz loading error:",
-          error
-        );
-
-        showError(
-          `The quiz could not be loaded. ${error.message}`
-        );
-      }
-    }
-
-    function validateQuestions() {
-      questions.forEach(
-        (question, index) => {
-          const answers =
-            getAnswers(question);
-
-          const correctIndex =
-            getCorrectIndex(question);
-
-          if (
-            typeof question.question !== "string" ||
-            question.question.trim() === "" ||
-            !Array.isArray(answers) ||
-            answers.length < 2 ||
-            !Number.isInteger(correctIndex) ||
-            correctIndex < 0 ||
-            correctIndex >= answers.length
-          ) {
-            throw new Error(
-              `Question ${index + 1} has an invalid format.`
-            );
-          }
-        }
-      );
-    }
-
-    function getAnswers(question) {
-      return question.options ||
-        question.answers;
-    }
-
-    function getCorrectIndex(question) {
-      if (
-        Number.isInteger(question.answer)
-      ) {
-        return question.answer;
-      }
-
-      return question.correct;
-    }
-
-    function getDifficulty(question, index) {
-      if (
-        typeof question.difficulty === "string"
-      ) {
-        const difficulty =
-          question.difficulty.toLowerCase();
-
-        if (difficulty.includes("easy")) {
-          return {
-            label: "Easy",
-            className: "easy"
-          };
-        }
-
-        if (difficulty.includes("medium")) {
-          return {
-            label: "Medium",
-            className: "medium"
-          };
-        }
-
-        return {
-          label: "Hard",
-          className: "hard"
-        };
-      }
-
-      const position =
-        (index + 1) / questions.length;
-
-      if (position <= 0.25) {
-        return {
-          label: "Easy",
-          className: "easy"
-        };
-      }
-
-      if (position <= 0.5) {
-        return {
-          label: "Medium",
-          className: "medium"
-        };
-      }
-
-      return {
-        label: "Hard",
-        className: "hard"
-      };
-    }
-
-    function showQuestion() {
-      const question =
-        questions[currentQuestionIndex];
-
-      const answers =
-        getAnswers(question);
-
-      const correctIndex =
-        getCorrectIndex(question);
-
-      const selectedAnswer =
-        userAnswers[currentQuestionIndex];
-
-      const questionHasBeenAnswered =
-        selectedAnswer !== null;
-
-      const questionNumber =
-        currentQuestionIndex + 1;
-
-      const totalQuestions =
-        questions.length;
-
-      const completedPercentage =
-        Math.round(
-          (questionNumber / totalQuestions) * 100
-        );
-
-      const difficulty =
-        getDifficulty(
-          question,
-          currentQuestionIndex
-        );
-
-      questionCounter.textContent =
-        `Question ${questionNumber} of ${totalQuestions}`;
-
-      progressPercentage.textContent =
-        `${completedPercentage}%`;
-
-      scoreCounter.textContent =
-        score;
-
-      progressFill.style.width =
-        `${completedPercentage}%`;
-
-      questionKicker.textContent =
-        `Question ${questionNumber}`;
-
-      difficultyBadge.textContent =
-        difficulty.label;
-
-      difficultyBadge.className =
-        `difficulty-badge ${difficulty.className}`;
-
-      questionText.textContent =
-        question.question;
-
-      previousButton.disabled =
-        currentQuestionIndex === 0;
-
-      showQuestionImage(question);
-
-      answersContainer.innerHTML = "";
-
-      feedback.className =
-        "feedback";
-
-      feedback.innerHTML = "";
-
-      answers.forEach(
-        (answer, index) => {
-          const answerButton =
-            document.createElement("button");
-
-          answerButton.type =
-            "button";
-
-          answerButton.className =
-            "answer-button";
-
-          answerButton.dataset.letter =
-            String.fromCharCode(65 + index);
-
-          answerButton.textContent =
-            answer;
-
-          if (questionHasBeenAnswered) {
-            answerButton.disabled = true;
-
-            if (index === correctIndex) {
-              answerButton.classList.add(
-                "correct"
-              );
-            }
-
-            if (
-              index === selectedAnswer &&
-              selectedAnswer !== correctIndex
-            ) {
-              answerButton.classList.add(
-                "incorrect"
-              );
-            }
-          } else {
-            answerButton.addEventListener(
-              "click",
-              () => selectAnswer(index)
-            );
-          }
-
-          answersContainer.appendChild(
-            answerButton
-          );
-        }
-      );
-
-      if (questionHasBeenAnswered) {
-        showFeedback(
-          question,
-          selectedAnswer,
-          correctIndex,
-          answers
-        );
-
-        nextButton.style.display =
-          "inline-flex";
-
-        updateNextButtonText();
-      } else {
-        nextButton.style.display =
-          "none";
-      }
-
-      window.scrollTo({
-        top: 0,
-        behavior: "smooth"
-      });
-    }
-
-    function showQuestionImage(question) {
-      if (
-        typeof question.image === "string" &&
-        question.image.trim() !== ""
-      ) {
-        questionImage.src =
-          question.image;
-
-        questionImage.alt =
-          question.imageAlt ||
-          "Maritime quiz illustration";
-
-        questionImage.style.display =
-          "block";
-
-        questionImage.onerror = () => {
-          questionImage.style.display =
-            "none";
-        };
-      } else {
-        questionImage.style.display =
-          "none";
-
-        questionImage.removeAttribute(
-          "src"
-        );
-
-        questionImage.alt = "";
-      }
-    }
-
-    function selectAnswer(selectedIndex) {
-      if (
-        userAnswers[currentQuestionIndex] !== null
-      ) {
-        return;
-      }
-
-      const question =
-        questions[currentQuestionIndex];
-
-      const answers =
-        getAnswers(question);
-
-      const correctIndex =
-        getCorrectIndex(question);
-
-      userAnswers[currentQuestionIndex] =
-        selectedIndex;
-
-      if (selectedIndex === correctIndex) {
-        score += 1;
-      }
-
-      scoreCounter.textContent =
-        score;
-
-      const answerButtons =
-        answersContainer.querySelectorAll(
-          ".answer-button"
-        );
-
-      answerButtons.forEach(
-        (button) => {
-          button.disabled = true;
-        }
-      );
-
-      answerButtons[
-        correctIndex
-      ].classList.add("correct");
-
-      if (selectedIndex !== correctIndex) {
-        answerButtons[
-          selectedIndex
-        ].classList.add("incorrect");
-      }
-
-      showFeedback(
-        question,
-        selectedIndex,
-        correctIndex,
-        answers
-      );
-
-      updateNextButtonText();
-
-      nextButton.style.display =
-        "inline-flex";
-    }
-
-    function showFeedback(
-      question,
-      selectedIndex,
-      correctIndex,
-      answers
-    ) {
-      const explanation =
-        question.explanation ||
-        `The correct answer is: ${answers[correctIndex]}`;
-
-      if (selectedIndex === correctIndex) {
-        feedback.className =
-          "feedback correct";
-
-        feedback.innerHTML =
-          `<strong>Correct answer</strong>${escapeHtml(explanation)}`;
-      } else {
-        feedback.className =
-          "feedback incorrect";
-
-        feedback.innerHTML =
-          `<strong>Incorrect answer</strong>${escapeHtml(explanation)}`;
-      }
-    }
-
-    function updateNextButtonText() {
-      if (
-        currentQuestionIndex ===
-        questions.length - 1
-      ) {
-        nextButton.textContent =
-          "View results →";
-      } else {
-        nextButton.textContent =
-          "Next question →";
-      }
-    }
-
-    function previousQuestion() {
-      if (currentQuestionIndex === 0) {
-        return;
-      }
-
-      currentQuestionIndex -= 1;
-
-      showQuestion();
-    }
-
-    function nextQuestion() {
-      if (
-        userAnswers[currentQuestionIndex] === null
-      ) {
-        return;
-      }
-
-      if (
-        currentQuestionIndex <
-        questions.length - 1
-      ) {
-        currentQuestionIndex += 1;
-
-        showQuestion();
-      } else {
-        showResults();
-      }
-    }
-
-    function showResults() {
-      quizContent.style.display =
-        "none";
-
-      resultCard.style.display =
-        "block";
-
-      const percentage =
-        Math.round(
-          (score / questions.length) * 100
-        );
-
-      resultScore.textContent =
-        `${score} of ${questions.length} correct · ${percentage}%`;
-
-      if (percentage >= 90) {
-        resultMessage.textContent =
-          "Excellent result. You demonstrated strong knowledge across the easy, medium and difficult questions.";
-      } else if (percentage >= 75) {
-        resultMessage.textContent =
-          "Very good result. You understand the main principles and handled several of the difficult questions well.";
-      } else if (percentage >= 60) {
-        resultMessage.textContent =
-          "Good foundation. Review the explanations from the more difficult questions and try again.";
-      } else if (percentage >= 40) {
-        resultMessage.textContent =
-          "You understand some of the basic principles, but the medium and difficult sections need more review.";
-      } else {
-        resultMessage.textContent =
-          "This topic needs further review. Read the explanations carefully and try the quiz again.";
-      }
-
-      window.scrollTo({
-        top: 0,
-        behavior: "smooth"
-      });
-    }
-
-    function restartQuiz() {
-      currentQuestionIndex = 0;
-      score = 0;
-
-      userAnswers =
-        new Array(questions.length).fill(null);
-
-      resultCard.style.display =
-        "none";
-
-      quizContent.style.display =
-        "block";
-
-      showQuestion();
-    }
-
-    function showError(message) {
-      quizTitle.textContent =
-        "Quiz unavailable";
-
-      const contentArea =
-        document.querySelector(
-          ".quiz-content"
-        );
-
-      if (contentArea) {
-        contentArea.innerHTML =
-          `<div class="error-message">${escapeHtml(message)}</div>`;
-      }
-    }
-
-    function escapeHtml(value) {
-      const temporaryElement =
-        document.createElement("div");
-
-      temporaryElement.textContent =
-        String(value);
-
-      return temporaryElement.innerHTML;
-    }
-
-    previousButton.addEventListener(
-      "click",
-      previousQuestion
-    );
-
-    nextButton.addEventListener(
-      "click",
-      nextQuestion
-    );
-
-    restartButton.addEventListener(
-      "click",
-      restartQuiz
-    );
-
-    loadQuiz();
-  </script>
-
+  <script src="./index.js"></script>
 </body>
 </html>
