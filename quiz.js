@@ -32,7 +32,13 @@ const quizFiles = {
   "ship-security-plan": {
     file: "./data/ship-security-plan.json",
     fallbackTitle: "Ship Security Plan and ISPS Code"
-  }
+  },
+  
+"navtex": {
+  file: "./data/navtex.json",
+  fallbackTitle: "NAVTEX and Maritime Safety Information"
+}
+  
 };
 
 const parameters =
