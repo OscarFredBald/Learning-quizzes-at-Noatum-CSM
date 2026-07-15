@@ -123,7 +123,26 @@ const quizzes = [
       "SSAS",
       "Security levels"
     ]
-  }
+  },
+
+{
+  id: "navtex",
+  title: "NAVTEX and Maritime Safety Information",
+  category: "Navigation & GMDSS",
+  badge: "Communication",
+  description:
+    "Learn how NAVTEX distributes Maritime Safety Information, navigational warnings, weather warnings and Search and Rescue information under GMDSS.",
+  image: "./images/navtex.jpg",
+  imageAlt: "NAVTEX receiver onboard a ship",
+  icon: "📡",
+  tags: [
+    "GMDSS",
+    "MSI",
+    "NAVTEX",
+    "Navigation"
+  ]
+}
+  
 ];
 
 const quizGrid =
