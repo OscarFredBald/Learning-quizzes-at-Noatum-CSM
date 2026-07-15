@@ -106,6 +106,25 @@ const quizzes = [
       "Air emissions"
     ]
   }
+
+  {
+  id: "ship-security-plan",
+  title: "Ship Security Plan (ISPS)",
+  category: "Regulations",
+  badge: "Security",
+  description:
+    "Learn the ISPS Code, Ship Security Plan, security levels, SSAS and onboard security procedures.",
+  image: "./images/ship-security-plan.jpg",
+  imageAlt: "Ship security inspection",
+  icon: "🔒",
+  tags: [
+    "ISPS",
+    "SSP",
+    "SSAS",
+    "Security Levels"
+  ]
+},
+  
 ];
 
 const quizGrid =
