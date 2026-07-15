@@ -1,163 +1,341 @@
-const params = new URLSearchParams(window.location.search);
-const quizName = params.get("quiz");
+const quizzes = [
+  {
+    id: "marine-diesel-engine",
+    title: "Marine Diesel Engines",
+    category: "Marine Engineering",
+    badge: "Engineering",
+    description:
+      "Learn about combustion, fuel systems, cooling, lubrication and the operation of marine diesel engines.",
+    image: "./images/marine-diesel-engine.jpg",
+    imageAlt: "Large marine diesel engine",
+    icon: "⚙️",
+    tags: [
+      "Combustion",
+      "Fuel systems",
+      "Cooling",
+      "Engine operation"
+    ]
+  },
 
-let questions = [];
-let currentQuestion = 0;
-let score = 0;
-let answered = false;
+  {
+    id: "ballast-water",
+    title: "Ballast Water and BWTS",
+    category: "Ship Operations",
+    badge: "Vessel operations",
+    description:
+      "Explore ballast operations, stability, trim, structural loading and ballast water treatment systems.",
+    image: "./images/ballast-waters.jpg",
+    imageAlt: "Ship ballast water system",
+    icon: "🌊",
+    tags: [
+      "Stability",
+      "Trim",
+      "BWM Convention",
+      "BWTS"
+    ]
+  },
 
-const quizTitle = document.getElementById("quiz-title");
-const quizBox = document.getElementById("quiz-box");
-const loadingMessage = document.getElementById("loading-message");
-const errorMessage = document.getElementById("error-message");
-const nextButton = document.getElementById("next-btn");
+  {
+    id: "bulk-carrier-design",
+    title: "Bulk Carrier Design",
+    category: "Naval Architecture",
+    badge: "Ship design",
+    description:
+      "Learn about bulk carrier hull structure, cargo holds, longitudinal strength, hopper tanks and hatch openings.",
+    image: "./images/bulk-carrier-design.jpg",
+    imageAlt: "Bulk carrier ship design",
+    icon: "🚢",
+    tags: [
+      "Hull structure",
+      "Cargo holds",
+      "Hopper tanks",
+      "Ship strength"
+    ]
+  },
 
-if (!quizName) {
-  showError("No quiz was selected.");
-} else {
-  loadQuiz();
+  {
+    id: "maritime-insurance",
+    title: "Maritime Insurance",
+    category: "Commercial Shipping",
+    badge: "Insurance and risk",
+    description:
+      "Learn about insurable interest, indemnity, proximate cause, warranties, subrogation and contribution.",
+    image: "./images/maritime-insurance.jpg",
+    imageAlt: "Cargo vessel representing maritime insurance",
+    icon: "🛡️",
+    tags: [
+      "Indemnity",
+      "Subrogation",
+      "Warranties",
+      "Claims"
+    ]
+  },
+
+  {
+    id: "important-parties-in-shipping",
+    title: "Important Parties in Shipping",
+    category: "Commercial Shipping",
+    badge: "Shipping roles",
+    description:
+      "Understand the roles of shipowners, charterers, shippers, consignees, ship managers and freight forwarders.",
+    image: "./images/important-parties-in-shipping.jpg",
+    imageAlt: "Commercial shipping and logistics operations",
+    icon: "🤝",
+    tags: [
+      "Shipowner",
+      "Charterer",
+      "Shipper",
+      "Consignee"
+    ]
+  },
+
+  {
+    id: "marpol",
+    title: "MARPOL",
+    category: "Regulations",
+    badge: "Environmental regulation",
+    description:
+      "Test your knowledge of pollution prevention, operational controls and MARPOL Annexes I to VI.",
+    image: "./images/marpol.jpg",
+    imageAlt: "Vessel operating under marine environmental regulations",
+    icon: "🌍",
+    tags: [
+      "Oil",
+      "Garbage",
+      "Sewage",
+      "Air emissions"
+    ]
+  },
+
+  {
+    id: "ship-security-plan",
+    title: "Ship Security Plan and ISPS",
+    category: "Regulations",
+    badge: "Ship security",
+    description:
+      "Learn about the Ship Security Plan, security levels, access control, SSAS and ISPS responsibilities.",
+    image: "./images/ship-security-plan.jpg",
+    imageAlt: "Security procedures onboard a commercial vessel",
+    icon: "🔒",
+    tags: [
+      "ISPS",
+      "SSP",
+      "SSAS",
+      "Security levels"
+    ]
+  }
+];
+
+const quizGrid =
+  document.getElementById("quiz-grid");
+
+const quizTotal =
+  document.getElementById("quiz-total");
+
+function escapeHtml(value) {
+  const element =
+    document.createElement("div");
+
+  element.textContent =
+    String(value);
+
+  return element.innerHTML;
 }
 
-async function loadQuiz() {
+async function getQuestionCount(quizId) {
   try {
-    const response = await fetch(`data/${quizName}.json`);
+    const response = await fetch(
+      `./data/${quizId}.json`,
+      {
+        cache: "no-store"
+      }
+    );
 
     if (!response.ok) {
-      throw new Error(`Quiz file could not be found: data/${quizName}.json`);
+      throw new Error(
+        `HTTP status ${response.status}`
+      );
     }
 
-    const data = await response.json();
+    const data =
+      await response.json();
 
-    if (!data.title || !Array.isArray(data.questions) || data.questions.length === 0) {
-      throw new Error("The quiz file does not contain valid quiz data.");
+    if (Array.isArray(data)) {
+      return data.length;
     }
 
-    quizTitle.textContent = data.title;
-    questions = data.questions;
+    if (
+      data &&
+      Array.isArray(data.questions)
+    ) {
+      return data.questions.length;
+    }
 
-    loadingMessage.style.display = "none";
-    quizBox.style.display = "block";
-
-    loadQuestion();
-  } catch (error) {
-    console.error(error);
-    showError(
-      "The quiz could not be loaded. Check that the JSON filename and content are correct."
+    throw new Error(
+      "The JSON file has no valid questions array."
     );
+  } catch (error) {
+    console.warn(
+      `Could not load question count for ${quizId}:`,
+      error
+    );
+
+    return null;
   }
 }
 
-function loadQuestion() {
-  answered = false;
+function createQuizCard(quiz) {
+  const card =
+    document.createElement("article");
 
-  const questionData = questions[currentQuestion];
+  card.className =
+    "quiz-card";
 
-  document.getElementById("progress").textContent =
-    `Question ${currentQuestion + 1} of ${questions.length}`;
+  const tagsHtml =
+    quiz.tags
+      .map(
+        (tag) =>
+          `<span class="topic-tag">${escapeHtml(tag)}</span>`
+      )
+      .join("");
 
-  document.getElementById("question").textContent =
-    questionData.question;
+  card.innerHTML = `
+    <div class="card-image-wrapper">
+      <img
+        class="card-image"
+        src="${escapeHtml(quiz.image)}"
+        alt="${escapeHtml(quiz.imageAlt)}"
+      >
 
-  const optionsContainer = document.getElementById("options");
-  optionsContainer.innerHTML = "";
+      <div class="image-overlay"></div>
 
-  const explanation = document.getElementById("explanation");
-  explanation.style.display = "none";
-  explanation.innerHTML = "";
+      <span class="difficulty">
+        ${escapeHtml(quiz.badge)}
+      </span>
 
-  nextButton.style.display = "none";
+      <div
+        class="card-icon"
+        aria-hidden="true"
+      >
+        ${escapeHtml(quiz.icon)}
+      </div>
+    </div>
 
-  questionData.options.forEach((optionText, index) => {
-    const option = document.createElement("button");
+    <div class="card-content">
+      <div class="card-category">
+        ${escapeHtml(quiz.category)}
+      </div>
 
-    option.type = "button";
-    option.className = "option";
-    option.textContent = optionText;
-    option.addEventListener("click", () => selectAnswer(option, index));
+      <h3>
+        ${escapeHtml(quiz.title)}
+      </h3>
 
-    optionsContainer.appendChild(option);
-  });
+      <p class="card-description">
+        ${escapeHtml(quiz.description)}
+      </p>
+
+      <div class="topic-tags">
+        ${tagsHtml}
+      </div>
+
+      <div class="card-footer">
+        <span
+          class="question-count"
+          data-question-count="${escapeHtml(quiz.id)}"
+        >
+          Loading questions...
+        </span>
+
+        <a
+          class="start-button"
+          href="./quiz.html?quiz=${encodeURIComponent(quiz.id)}"
+        >
+          Start quiz
+          <span aria-hidden="true">→</span>
+        </a>
+      </div>
+    </div>
+  `;
+
+  const image =
+    card.querySelector(".card-image");
+
+  image.addEventListener(
+    "error",
+    () => {
+      image.style.display =
+        "none";
+    }
+  );
+
+  return card;
 }
 
-function selectAnswer(selectedOption, selectedIndex) {
-  if (answered) {
+async function updateQuestionCounts() {
+  await Promise.all(
+    quizzes.map(
+      async (quiz) => {
+        const count =
+          await getQuestionCount(
+            quiz.id
+          );
+
+        const countElement =
+          document.querySelector(
+            `[data-question-count="${quiz.id}"]`
+          );
+
+        if (!countElement) {
+          return;
+        }
+
+        if (Number.isInteger(count)) {
+          countElement.textContent =
+            `${count} questions`;
+        } else {
+          countElement.textContent =
+            "Quiz available";
+        }
+      }
+    )
+  );
+}
+
+function renderQuizzes() {
+  if (!quizGrid) {
+    console.error(
+      'Could not find the element with id="quiz-grid".'
+    );
+
     return;
   }
 
-  answered = true;
+  quizGrid.innerHTML = "";
 
-  const questionData = questions[currentQuestion];
-  const optionElements = document.querySelectorAll(".option");
+  quizzes.forEach(
+    (quiz) => {
+      const quizCard =
+        createQuizCard(quiz);
 
-  optionElements.forEach((option, index) => {
-    option.disabled = true;
-
-    if (index === questionData.answer) {
-      option.classList.add("correct");
+      quizGrid.appendChild(
+        quizCard
+      );
     }
-  });
+  );
 
-  if (selectedIndex === questionData.answer) {
-    score++;
-  } else {
-    selectedOption.classList.add("wrong");
+  updateQuestionCounts();
+}
+
+function initializePage() {
+  if (quizTotal) {
+    quizTotal.textContent =
+      `${quizzes.length} quizzes`;
   }
 
-  const explanation = document.getElementById("explanation");
-  explanation.style.display = "block";
-  explanation.innerHTML =
-    `<strong>Explanation:</strong><br>${questionData.explanation}`;
-
-  nextButton.textContent =
-    currentQuestion === questions.length - 1
-      ? "See Result"
-      : "Next Question";
-
-  nextButton.style.display = "inline-block";
+  renderQuizzes();
 }
 
-nextButton.addEventListener("click", () => {
-  currentQuestion++;
-
-  if (currentQuestion < questions.length) {
-    loadQuestion();
-  } else {
-    showResult();
-  }
-});
-
-function showResult() {
-  const percentage = Math.round((score / questions.length) * 100);
-
-  quizBox.innerHTML = `
-    <div class="result">
-      <h2>Quiz completed</h2>
-      <p>You answered <strong>${score}</strong> of
-      <strong>${questions.length}</strong> questions correctly.</p>
-      <p>Your result is <strong>${percentage}%</strong>.</p>
-
-      <button
-        type="button"
-        class="result-button"
-        onclick="window.location.reload()">
-        Restart Quiz
-      </button>
-
-      <a class="result-link" href="index.html">
-        Back to topics
-      </a>
-    </div>
-  `;
-}
-
-function showError(message) {
-  loadingMessage.style.display = "none";
-  quizBox.style.display = "none";
-  quizTitle.textContent = "Unable to load quiz";
-
-  errorMessage.style.display = "block";
-  errorMessage.innerHTML = `
-    <p>${message}</p>
-    <p><a href="index.html">Return to the quiz portal</a></p>
-  `;
-}
+document.addEventListener(
+  "DOMContentLoaded",
+  initializePage
+);
