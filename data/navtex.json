@@ -1,0 +1,246 @@
+{
+  "title": "NAVTEX and Maritime Safety Information",
+  "description": "Test your understanding of NAVTEX, Maritime Safety Information, message identification, receiver configuration and practical bridge procedures.",
+  "questions": [
+    {
+      "question": "What is the primary purpose of NAVTEX onboard a ship?",
+      "options": [
+        "To transmit routine operational reports from the ship to the company",
+        "To automatically receive Maritime Safety Information relevant to coastal navigation",
+        "To provide voice communication between ships and coastal stations",
+        "To replace the vessel's radar and electronic chart systems"
+      ],
+      "answer": 1,
+      "difficulty": "Easy",
+      "explanation": "NAVTEX automatically receives Maritime Safety Information such as navigational warnings, meteorological warnings and forecasts, and search and rescue information."
+    },
+    {
+      "question": "Which frequency is used for the international NAVTEX service in English?",
+      "options": [
+        "2182 kHz",
+        "490 kHz",
+        "518 kHz",
+        "156.8 MHz"
+      ],
+      "answer": 2,
+      "difficulty": "Easy",
+      "explanation": "The international NAVTEX service broadcasts Maritime Safety Information in English on 518 kHz."
+    },
+    {
+      "question": "Which type of information would normally be received through NAVTEX?",
+      "options": [
+        "Crew payroll information",
+        "Navigational and meteorological warnings",
+        "Cargo invoices and charter-party instructions",
+        "Engine performance reports"
+      ],
+      "answer": 1,
+      "difficulty": "Easy",
+      "explanation": "NAVTEX distributes Maritime Safety Information, including navigational warnings, meteorological information and urgent safety-related messages."
+    },
+    {
+      "question": "Why can a NAVTEX receiver operate without continuous manual monitoring?",
+      "options": [
+        "It automatically selects and receives messages according to programmed stations and subjects",
+        "It receives information only when the bridge team activates a distress alarm",
+        "It communicates directly with the vessel's radar",
+        "It automatically calls the nearest coastal station by voice"
+      ],
+      "answer": 0,
+      "difficulty": "Easy",
+      "explanation": "NAVTEX is designed for automatic reception. The receiver uses message identification characters to process information from selected stations and subjects."
+    },
+    {
+      "question": "What does the NAVTEX receiver primarily provide to the bridge team?",
+      "options": [
+        "Long-range voice communication with port authorities",
+        "Automatic coastal Maritime Safety Information",
+        "Continuous identification of nearby vessels",
+        "Electronic position fixing"
+      ],
+      "answer": 1,
+      "difficulty": "Easy",
+      "explanation": "NAVTEX provides automatically received Maritime Safety Information for vessels operating within the coverage of NAVTEX coast stations."
+    },
+    {
+      "question": "What does the B1 character in a NAVTEX message identify?",
+      "options": [
+        "The transmitting coastal station",
+        "The subject category of the message",
+        "The message sequence number",
+        "The language used in the message"
+      ],
+      "answer": 0,
+      "difficulty": "Medium",
+      "explanation": "The B1 character identifies the NAVTEX transmitting station."
+    },
+    {
+      "question": "What is represented by the B2 character in a NAVTEX message identity?",
+      "options": [
+        "The year in which the message was transmitted",
+        "The transmitting station's geographical position",
+        "The subject or type of Maritime Safety Information",
+        "The vessel category for which the message applies"
+      ],
+      "answer": 2,
+      "difficulty": "Medium",
+      "explanation": "The B2 character identifies the message subject, such as navigational warnings, meteorological warnings or search and rescue information."
+    },
+    {
+      "question": "What is the purpose of the B3 and B4 characters?",
+      "options": [
+        "They identify the receiving vessel",
+        "They form the two-digit message serial number",
+        "They specify the transmission frequency",
+        "They indicate the message's geographical coordinates"
+      ],
+      "answer": 1,
+      "difficulty": "Medium",
+      "explanation": "B3 and B4 form the NAVTEX message number, which helps the receiver identify messages and avoid unnecessary repetition."
+    },
+    {
+      "question": "Why are NAVTEX coast stations assigned scheduled transmission periods?",
+      "options": [
+        "To allow several stations to share the same frequency without excessive interference",
+        "To ensure all stations transmit at the same time",
+        "To limit reception to daylight hours",
+        "To allow ships to transmit replies between broadcasts"
+      ],
+      "answer": 0,
+      "difficulty": "Medium",
+      "explanation": "NAVTEX stations use coordinated time slots so that multiple stations can share the frequency while minimizing mutual interference."
+    },
+    {
+      "question": "What is the usual role of 490 kHz in NAVTEX services?",
+      "options": [
+        "International Maritime Safety Information transmitted only in English",
+        "National NAVTEX broadcasts, often using a national language",
+        "Voice distress communication between ships",
+        "Automatic transmission of a ship's position"
+      ],
+      "answer": 1,
+      "difficulty": "Medium",
+      "explanation": "490 kHz is used for national NAVTEX services and may carry information in a national language."
+    },
+    {
+      "question": "A vessel is approaching a new coastal area, but the NAVTEX receiver is configured only for stations near the previous port. What is the main risk?",
+      "options": [
+        "The receiver may miss relevant warnings from stations covering the vessel's new route",
+        "The receiver will automatically transmit a false distress alert",
+        "The ship's GPS position will become inaccurate",
+        "The receiver will erase all previously received messages"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "The bridge team must ensure that stations relevant to the intended route are selected. Otherwise, important Maritime Safety Information may not be received."
+    },
+    {
+      "question": "A received NAVTEX message begins with the identity code KA27. What does the letter K indicate?",
+      "options": [
+        "The message is intended only for cargo vessels",
+        "The transmitting station identity",
+        "The message was transmitted on 490 kHz",
+        "The warning expires in one day"
+      ],
+      "answer": 1,
+      "difficulty": "Hard",
+      "explanation": "The first character after the message header is the B1 character, which identifies the transmitting NAVTEX station."
+    },
+    {
+      "question": "In the NAVTEX identity KA27, what does the letter A indicate?",
+      "options": [
+        "A navigational warning",
+        "A message transmitted in English",
+        "The first transmission of the day",
+        "An acknowledgement request"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "Subject indicator A is used for navigational warnings."
+    },
+    {
+      "question": "A previously received warning is broadcast again with the same B1, B2, B3 and B4 identity. Why may the receiver reject the repeated transmission?",
+      "options": [
+        "The receiver recognizes that the message identity has already been received",
+        "NAVTEX receivers accept only one message from each station per voyage",
+        "Repeated warnings are automatically considered cancelled",
+        "The receiver cannot receive the same subject twice"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "The complete message identity allows the receiver to recognize previously received messages and avoid repeatedly printing or displaying the same information."
+    },
+    {
+      "question": "A navigational warning has been received with several corrupted or missing sections. What should the officer of the watch do?",
+      "options": [
+        "Ignore the message because incomplete NAVTEX messages have no operational value",
+        "Assess its relevance and obtain the complete warning through another appropriate source",
+        "Assume that the missing text contains no safety-critical information",
+        "Delete the message and wait for the next scheduled voyage"
+      ],
+      "answer": 1,
+      "difficulty": "Hard",
+      "explanation": "An incomplete warning may still indicate a significant hazard. The officer should determine its relevance and seek a complete version through another available MSI source."
+    },
+    {
+      "question": "A vessel receives a search and rescue message concerning persons in distress near its route. What is the most appropriate bridge response?",
+      "options": [
+        "Delete the message because NAVTEX information is advisory only",
+        "Record the message but take no further action unless contacted by the company",
+        "Immediately assess the vessel's position, the message and any obligations to assist",
+        "Wait until the next routine NAVTEX transmission confirms the incident"
+      ],
+      "answer": 2,
+      "difficulty": "Hard",
+      "explanation": "Search and rescue information requires immediate assessment by the master or officer of the watch, including the vessel's ability and obligation to provide assistance."
+    },
+    {
+      "question": "The bridge team has deselected meteorological warnings because too many routine messages were being received. What is the principal concern?",
+      "options": [
+        "The receiver may no longer display information essential to safe route planning",
+        "The NAVTEX transmitter may suspend broadcasts to the vessel",
+        "The vessel's weather-routing service will automatically terminate",
+        "The receiver will switch from 518 kHz to VHF"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "Excessive filtering may prevent the bridge team from receiving safety-critical information. Receiver settings should reflect the vessel's operational area and information needs."
+    },
+    {
+      "question": "Why should the officer of the watch check both the station identity and the geographical content of a NAVTEX warning?",
+      "options": [
+        "A message received from a selected station is not necessarily relevant to the vessel's route",
+        "Station identities determine whether COLREG applies",
+        "The geographical content controls the receiver's transmission power",
+        "Every message from a nearby station must be entered in the Oil Record Book"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "NAVTEX coverage areas can overlap, and a station may transmit warnings for a broad region. The bridge team must assess the actual geographical relevance of each message."
+    },
+    {
+      "question": "A NAVTEX receiver has not received any scheduled broadcasts while nearby vessels report normal reception. Which action is most appropriate first?",
+      "options": [
+        "Verify the receiver frequency, station selections, antenna condition and equipment status",
+        "Transmit a distress alert to the coastal station",
+        "Change the vessel's assigned sea area",
+        "Disable all message subject filters permanently"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "The bridge team should systematically check receiver configuration, selected stations, antenna connections, power supply and fault indications."
+    },
+    {
+      "question": "A navigational warning concerns an unlit buoy directly on the vessel's planned route. What is the best use of the NAVTEX information?",
+      "options": [
+        "Retain it only as evidence that the receiver is operational",
+        "Use it to review the passage plan, brief the bridge team and apply appropriate navigational precautions",
+        "Wait for the warning to appear automatically on the radar",
+        "Forward it to the engine room without changing the passage plan"
+      ],
+      "answer": 1,
+      "difficulty": "Hard",
+      "explanation": "Relevant NAVTEX warnings must be incorporated into voyage planning and bridge operations, including route review, chart-related precautions and watchkeeper briefings."
+    }
+  ]
+}
