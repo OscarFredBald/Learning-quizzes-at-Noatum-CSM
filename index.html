@@ -10,7 +10,7 @@
 
   <meta
     name="description"
-    content="Interactive maritime quizzes covering marine engineering, vessel operations, regulations, commercial shipping and ship systems."
+    content="Interactive maritime quizzes covering marine engineering, vessel operations, regulations, ship security and commercial shipping."
   >
 
   <title>Maritime Learning Portal</title>
@@ -217,10 +217,6 @@
     }
 
     .section-heading {
-      display: flex;
-      align-items: end;
-      justify-content: space-between;
-      gap: 24px;
       margin-bottom: 25px;
     }
 
@@ -268,8 +264,8 @@
       background:
         linear-gradient(
           135deg,
-          #0d3156,
-          #1479c9
+          var(--navy-light),
+          var(--blue)
         );
     }
 
@@ -278,8 +274,7 @@
       height: 100%;
       display: block;
       object-fit: cover;
-      transition:
-        transform 0.5s ease;
+      transition: transform 0.5s ease;
     }
 
     .quiz-card:hover .card-image {
@@ -307,12 +302,9 @@
       font-weight: 800;
       letter-spacing: 0.05em;
       text-transform: uppercase;
-      border:
-        1px solid
-        rgba(255, 255, 255, 0.28);
+      border: 1px solid rgba(255, 255, 255, 0.28);
       border-radius: 999px;
-      background:
-        rgba(7, 29, 53, 0.75);
+      background: rgba(7, 29, 53, 0.75);
       backdrop-filter: blur(6px);
     }
 
@@ -325,12 +317,9 @@
       width: 48px;
       height: 48px;
       font-size: 1.45rem;
-      border:
-        1px solid
-        rgba(255, 255, 255, 0.3);
+      border: 1px solid rgba(255, 255, 255, 0.3);
       border-radius: 14px;
-      background:
-        rgba(255, 255, 255, 0.15);
+      background: rgba(255, 255, 255, 0.15);
       backdrop-filter: blur(8px);
     }
 
@@ -355,7 +344,7 @@
     }
 
     .card-description {
-      min-height: 76px;
+      min-height: 80px;
       margin: 0;
       color: var(--muted);
       line-height: 1.65;
@@ -384,9 +373,7 @@
       justify-content: space-between;
       gap: 16px;
       padding-top: 20px;
-      border-top:
-        1px solid
-        var(--border);
+      border-top: 1px solid var(--border);
     }
 
     .question-count {
@@ -426,6 +413,27 @@
       box-shadow:
         0 11px 25px
         rgba(20, 121, 201, 0.3);
+    }
+
+    .loading-message,
+    .error-message {
+      grid-column: 1 / -1;
+      padding: 38px;
+      text-align: center;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: white;
+      box-shadow: var(--shadow);
+    }
+
+    .loading-message {
+      color: var(--muted);
+    }
+
+    .error-message {
+      color: #a23227;
+      background: #fff0ee;
+      border-color: #efb4af;
     }
 
     .portal-info {
@@ -481,17 +489,6 @@
         rgba(46, 184, 92, 0.13);
     }
 
-    .loading-message {
-      grid-column: 1 / -1;
-      padding: 35px;
-      color: var(--muted);
-      text-align: center;
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      background: white;
-      box-shadow: var(--shadow);
-    }
-
     footer {
       padding: 30px 24px;
       color: #9eb2c3;
@@ -523,11 +520,6 @@
       .quiz-grid,
       .portal-info {
         grid-template-columns: 1fr;
-      }
-
-      .section-heading {
-        align-items: start;
-        flex-direction: column;
       }
 
       .card-description {
@@ -628,8 +620,8 @@
 
       <p class="hero-description">
         Test your knowledge of marine engineering,
-        vessel systems, ship operations, regulations
-        and commercial shipping through interactive quizzes.
+        vessel systems, ship operations, regulations,
+        ship security and commercial shipping.
       </p>
 
       <div class="hero-statistics">
@@ -668,15 +660,13 @@
 
   <main>
     <div class="section-heading">
-      <div>
-        <h2>
-          Available quizzes
-        </h2>
+      <h2>
+        Available quizzes
+      </h2>
 
-        <p>
-          Choose a maritime subject and begin your training.
-        </p>
-      </div>
+      <p>
+        Choose a maritime subject and begin your training.
+      </p>
     </div>
 
     <section
@@ -714,7 +704,6 @@
 
         <div class="status-row">
           <span class="status-dot"></span>
-
           Portal operational
         </div>
       </div>
@@ -733,6 +722,6 @@
     </div>
   </footer>
 
-  <script src="index.js"></script>
+  <script src="./index.js"></script>
 </body>
 </html>
