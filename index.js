@@ -5,7 +5,7 @@ const quizzes = [
     category: "Marine Engineering",
     badge: "Engineering",
     description:
-      "Learn about combustion, fuel systems, cooling, lubrication and the design and operation of marine engines.",
+      "Learn about combustion, fuel systems, cooling, lubrication and the operation of marine diesel engines.",
     image: "./images/marine-diesel-engine.jpg",
     imageAlt: "Large marine diesel engine",
     icon: "⚙️",
@@ -13,7 +13,7 @@ const quizzes = [
       "Combustion",
       "Fuel systems",
       "Cooling",
-      "Engine design"
+      "Engine operation"
     ]
   },
 
@@ -59,7 +59,7 @@ const quizzes = [
     category: "Commercial Shipping",
     badge: "Insurance and risk",
     description:
-      "Learn insurable interest, indemnity, proximate cause, warranties, subrogation and contribution.",
+      "Learn about insurable interest, indemnity, proximate cause, warranties, subrogation and contribution.",
     image: "./images/maritime-insurance.jpg",
     imageAlt: "Cargo vessel representing maritime insurance",
     icon: "🛡️",
@@ -77,7 +77,7 @@ const quizzes = [
     category: "Commercial Shipping",
     badge: "Shipping roles",
     description:
-      "Understand the roles of shipowners, charterers, shippers, consignees, ship managers, crew and freight forwarders.",
+      "Understand the roles of shipowners, charterers, shippers, consignees, ship managers and freight forwarders.",
     image: "./images/important-parties-in-shipping.jpg",
     imageAlt: "Commercial shipping and logistics operations",
     icon: "🤝",
@@ -95,7 +95,7 @@ const quizzes = [
     category: "Regulations",
     badge: "Environmental regulation",
     description:
-      "Test your knowledge of MARPOL Annexes I–VI and the prevention of pollution from ships.",
+      "Test your knowledge of pollution prevention, operational controls and MARPOL Annexes I to VI.",
     image: "./images/marpol.jpg",
     imageAlt: "Vessel operating under marine environmental regulations",
     icon: "🌍",
@@ -108,23 +108,22 @@ const quizzes = [
   },
 
   {
-  id: "ship-security-plan",
-  title: "Ship Security Plan (ISPS)",
-  category: "Regulations",
-  badge: "Security",
-  description:
-    "Learn the ISPS Code, Ship Security Plan, security levels, SSAS and onboard security procedures.",
-  image: "./images/ship-security-plan.jpg",
-  imageAlt: "Ship security inspection",
-  icon: "🔒",
-  tags: [
-    "ISPS",
-    "SSP",
-    "SSAS",
-    "Security Levels"
-  ]
-}
-  
+    id: "ship-security-plan",
+    title: "Ship Security Plan and ISPS",
+    category: "Regulations",
+    badge: "Ship security",
+    description:
+      "Learn about the Ship Security Plan, security levels, access control, SSAS and ISPS responsibilities.",
+    image: "./images/ship-security-plan.jpg",
+    imageAlt: "Security procedures onboard a commercial vessel",
+    icon: "🔒",
+    tags: [
+      "ISPS",
+      "SSP",
+      "SSAS",
+      "Security levels"
+    ]
+  }
 ];
 
 const quizGrid =
@@ -146,7 +145,7 @@ function escapeHtml(value) {
 async function getQuestionCount(quizId) {
   try {
     const response = await fetch(
-      `data/${quizId}.json`,
+      `./data/${quizId}.json`,
       {
         cache: "no-store"
       }
@@ -154,7 +153,7 @@ async function getQuestionCount(quizId) {
 
     if (!response.ok) {
       throw new Error(
-        `Status ${response.status}`
+        `HTTP status ${response.status}`
       );
     }
 
@@ -172,7 +171,9 @@ async function getQuestionCount(quizId) {
       return data.questions.length;
     }
 
-    return null;
+    throw new Error(
+      "The JSON file has no valid questions array."
+    );
   } catch (error) {
     console.warn(
       `Could not load question count for ${quizId}:`,
@@ -247,7 +248,7 @@ function createQuizCard(quiz) {
 
         <a
           class="start-button"
-          href="quiz.html?quiz=${encodeURIComponent(quiz.id)}"
+          href="./quiz.html?quiz=${encodeURIComponent(quiz.id)}"
         >
           Start quiz
           <span aria-hidden="true">→</span>
@@ -293,7 +294,7 @@ async function updateQuestionCounts() {
             `${count} questions`;
         } else {
           countElement.textContent =
-            "Multiple difficulty levels";
+            "Quiz available";
         }
       }
     )
@@ -303,7 +304,7 @@ async function updateQuestionCounts() {
 function renderQuizzes() {
   if (!quizGrid) {
     console.error(
-      'The element with id="quiz-grid" could not be found.'
+      'Could not find the element with id="quiz-grid".'
     );
 
     return;
@@ -313,19 +314,28 @@ function renderQuizzes() {
 
   quizzes.forEach(
     (quiz) => {
-      const card =
+      const quizCard =
         createQuizCard(quiz);
 
-      quizGrid.appendChild(card);
+      quizGrid.appendChild(
+        quizCard
+      );
     }
   );
 
   updateQuestionCounts();
 }
 
-if (quizTotal) {
-  quizTotal.textContent =
-    `${quizzes.length} quizzes`;
+function initializePage() {
+  if (quizTotal) {
+    quizTotal.textContent =
+      `${quizzes.length} quizzes`;
+  }
+
+  renderQuizzes();
 }
 
-renderQuizzes();
+document.addEventListener(
+  "DOMContentLoaded",
+  initializePage
+);
