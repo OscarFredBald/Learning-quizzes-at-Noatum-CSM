@@ -26,6 +26,23 @@
       "difficulty": "Easy",
       "explanation": "ENC means Electronic Navigational Chart. It is an official vector chart produced or authorized by a hydrographic office."
     },
+
+  {
+  "question": "Which feature shown in the illustration allows the officer of the watch to monitor the vessel's progress along the planned voyage?",
+  "image": "./images/ecdis/overview.png",
+  "options": [
+    "The planned route with waypoints",
+    "The depth legend",
+    "The AIS target list",
+    "The cursor information panel"
+  ],
+  "answer": 0,
+  "difficulty": "Easy",
+  "explanation": "The planned route, shown as a magenta line with waypoints, is used to monitor the vessel's progress during the voyage."
+},
+
+
+    
     {
       "question": "Which sensor normally supplies the vessel's geographical position to ECDIS?",
       "options": [
