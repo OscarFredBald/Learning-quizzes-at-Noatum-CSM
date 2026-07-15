@@ -105,7 +105,7 @@ const quizzes = [
       "Sewage",
       "Air emissions"
     ]
-  }
+  },
 
   {
   id: "ship-security-plan",
@@ -123,7 +123,7 @@ const quizzes = [
     "SSAS",
     "Security Levels"
   ]
-},
+}
   
 ];
 
