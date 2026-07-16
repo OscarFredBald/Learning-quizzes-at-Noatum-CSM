@@ -1,0 +1,90 @@
+{
+  "title": "Vessel Traffic Services (VTS)",
+  "readingTime": "5 minutes",
+  "introduction": "Vessel Traffic Services (VTS) are shore-based services established to improve the safety and efficiency of vessel traffic while protecting the marine environment. They are commonly found in busy ports, narrow waterways and environmentally sensitive areas.",
+  "sections": [
+    {
+      "title": "1. What is VTS?",
+      "paragraphs": [
+        "A Vessel Traffic Service is operated by a competent authority and monitors vessel movements within a defined VTS area.",
+        "Using radar, AIS, VHF communications and other surveillance systems, VTS operators maintain a complete traffic picture and provide services to participating vessels."
+      ]
+    },
+    {
+      "title": "2. Objectives of VTS",
+      "paragraphs": [
+        "The primary objectives of a Vessel Traffic Service are to improve navigation safety, increase traffic efficiency and reduce the risk of pollution or maritime accidents."
+      ],
+      "points": [
+        "Improve navigational safety",
+        "Reduce the risk of collisions and groundings",
+        "Support efficient traffic flow",
+        "Protect the marine environment",
+        "Provide timely information to vessels"
+      ]
+    },
+    {
+      "title": "3. The Three VTS Services",
+      "paragraphs": [
+        "Every VTS provides at least an Information Service. Depending on local requirements, it may also provide Navigational Assistance Service and Traffic Organization Service."
+      ],
+      "points": [
+        "Information Service (INS): Provides essential information for onboard navigational decision-making.",
+        "Navigational Assistance Service (NAS): Assists vessels experiencing navigational difficulties or operating under challenging conditions.",
+        "Traffic Organization Service (TOS): Organizes vessel movements to prevent dangerous traffic situations and improve traffic flow."
+      ]
+    },
+    {
+      "title": "4. Communication and Reporting",
+      "paragraphs": [
+        "Communication between ships and VTS is normally conducted by VHF radio. Vessels may be required to report when entering a VTS area, passing reporting points or leaving the area."
+      ],
+      "points": [
+        "Initial report",
+        "Position reports",
+        "Traffic reports",
+        "Departure reports",
+        "Emergency reports"
+      ]
+    },
+    {
+      "title": "5. Equipment Used by VTS",
+      "paragraphs": [
+        "Modern VTS centres combine information from several surveillance systems to maintain an accurate traffic image."
+      ],
+      "points": [
+        "Marine Radar",
+        "AIS",
+        "VHF Radio",
+        "CCTV",
+        "Meteorological sensors",
+        "Electronic charts"
+      ]
+    },
+    {
+      "title": "6. Responsibilities",
+      "paragraphs": [
+        "Although VTS provides valuable assistance, responsibility for the safe navigation of the vessel always remains with the Master and the bridge team."
+      ]
+    },
+    {
+      "title": "7. SOLAS Requirements",
+      "paragraphs": [
+        "SOLAS Chapter V allows governments to establish mandatory ship reporting systems and Vessel Traffic Services where justified by traffic density or navigational risk. Masters should be familiar with local reporting requirements before entering a VTS area."
+      ]
+    }
+  ],
+  "keyPoint": "The VTS operator supports the bridge team, but never replaces the Master's responsibility for safe navigation.",
+  "commonMistake": "Many people believe that VTS directs ships in the same way as Air Traffic Control. In reality, VTS provides information, traffic organization and navigational assistance, while the Master remains responsible for all navigational decisions.",
+  "summary": [
+    "VTS improves safety and traffic efficiency.",
+    "A competent authority establishes and operates the VTS.",
+    "Three core services are INS, NAS and TOS.",
+    "Communication is normally carried out on VHF.",
+    "The Master always remains responsible for the safe navigation of the vessel."
+  ],
+  "source": {
+    "title": "Marine Insight Academy – Vessel Traffic Services (VTS) Explained",
+    "url": "https://academy.marineinsight.com/courses/master-vts-operator-training-marine-insight-academy/"
+  }
+}
