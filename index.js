@@ -125,42 +125,77 @@ const quizzes = [
     ]
   },
 
-{
-  id: "navtex",
-  title: "NAVTEX and Maritime Safety Information",
-  category: "Navigation & GMDSS",
-  badge: "Communication",
-  description:
-    "Learn how NAVTEX distributes Maritime Safety Information, navigational warnings, weather warnings and Search and Rescue information under GMDSS.",
-  image: "./images/navtex.jpg",
-  imageAlt: "NAVTEX receiver onboard a ship",
-  icon: "📡",
-  tags: [
-    "GMDSS",
-    "MSI",
-    "NAVTEX",
-    "Navigation"
-  ]
-}, 
+  {
+    id: "navtex",
+    title: "NAVTEX and Maritime Safety Information",
+    category: "Navigation & GMDSS",
+    badge: "Communication",
+    description:
+      "Learn how NAVTEX distributes navigational warnings, weather warnings and search-and-rescue information.",
+    image: "./images/navtex.jpg",
+    imageAlt: "NAVTEX receiver onboard a ship",
+    icon: "📡",
+    tags: [
+      "GMDSS",
+      "MSI",
+      "NAVTEX",
+      "Warnings"
+    ]
+  },
 
   {
-  id: "radar-arpa",
-  title: "Marine Radar and ARPA",
-  category: "Navigation & GMDSS",
-  badge: "Electronic navigation",
-  description:
-    "Learn radar operation, clutter controls, display modes, target tracking, CPA, TCPA and practical collision-risk assessment.",
-  image: "./images/radar-arpa.jpg",
-  imageAlt: "Marine radar and ARPA display onboard a ship",
-  icon: "📡",
-  tags: [
-    "Radar",
-    "ARPA",
-    "CPA",
-    "Collision avoidance"
-  ]
-}
-  
+    id: "ecdis",
+    title: "ECDIS and Electronic Navigation",
+    category: "Navigation & GMDSS",
+    badge: "Electronic navigation",
+    description:
+      "Learn electronic charts, safety settings, route planning, route monitoring, chart updates and sensor inputs.",
+    image: "./images/ecdis.jpg",
+    imageAlt: "ECDIS electronic navigation display",
+    icon: "🗺️",
+    tags: [
+      "ECDIS",
+      "ENC",
+      "Route planning",
+      "Safety contour"
+    ]
+  },
+
+  {
+    id: "radar-arpa",
+    title: "Marine Radar and ARPA",
+    category: "Navigation & GMDSS",
+    badge: "Electronic navigation",
+    description:
+      "Learn radar operation, clutter controls, target tracking, CPA, TCPA and practical collision-risk assessment.",
+    image: "./images/radar-arpa.jpg",
+    imageAlt: "Marine radar and ARPA display onboard a ship",
+    icon: "📡",
+    tags: [
+      "Radar",
+      "ARPA",
+      "CPA",
+      "Collision avoidance"
+    ]
+  },
+
+  {
+    id: "vessel-traffic-services",
+    title: "Vessel Traffic Services",
+    category: "Navigation & Port Operations",
+    badge: "Traffic management",
+    description:
+      "Learn VTS reporting, traffic information, navigational assistance and traffic organization in busy waterways.",
+    image: "./images/vessel-traffic-services.jpg",
+    imageAlt: "Vessel Traffic Services control centre monitoring ship traffic",
+    icon: "🗼",
+    tags: [
+      "VTS",
+      "VHF",
+      "Traffic organization",
+      "Port operations"
+    ]
+  }
 ];
 
 const quizGrid =
