@@ -1,0 +1,186 @@
+{
+  "title": "Introduction to Marine Diesel Engines",
+  "readingTime": "7 minutes",
+  "introduction": "Marine diesel engines are the primary source of propulsion and electrical power on almost every commercial vessel. They convert the chemical energy stored in fuel into mechanical energy, allowing ships to move efficiently across the world's oceans. Understanding how these engines operate is one of the fundamental skills required for every marine engineer.",
+  "sections": [
+    {
+      "title": "1. What is a Marine Diesel Engine?",
+      "paragraphs": [
+        "A marine diesel engine is an internal combustion engine that burns diesel fuel inside its cylinders. The expanding combustion gases push the piston downward, producing mechanical power.",
+        "Depending on the vessel, marine diesel engines may be used for propulsion, electrical power generation or both."
+      ],
+      "points": [
+        "Converts fuel into mechanical power.",
+        "Uses compression ignition instead of spark plugs.",
+        "Drives the propeller or electrical generators.",
+        "Designed for continuous and reliable operation."
+      ]
+    },
+    {
+      "title": "2. Main Applications",
+      "paragraphs": [
+        "Large slow-speed engines normally drive the main propeller directly, while medium- and high-speed engines are commonly used as auxiliary engines driving electrical generators."
+      ],
+      "points": [
+        "Main propulsion.",
+        "Electrical power generation.",
+        "Emergency power generation.",
+        "Mechanical drives for auxiliary machinery."
+      ]
+    },
+    {
+      "title": "3. Principle of Operation",
+      "paragraphs": [
+        "Unlike gasoline engines, diesel engines ignite fuel through compression. Air is compressed until its temperature becomes high enough for the injected fuel to ignite automatically.",
+        "The combustion creates high-pressure gases that force the piston downward and rotate the crankshaft."
+      ],
+      "points": [
+        "Air intake.",
+        "Compression.",
+        "Fuel injection.",
+        "Combustion.",
+        "Power stroke.",
+        "Exhaust."
+      ]
+    },
+    {
+      "title": "4. Two-Stroke and Four-Stroke Engines",
+      "paragraphs": [
+        "Marine diesel engines are generally divided into two-stroke and four-stroke designs.",
+        "Large ocean-going cargo ships usually employ slow-speed two-stroke engines for propulsion, while four-stroke engines are widely used for auxiliary power generation."
+      ],
+      "points": [
+        "Two-stroke engines complete one cycle every crankshaft revolution.",
+        "Four-stroke engines require two crankshaft revolutions per cycle.",
+        "Two-stroke engines generally provide greater efficiency for main propulsion.",
+        "Four-stroke engines are compact and commonly used as generator engines."
+      ]
+    },
+    {
+      "title": "5. Main Engine Components",
+      "paragraphs": [
+        "Although engine designs vary, every marine diesel engine contains several essential mechanical components that work together to produce power."
+      ],
+      "points": [
+        "Cylinder.",
+        "Cylinder liner.",
+        "Cylinder head.",
+        "Piston.",
+        "Connecting rod.",
+        "Crankshaft.",
+        "Camshaft.",
+        "Inlet and exhaust valves."
+      ]
+    },
+    {
+      "title": "6. Fuel Injection System",
+      "paragraphs": [
+        "The fuel injection system delivers precisely measured fuel into the cylinder at very high pressure and exactly the correct time.",
+        "Good atomization ensures efficient combustion, high power output and reduced emissions."
+      ],
+      "points": [
+        "Fuel pumps.",
+        "Fuel injectors.",
+        "Injection timing.",
+        "Fine atomization.",
+        "Correct fuel quantity."
+      ]
+    },
+    {
+      "title": "7. Cooling System",
+      "paragraphs": [
+        "Combustion temperatures inside the cylinder are extremely high. The cooling system removes excess heat and prevents engine components from overheating.",
+        "Most marine engines use both fresh-water cooling and seawater cooling systems."
+      ],
+      "points": [
+        "Jacket water cooling.",
+        "Central cooling systems.",
+        "Heat exchangers.",
+        "Seawater cooling."
+      ]
+    },
+    {
+      "title": "8. Lubrication System",
+      "paragraphs": [
+        "Lubricating oil reduces friction between moving components while also removing heat, preventing corrosion and carrying away contaminants."
+      ],
+      "points": [
+        "Reduces wear.",
+        "Reduces friction.",
+        "Removes heat.",
+        "Protects against corrosion.",
+        "Cleans engine components."
+      ]
+    },
+    {
+      "title": "9. Air Supply and Turbocharging",
+      "paragraphs": [
+        "Marine diesel engines require a large supply of clean air for efficient combustion.",
+        "Turbochargers recover energy from the exhaust gases to compress incoming air, allowing more fuel to be burned efficiently."
+      ],
+      "points": [
+        "Higher air pressure.",
+        "Improved combustion.",
+        "Higher engine efficiency.",
+        "Lower specific fuel consumption.",
+        "Reduced emissions."
+      ]
+    },
+    {
+      "title": "10. Scavenging",
+      "paragraphs": [
+        "In two-stroke engines, scavenging removes exhaust gases from the cylinder while supplying fresh air for the next combustion cycle.",
+        "Efficient scavenging is essential for maintaining engine performance."
+      ]
+    },
+    {
+      "title": "11. Heavy Fuel Oil",
+      "paragraphs": [
+        "Many large marine engines operate on Heavy Fuel Oil (HFO). Because HFO has a high viscosity, it must normally be heated before injection to achieve proper atomization."
+      ],
+      "points": [
+        "Heating reduces viscosity.",
+        "Improves fuel flow.",
+        "Improves atomization.",
+        "Supports efficient combustion."
+      ]
+    },
+    {
+      "title": "12. Routine Engine Monitoring",
+      "paragraphs": [
+        "Marine engineers continuously monitor engine performance during operation. Early detection of abnormal conditions helps prevent major failures."
+      ],
+      "points": [
+        "Lubricating oil pressure.",
+        "Cooling water temperature.",
+        "Exhaust gas temperature.",
+        "Fuel pressure.",
+        "Turbocharger performance.",
+        "Cylinder pressure."
+      ]
+    },
+    {
+      "title": "13. Why Marine Diesel Engines Matter",
+      "paragraphs": [
+        "Marine diesel engines are among the most efficient internal combustion engines ever developed. Their reliability, durability and fuel efficiency have made them the preferred propulsion system for commercial shipping for decades."
+      ]
+    }
+  ],
+  "keyPoint": "Marine diesel engines convert fuel into mechanical power through compression ignition. Efficient operation depends on correct fuel injection, lubrication, cooling and air supply working together.",
+  "commonMistake": "Many people think the turbocharger increases engine power by adding fuel. In reality, the turbocharger increases the amount of air entering the cylinders, allowing the fuel to burn more efficiently.",
+  "summary": [
+    "Marine diesel engines provide propulsion and electrical power.",
+    "Diesel engines use compression ignition rather than spark plugs.",
+    "Two-stroke engines dominate main propulsion, while four-stroke engines are common for generators.",
+    "Fuel injection timing and atomization are essential for efficient combustion.",
+    "Cooling and lubrication systems protect engine components.",
+    "Turbochargers improve efficiency by compressing intake air.",
+    "Scavenging is essential in two-stroke engines.",
+    "Heavy Fuel Oil normally requires heating before injection.",
+    "Continuous engine monitoring helps prevent failures."
+  ],
+  "source": {
+    "title": "Marine Insight Academy – Introduction to Marine Diesel Engines",
+    "url": "https://academy.marineinsight.com/courses/introduction-to-marine-diesel-engines-basics-course/"
+  }
+}
