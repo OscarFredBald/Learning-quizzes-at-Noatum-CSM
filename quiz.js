@@ -33,17 +33,26 @@ const quizFiles = {
     file: "./data/ship-security-plan.json",
     fallbackTitle: "Ship Security Plan and ISPS Code"
   },
-  
-"navtex": {
-  file: "./data/navtex.json",
-  fallbackTitle: "NAVTEX and Maritime Safety Information"
-}, 
+
+  "navtex": {
+    file: "./data/navtex.json",
+    fallbackTitle: "NAVTEX and Maritime Safety Information"
+  },
+
+  "ecdis": {
+    file: "./data/ecdis.json",
+    fallbackTitle: "ECDIS and Electronic Navigation"
+  },
 
   "radar-arpa": {
-  file: "./data/radar-arpa.json",
-  fallbackTitle: "Marine Radar and ARPA"
-}
-  
+    file: "./data/radar-arpa.json",
+    fallbackTitle: "Marine Radar and ARPA"
+  },
+
+  "vessel-traffic-services": {
+    file: "./data/vessel-traffic-services.json",
+    fallbackTitle: "Vessel Traffic Services (VTS)"
+  }
 };
 
 const parameters =
