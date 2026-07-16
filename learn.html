@@ -266,39 +266,27 @@
       margin-bottom: 0;
     }
 
-    .point-list {
-      display: grid;
-      gap: 10px;
-      margin: 17px 0 0;
-      padding: 0;
-      list-style: none;
-    }
+.point-list {
+    margin: 16px 0 0 22px;
+    padding: 0;
+    list-style: disc;
+}
 
-    .point-list li {
-      position: relative;
-      padding: 13px 15px 13px 44px;
-      color: #31506d;
-      line-height: 1.55;
-      border: 1px solid #dce8f0;
-      border-radius: 12px;
-      background: #f7fafc;
-    }
+.point-list li {
+    margin-bottom: 10px;
+    color: var(--muted);
+    line-height: 1.7;
+    padding-left: 4px;
+}
 
-    .point-list li::before {
-      content: "✓";
-      position: absolute;
-      top: 12px;
-      left: 15px;
-      display: grid;
-      width: 21px;
-      height: 21px;
-      place-items: center;
-      color: white;
-      font-size: 0.72rem;
-      font-weight: 900;
-      border-radius: 50%;
-      background: var(--blue);
-    }
+.point-list li:last-child {
+    margin-bottom: 0;
+}
+
+.point-list li::marker {
+    color: var(--blue);
+    font-size: 1rem;
+}
 
     .learning-boxes {
       display: grid;
