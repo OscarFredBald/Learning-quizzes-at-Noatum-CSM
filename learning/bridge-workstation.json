@@ -1,0 +1,306 @@
+{
+  "title": "Ship Navigation Bridge and Workstations",
+  "readingTime": "7 minutes",
+  "introduction": "The navigation bridge is the command and control centre of a ship. From the bridge, the master and bridge team navigate the vessel, monitor surrounding traffic, communicate with other ships and shore stations, control the vessel's movement and respond to emergencies. A well-designed bridge places equipment and workstations where officers can use them efficiently while maintaining a proper lookout.",
+  "sections": [
+    {
+      "title": "1. Purpose of the Navigation Bridge",
+      "paragraphs": [
+        "The bridge brings together the equipment, controls and information required for safe navigation and vessel operation.",
+        "The bridge team uses visual observations together with radar, ECDIS, AIS, compasses, position-fixing equipment and communication systems to maintain situational awareness."
+      ],
+      "points": [
+        "Navigate and monitor the vessel.",
+        "Maintain a proper lookout.",
+        "Assess surrounding traffic.",
+        "Control course and speed.",
+        "Communicate with ships, ports and shore authorities.",
+        "Respond to navigational and operational emergencies."
+      ]
+    },
+    {
+      "title": "2. Complete Bridge Layout",
+      "paragraphs": [
+        "The bridge layout varies between vessel types, but most cargo ships include a central navigation area, forward-facing windows, bridge wings and an aft-facing control area where required.",
+        "Equipment should be arranged so that the officer can obtain information and operate essential controls without unnecessary movement or obstruction."
+      ],
+      "points": [
+        "Main navigation and conning area.",
+        "Chart or voyage-planning workstation.",
+        "Radar and ECDIS workstations.",
+        "Communication equipment.",
+        "Steering and propulsion controls.",
+        "Bridge wings.",
+        "Aft-facing control position where fitted."
+      ]
+    },
+    {
+      "title": "3. Bridge Forward",
+      "paragraphs": [
+        "The forward part of the bridge provides the primary view ahead and is normally the main position for navigation at sea.",
+        "The conning position is arranged so the officer or master can observe the vessel's heading, course, speed and movement while maintaining visibility through the bridge windows."
+      ],
+      "points": [
+        "Forward visual lookout.",
+        "Conning information.",
+        "Steering controls.",
+        "Engine and thruster controls where fitted.",
+        "Radar and ECDIS access.",
+        "Alarm and indicator panels."
+      ]
+    },
+    {
+      "title": "4. Bridge Aft",
+      "paragraphs": [
+        "The aft section of the bridge may be used when monitoring operations behind the vessel, particularly on ships conducting cargo, towing, offshore or manoeuvring operations.",
+        "Some vessels have an aft control console or windows providing a clear view over the stern."
+      ],
+      "points": [
+        "Monitoring the stern area.",
+        "Supporting berthing or unberthing.",
+        "Observing towing or offshore operations.",
+        "Operating aft-facing controls where installed."
+      ]
+    },
+    {
+      "title": "5. Bridge Wings",
+      "paragraphs": [
+        "Bridge wings extend to port and starboard and provide a clear view along the ship's sides.",
+        "They are particularly important during berthing, unberthing, pilotage and navigation in confined waters."
+      ],
+      "points": [
+        "View the ship's side and berth.",
+        "Monitor tug and mooring operations.",
+        "Observe distances during manoeuvring.",
+        "Use wing steering, thruster and engine controls where fitted.",
+        "Communicate with mooring stations and pilot."
+      ]
+    },
+    {
+      "title": "6. Conning Position",
+      "paragraphs": [
+        "The conning position is the location from which the vessel is directed during navigation or manoeuvring.",
+        "Essential information should be visible from this position without forcing the operator to turn away from the navigational situation for long periods."
+      ],
+      "points": [
+        "Heading and course.",
+        "Speed.",
+        "Rate of turn.",
+        "Rudder angle.",
+        "Engine order or propulsion setting.",
+        "Thruster status.",
+        "Depth and position information."
+      ]
+    },
+    {
+      "title": "7. Radar",
+      "paragraphs": [
+        "Radar detects ships, land, buoys and other targets by transmitting radio pulses and receiving reflected echoes.",
+        "It is used for collision-risk assessment, position monitoring, coastal navigation and navigation in restricted visibility."
+      ],
+      "points": [
+        "Detect surrounding targets.",
+        "Measure range and bearing.",
+        "Assess CPA and TCPA through ARPA.",
+        "Monitor coastlines and navigation marks.",
+        "Support navigation in poor visibility."
+      ]
+    },
+    {
+      "title": "8. ECDIS",
+      "paragraphs": [
+        "ECDIS displays official electronic navigational charts together with the vessel's position and other sensor data.",
+        "It supports route planning and route monitoring and can warn the bridge team about dangers, route deviations and safety-contour crossings."
+      ],
+      "points": [
+        "Display ENC chart information.",
+        "Plan and check routes.",
+        "Monitor progress along the route.",
+        "Display safety settings and alarms.",
+        "Integrate GPS, gyro, speed and AIS information."
+      ]
+    },
+    {
+      "title": "9. Automatic Identification System",
+      "paragraphs": [
+        "AIS exchanges identification and movement information between ships and shore stations.",
+        "It improves situational awareness but should be verified against radar, visual observations and other navigation information."
+      ],
+      "points": [
+        "Ship identity.",
+        "Position.",
+        "Course and speed.",
+        "Navigational status.",
+        "Destination and voyage information where entered."
+      ]
+    },
+    {
+      "title": "10. Echo Sounder",
+      "paragraphs": [
+        "The echo sounder measures water depth by transmitting a sound pulse toward the seabed and measuring the return time.",
+        "It is particularly useful in shallow water, during coastal navigation and when checking the vessel's position against charted depths."
+      ],
+      "points": [
+        "Monitor depth beneath the vessel.",
+        "Support under-keel-clearance assessment.",
+        "Cross-check charted depths.",
+        "Provide warning of unexpected shoaling water."
+      ]
+    },
+    {
+      "title": "11. Speed Log",
+      "paragraphs": [
+        "The speed log measures the vessel's speed and sometimes distance travelled.",
+        "Depending on the equipment, it may provide speed through the water or speed over the ground."
+      ],
+      "points": [
+        "Supports navigation and manoeuvring.",
+        "Supplies speed data to other bridge systems.",
+        "Helps calculate movement and arrival times.",
+        "Must be interpreted according to the type of speed being displayed."
+      ]
+    },
+    {
+      "title": "12. GPS and Position Fixing",
+      "paragraphs": [
+        "GPS or another GNSS normally provides the vessel's geographical position to bridge systems.",
+        "Position information should be cross-checked because satellite-navigation errors, interference, equipment faults or incorrect settings may create misleading information."
+      ],
+      "points": [
+        "Provides latitude and longitude.",
+        "Feeds position to ECDIS, AIS and other systems.",
+        "May provide course and speed over ground.",
+        "Should be verified using independent methods."
+      ]
+    },
+    {
+      "title": "13. Gyrocompass and Magnetic Compass",
+      "paragraphs": [
+        "The gyrocompass provides a true-north heading reference and normally supplies heading information to radar, ECDIS, autopilot and other systems.",
+        "The magnetic compass provides an independent heading reference and remains valuable if electrical or gyro systems fail."
+      ],
+      "points": [
+        "Gyrocompass indicates true heading.",
+        "Magnetic compass aligns with the Earth's magnetic field.",
+        "Compass errors must be understood and monitored.",
+        "Heading information should be cross-checked regularly."
+      ]
+    },
+    {
+      "title": "14. Weather Instruments",
+      "paragraphs": [
+        "Bridge weather instruments help the bridge team assess environmental conditions that may affect navigation and manoeuvring.",
+        "Common instruments include anemometers, barometers, thermometers and weather displays."
+      ],
+      "points": [
+        "Wind speed and direction.",
+        "Atmospheric pressure.",
+        "Air temperature.",
+        "Weather trends.",
+        "Information relevant to route planning and manoeuvring."
+      ]
+    },
+    {
+      "title": "15. Radio Communication",
+      "paragraphs": [
+        "The bridge contains radio equipment used for routine, safety, urgency and distress communication.",
+        "VHF is commonly used for communication with nearby vessels, pilots, ports and VTS, while GMDSS equipment supports wider-area safety and distress communication."
+      ],
+      "points": [
+        "VHF radiotelephony.",
+        "Digital Selective Calling.",
+        "MF/HF or satellite communication where fitted.",
+        "Communication with VTS and port authorities.",
+        "Distress and safety communication."
+      ]
+    },
+    {
+      "title": "16. EPIRB",
+      "paragraphs": [
+        "An Emergency Position-Indicating Radio Beacon transmits a distress alert and identification information through a satellite system.",
+        "It is intended to help rescue authorities identify and locate a vessel or survival craft during an emergency."
+      ],
+      "points": [
+        "Used in distress.",
+        "Transmits vessel identification.",
+        "Supports search-and-rescue location.",
+        "May activate automatically when correctly installed and released."
+      ]
+    },
+    {
+      "title": "17. SART",
+      "paragraphs": [
+        "A Search and Rescue Transponder assists rescuers in locating survival craft or persons in distress.",
+        "A radar SART responds to radar transmissions and creates a distinctive pattern on the rescuing vessel's radar display."
+      ],
+      "points": [
+        "Carried for emergency use.",
+        "Helps rescuers locate survival craft.",
+        "Must be positioned and activated correctly.",
+        "Forms part of the ship's GMDSS equipment."
+      ]
+    },
+    {
+      "title": "18. Integrated Use of Bridge Equipment",
+      "paragraphs": [
+        "No single bridge system should be relied upon without cross-checking. Safe navigation requires the bridge team to compare information from several independent sources.",
+        "For example, a GPS position displayed on ECDIS can be checked against radar ranges, visual bearings, echo-sounder depths and the vessel's estimated movement."
+      ],
+      "points": [
+        "Compare radar and ECDIS.",
+        "Verify AIS information against radar.",
+        "Check GPS positions using independent methods.",
+        "Compare gyro and magnetic compass headings.",
+        "Use visual observations whenever possible."
+      ]
+    },
+    {
+      "title": "19. Ergonomics and Human Factors",
+      "paragraphs": [
+        "Bridge equipment must be arranged to reduce workload, confusion and unnecessary movement.",
+        "Poor lighting, excessive alarms, obstructed visibility or badly arranged controls can increase the risk of human error."
+      ],
+      "points": [
+        "Controls should be clearly labelled.",
+        "Displays should be readable from the working position.",
+        "Lighting should preserve night vision.",
+        "Alarms should be understood and managed.",
+        "Walkways and sightlines should remain unobstructed."
+      ]
+    },
+    {
+      "title": "20. Good Bridge Practice",
+      "paragraphs": [
+        "Bridge equipment supports the navigator but does not replace a proper lookout or professional judgement.",
+        "Officers should understand the function, limitations and failure indications of each system."
+      ],
+      "points": [
+        "Maintain a proper lookout.",
+        "Use all available means.",
+        "Cross-check sensor information.",
+        "Respond promptly to alarms.",
+        "Keep bridge equipment correctly configured.",
+        "Report defects and limitations.",
+        "Maintain clear communication within the bridge team."
+      ]
+    }
+  ],
+  "keyPoint": "The bridge is an integrated working environment. Safe navigation depends not only on individual instruments, but on the bridge team's ability to combine, verify and correctly interpret information from multiple systems.",
+  "commonMistake": "Do not assume that information displayed digitally is automatically correct. ECDIS, radar, AIS and other systems depend on sensors and operator settings and must be cross-checked using independent information.",
+  "summary": [
+    "The navigation bridge is the ship's command and navigation centre.",
+    "The forward bridge is the main navigation area, while bridge wings support manoeuvring.",
+    "Radar and ECDIS are complementary rather than interchangeable systems.",
+    "AIS improves awareness but must not replace radar or visual observation.",
+    "The echo sounder, speed log, GPS and compasses provide essential sensor information.",
+    "VHF and GMDSS equipment support routine and emergency communication.",
+    "EPIRB and SART assist search-and-rescue authorities during emergencies.",
+    "Good bridge layout and ergonomics reduce workload and human error.",
+    "Bridge systems must be cross-checked rather than used in isolation.",
+    "The master and bridge team remain responsible for every navigational decision."
+  ],
+  "source": {
+    "title": "Marine Insight Academy – Bridge Layout of Cargo Ship",
+    "url": "https://academy.marineinsight.com/courses/master-ship-navigation-bridge-workstations-marine-insight/"
+  }
+}
