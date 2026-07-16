@@ -141,6 +141,24 @@ const quizzes = [
     "NAVTEX",
     "Navigation"
   ]
+}, 
+
+  {
+  id: "radar-arpa",
+  title: "Marine Radar and ARPA",
+  category: "Navigation & GMDSS",
+  badge: "Electronic navigation",
+  description:
+    "Learn radar operation, clutter controls, display modes, target tracking, CPA, TCPA and practical collision-risk assessment.",
+  image: "./images/radar-arpa.jpg",
+  imageAlt: "Marine radar and ARPA display onboard a ship",
+  icon: "📡",
+  tags: [
+    "Radar",
+    "ARPA",
+    "CPA",
+    "Collision avoidance"
+  ]
 }
   
 ];
