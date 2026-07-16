@@ -1,0 +1,161 @@
+{
+  "title": "ECDIS - Electronic Chart Display and Information System",
+  "readingTime": "7 minutes",
+  "introduction": "ECDIS (Electronic Chart Display and Information System) is an IMO-approved navigation system that can satisfy the chart carriage requirements of SOLAS when used with official Electronic Navigational Charts (ENCs) and an approved backup arrangement. It has become the primary navigation system on most commercial vessels and is a key tool for route planning, route monitoring and situational awareness.",
+  "sections": [
+    {
+      "title": "1. What is ECDIS?",
+      "paragraphs": [
+        "ECDIS integrates official electronic charts with real-time information from onboard navigation sensors to provide the bridge team with an accurate picture of the vessel's position and the surrounding navigational environment.",
+        "Unlike a simple electronic chart viewer, an approved ECDIS continuously monitors the vessel against safety settings and can generate alarms when dangers are detected."
+      ],
+      "points": [
+        "Displays official Electronic Navigational Charts (ENCs).",
+        "Integrates GPS, gyrocompass, speed log, AIS, radar and echo sounder.",
+        "Supports route planning and route monitoring.",
+        "Provides navigational alarms and warnings.",
+        "May replace paper charts when regulatory requirements are met."
+      ]
+    },
+    {
+      "title": "2. ENC and RNC",
+      "paragraphs": [
+        "ECDIS is designed to operate with Electronic Navigational Charts (ENCs), which contain vector data that the system can interpret intelligently.",
+        "Raster Navigational Charts (RNCs) are scanned images of paper charts. They cannot provide the same automatic safety functions as ENCs."
+      ],
+      "points": [
+        "ENC = Vector chart with intelligent objects.",
+        "RNC = Scanned paper chart.",
+        "ENC supports alarms and safety functions.",
+        "RNC provides limited functionality."
+      ]
+    },
+    {
+      "title": "3. Sensor Inputs",
+      "paragraphs": [
+        "ECDIS combines information from multiple navigation sensors. If one sensor provides incorrect information, the displayed position or other navigational information may become unreliable."
+      ],
+      "points": [
+        "GPS / GNSS",
+        "Gyrocompass",
+        "Speed Log",
+        "Echo Sounder",
+        "AIS",
+        "Radar"
+      ]
+    },
+    {
+      "title": "4. Route Planning",
+      "paragraphs": [
+        "Before departure, officers prepare the voyage plan inside ECDIS. Waypoints are entered and the complete route is checked for dangers before it is approved.",
+        "A proper route check should identify dangers such as shallow water, prohibited areas, isolated dangers and other navigational hazards."
+      ],
+      "points": [
+        "Create waypoints.",
+        "Perform automatic route checking.",
+        "Verify chart coverage.",
+        "Confirm safety settings.",
+        "Review the complete voyage before departure."
+      ]
+    },
+    {
+      "title": "5. Route Monitoring",
+      "paragraphs": [
+        "During the voyage, ECDIS continuously monitors the vessel's movement relative to the planned route and surrounding dangers.",
+        "Off-track limits, safety contour crossings and approaching hazards can generate alarms requiring immediate attention."
+      ],
+      "points": [
+        "Cross Track Error (XTE).",
+        "Safety contour crossing.",
+        "Waypoint arrival.",
+        "Route deviation.",
+        "Dangerous object warnings."
+      ]
+    },
+    {
+      "title": "6. Safety Contour",
+      "paragraphs": [
+        "The Safety Contour is one of the most important safety settings in ECDIS. It separates safe water from potentially unsafe water according to the vessel's draft and the navigator's chosen safety margin.",
+        "Crossing the Safety Contour normally generates an alarm."
+      ]
+    },
+    {
+      "title": "7. Safety Depth",
+      "paragraphs": [
+        "Safety Depth is different from Safety Contour. It highlights individual depth soundings that are shallower than the selected value.",
+        "It does not divide the chart into safe and unsafe water but draws attention to isolated shallow depths."
+      ]
+    },
+    {
+      "title": "8. Chart Updates",
+      "paragraphs": [
+        "Electronic charts must always be kept up to date. Regular chart updates ensure that newly reported dangers, buoy changes and other navigational information are included."
+      ],
+      "points": [
+        "Apply updates regularly.",
+        "Confirm update status before sailing.",
+        "Never navigate using outdated ENCs."
+      ]
+    },
+    {
+      "title": "9. Alarms and Indications",
+      "paragraphs": [
+        "ECDIS produces both alarms and indications. Officers should understand the difference and never ignore repeated alarms without determining the cause."
+      ],
+      "points": [
+        "Safety contour.",
+        "Cross Track Error.",
+        "Loss of position.",
+        "Sensor failure.",
+        "Route check warnings.",
+        "Approaching waypoint."
+      ]
+    },
+    {
+      "title": "10. ECDIS Limitations",
+      "paragraphs": [
+        "Although ECDIS is an extremely powerful navigation aid, it has limitations. Incorrect settings, outdated charts or faulty sensor inputs may create dangerous situations.",
+        "Bridge officers should always compare ECDIS information with radar, visual observations, echo sounder and other available means."
+      ],
+      "points": [
+        "Incorrect safety settings.",
+        "Outdated charts.",
+        "Sensor failures.",
+        "GPS errors.",
+        "Human error.",
+        "Over-reliance on automation."
+      ]
+    },
+    {
+      "title": "11. Good ECDIS Practice",
+      "paragraphs": [
+        "Safe use of ECDIS depends on proper training, correct settings and continuous monitoring.",
+        "Every officer should understand both the system's capabilities and its limitations."
+      ],
+      "points": [
+        "Verify safety settings before departure.",
+        "Keep ENCs updated.",
+        "Check alarms immediately.",
+        "Cross-check with radar and visual observations.",
+        "Monitor route continuously.",
+        "Never rely on one navigation system alone."
+      ]
+    }
+  ],
+  "keyPoint": "ECDIS is a decision-support tool. It improves navigational awareness but never replaces professional judgement, a proper lookout or compliance with the COLREGs.",
+  "commonMistake": "Many navigators confuse Safety Depth with Safety Contour. Safety Contour separates safe and unsafe water and normally generates alarms. Safety Depth only highlights individual depth soundings below the selected value.",
+  "summary": [
+    "ECDIS uses official ENC charts for navigation.",
+    "ENCs provide intelligent vector data and automatic safety functions.",
+    "GPS, gyro, AIS, radar and other sensors feed information into ECDIS.",
+    "Route planning and route monitoring are the two primary operating modes.",
+    "Safety Contour is one of the most important safety settings.",
+    "Safety Depth only highlights shallow soundings.",
+    "Electronic charts must always be kept updated.",
+    "ECDIS supports navigation but never replaces good seamanship."
+  ],
+  "source": {
+    "title": "Marine Insight Academy - A to Z of ECDIS",
+    "url": "https://academy.marineinsight.com/courses/a-to-z-of-ecdis-course-marine-electronic-navigation/"
+  }
+}
