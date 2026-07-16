@@ -37,6 +37,11 @@ const quizFiles = {
 "navtex": {
   file: "./data/navtex.json",
   fallbackTitle: "NAVTEX and Maritime Safety Information"
+}, 
+
+  "radar-arpa": {
+  file: "./data/radar-arpa.json",
+  fallbackTitle: "Marine Radar and ARPA"
 }
   
 };
