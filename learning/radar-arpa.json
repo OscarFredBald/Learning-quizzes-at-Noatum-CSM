@@ -1,0 +1,241 @@
+{
+  "title": "Marine Radar and ARPA",
+  "readingTime": "6 minutes",
+  "introduction": "Marine radar is one of the bridge team's most important tools for detecting vessels, coastlines, navigation marks and other objects. ARPA, or Automatic Radar Plotting Aid, adds automatic target tracking and calculates information such as course, speed, CPA and TCPA. Radar and ARPA support navigational decision-making, but they do not replace a proper lookout, professional judgement or compliance with the COLREGs.",
+  "sections": [
+    {
+      "title": "1. How Marine Radar Works",
+      "paragraphs": [
+        "A marine radar transmits short pulses of radio energy from a rotating antenna. When the energy strikes an object, part of it is reflected back to the radar receiver and displayed as an echo.",
+        "The time taken for the echo to return is used to calculate the target's range, while the antenna direction is used to determine its bearing.",
+        "Radar can detect ships, coastlines, buoys, offshore structures, rain and other objects that reflect sufficient radio energy."
+      ],
+      "points": [
+        "The antenna transmits a radar pulse.",
+        "The pulse travels outward at approximately the speed of light.",
+        "A target reflects part of the energy.",
+        "The returning echo is received and displayed.",
+        "Range and bearing are calculated from the returned signal."
+      ]
+    },
+    {
+      "title": "2. X-Band and S-Band Radar",
+      "paragraphs": [
+        "Merchant ships commonly carry X-band and S-band radar. The two systems use different wavelengths and therefore perform differently under various conditions.",
+        "X-band radar generally provides better target definition and can be effective for detecting smaller objects. S-band radar is normally less affected by heavy rain and may provide more stable detection in poor weather."
+      ],
+      "points": [
+        "X-band uses a shorter wavelength and normally gives finer target definition.",
+        "S-band uses a longer wavelength and is generally less affected by precipitation.",
+        "Both radars should be used and compared when available.",
+        "Neither system guarantees detection of every target."
+      ]
+    },
+    {
+      "title": "3. Basic Radar Controls",
+      "paragraphs": [
+        "Correct adjustment of the radar controls is essential. Poor settings can hide real targets or fill the screen with unwanted echoes.",
+        "Controls should be adjusted whenever the range scale, weather conditions or traffic situation changes."
+      ],
+      "points": [
+        "Gain: Adjusts receiver sensitivity. Too little gain may hide weak targets, while excessive gain creates background noise.",
+        "Sea clutter: Reduces unwanted echoes caused by waves, especially close to own ship.",
+        "Rain clutter: Reduces echoes caused by rain, snow or other precipitation.",
+        "Range scale: Determines the area displayed around own ship.",
+        "Brilliance: Adjusts screen visibility but does not improve actual radar detection.",
+        "Pulse length: Influences detection range and target separation."
+      ]
+    },
+    {
+      "title": "4. Display Orientation",
+      "paragraphs": [
+        "The radar picture can be displayed using different orientations. The selected mode affects how targets and land appear to move on the screen.",
+        "The officer must understand the active orientation to interpret bearings and target movement correctly."
+      ],
+      "points": [
+        "Head-up: The vessel's heading is displayed at the top of the screen. The picture rotates when the ship alters course.",
+        "North-up: True north remains at the top of the display.",
+        "Course-up: The selected course is displayed at the top of the screen.",
+        "Relative motion: Own ship remains fixed while targets move relative to it.",
+        "True motion: Own ship and other targets move across the display according to their true movement."
+      ]
+    },
+    {
+      "title": "5. Relative and True Vectors",
+      "paragraphs": [
+        "ARPA can display relative or true target vectors. These vectors show predicted movement over a selected time period.",
+        "A relative vector shows how the target will move in relation to own ship. A true vector shows the target's estimated movement over the ground or through the water, depending on the stabilization mode."
+      ],
+      "points": [
+        "Relative vectors are useful for identifying collision risk.",
+        "A relative vector directed toward own ship indicates a potentially close approach.",
+        "True vectors help show the target's estimated true course and speed.",
+        "The vector time setting changes the displayed vector length.",
+        "The officer must always confirm whether true or relative vectors are selected."
+      ]
+    },
+    {
+      "title": "6. CPA and TCPA",
+      "paragraphs": [
+        "CPA means Closest Point of Approach. It is the predicted minimum distance between own ship and a tracked target if both vessels maintain their present course and speed.",
+        "TCPA means Time to Closest Point of Approach. It shows how long remains before the predicted CPA occurs.",
+        "CPA and TCPA are predictions based on current movement. They will change if either vessel alters course or speed."
+      ],
+      "points": [
+        "A small CPA may indicate an unsafe passing distance.",
+        "A short TCPA means the situation may require prompt assessment.",
+        "CPA and TCPA depend on accurate heading, speed and target-tracking data.",
+        "Values should be monitored over time rather than accepted from a single observation."
+      ]
+    },
+    {
+      "title": "7. Radar Plotting and Collision Risk",
+      "paragraphs": [
+        "A single radar observation is normally insufficient to determine another vessel's movement. Systematic observations or plotting are required.",
+        "A target whose bearing remains nearly constant while its range decreases may present a risk of collision.",
+        "COLREG Rule 7 requires proper use of operational radar equipment, including long-range scanning and radar plotting or equivalent systematic observation."
+      ],
+      "points": [
+        "Observe the target over an appropriate period.",
+        "Monitor its bearing and range.",
+        "Use manual plotting or ARPA tracking.",
+        "Check CPA and TCPA trends.",
+        "Use all available information before deciding that no collision risk exists."
+      ]
+    },
+    {
+      "title": "8. What ARPA Does",
+      "paragraphs": [
+        "ARPA automatically tracks selected radar targets and calculates their movement. Its purpose is to reduce the navigator's workload and provide rapid, continuous evaluation of the traffic situation.",
+        "Depending on the equipment, targets may be acquired manually or automatically."
+      ],
+      "points": [
+        "Tracks selected radar echoes.",
+        "Calculates target course and speed.",
+        "Calculates CPA and TCPA.",
+        "Displays true or relative vectors.",
+        "Provides dangerous-target warnings.",
+        "May offer a trial-manoeuvre function.",
+        "May warn of lost targets or tracking failures."
+      ]
+    },
+    {
+      "title": "9. ARPA Limitations",
+      "paragraphs": [
+        "ARPA calculations are only as reliable as the information supplied to the system. Incorrect heading, speed or position inputs can produce misleading target data.",
+        "ARPA also requires time to observe a target before its calculated movement becomes stable. Data may be temporarily unreliable after target acquisition or after own ship manoeuvres."
+      ],
+      "points": [
+        "Heading-input errors affect target bearings, vectors and calculated movement.",
+        "Speed-input errors affect true-motion calculations.",
+        "Targets may be lost in clutter or when echoes become weak.",
+        "Closely spaced targets may cause target swap.",
+        "Rapid target manoeuvres may not be identified immediately.",
+        "ARPA predictions assume that present course and speed continue."
+      ]
+    },
+    {
+      "title": "10. Common False and Unwanted Echoes",
+      "paragraphs": [
+        "Not every mark on the radar screen represents a genuine target. The officer must be able to recognize common radar effects and compare information using different range scales, radars and visual observations."
+      ],
+      "points": [
+        "Sea clutter: Echoes from waves around own ship.",
+        "Rain clutter: Large or irregular echoes caused by precipitation.",
+        "Multiple echoes: Repeated echoes beyond a strong nearby target at similar intervals.",
+        "Side-lobe echoes: False echoes around a strong target, often at the same range.",
+        "Second-trace echoes: Targets displayed at an incorrect range because an echo returns after a later transmission.",
+        "Shadow sectors: Areas where structures or other objects block radar transmission or reception.",
+        "Indirect echoes: False targets caused by reflections from parts of own ship."
+      ]
+    },
+    {
+      "title": "11. Target Detection Limitations",
+      "paragraphs": [
+        "Radar detection depends on several factors, including target size, material, shape, height, distance, weather, sea state and radar settings.",
+        "Small craft, wooden vessels, ice, floating objects and targets hidden behind larger vessels may produce weak or intermittent echoes."
+      ],
+      "points": [
+        "A weak target may disappear in sea or rain clutter.",
+        "A larger vessel may mask a smaller target nearby.",
+        "Low targets may be hidden by waves.",
+        "Poorly adjusted gain or clutter controls may suppress real echoes.",
+        "Radar horizon limits the range at which low targets can be detected.",
+        "Regular visual and radar scanning remains necessary."
+      ]
+    },
+    {
+      "title": "12. Radar in Restricted Visibility",
+      "paragraphs": [
+        "Radar becomes especially important during fog, heavy rain or other conditions of restricted visibility, but it must be used together with a proper lookout, safe speed, sound signals and the other requirements of the COLREGs.",
+        "Under Rule 19, a vessel detecting another vessel by radar alone must determine whether a close-quarters situation or risk of collision exists and take appropriate avoiding action."
+      ],
+      "points": [
+        "Proceed at a safe speed appropriate to the conditions.",
+        "Keep engines ready for immediate manoeuvre when required.",
+        "Use radar systematically and on suitable range scales.",
+        "Plot or track relevant targets.",
+        "Avoid relying solely on AIS information.",
+        "Consider the restrictions on course alterations described in Rule 19."
+      ]
+    },
+    {
+      "title": "13. Trial Manoeuvre",
+      "paragraphs": [
+        "Many ARPA systems include a trial-manoeuvre function. This allows the officer to simulate a proposed alteration of course or speed and assess its predicted effect on tracked targets.",
+        "A trial manoeuvre is only a planning aid. It does not change the vessel's actual course or speed and does not remove the need to comply with the COLREGs."
+      ],
+      "points": [
+        "Check whether the mode is relative or true.",
+        "Confirm the assumed manoeuvre time.",
+        "Assess the resulting CPA and TCPA values.",
+        "Allow for the vessel's actual manoeuvring characteristics.",
+        "Return the display to normal operation after the assessment."
+      ]
+    },
+    {
+      "title": "14. Safe Use of Radar and ARPA",
+      "paragraphs": [
+        "Radar and ARPA should support, not replace, the bridge team's judgement. The officer should compare radar information with visual observations, AIS, ECDIS, compass bearings and other available sources.",
+        "Uncertainty or conflicting information should be investigated before major navigational decisions are made."
+      ],
+      "points": [
+        "Use both short-range and long-range scanning.",
+        "Check radar performance and correct adjustment.",
+        "Compare X-band and S-band displays when available.",
+        "Confirm ARPA vectors and stabilization mode.",
+        "Use parallel indexing or other monitoring techniques where appropriate.",
+        "Check information against independent sources.",
+        "Take early and substantial avoiding action when required."
+      ]
+    }
+  ],
+  "keyPoint": "Radar and ARPA provide essential information about targets and predicted movement, but the bridge team must verify that information, understand its limitations and use all available means to assess collision risk.",
+  "commonMistake": "Do not treat CPA and TCPA as guaranteed future values. They are predictions based on current course, speed and sensor information, and they can change immediately when either vessel manoeuvres.",
+  "summary": [
+    "Radar detects targets by transmitting radio pulses and receiving reflected echoes.",
+    "X-band normally provides finer target definition, while S-band generally performs better in heavy rain.",
+    "Gain, sea clutter and rain clutter must be adjusted carefully so genuine targets remain visible.",
+    "ARPA tracks targets and calculates course, speed, CPA and TCPA.",
+    "Relative vectors are particularly useful when assessing collision risk.",
+    "A nearly constant bearing with decreasing range may indicate collision risk.",
+    "ARPA data depends on correct sensor inputs and stable target tracking.",
+    "False echoes, clutter, shadow sectors and target masking can affect radar interpretation.",
+    "Radar and ARPA support collision avoidance but do not replace a lookout or the COLREGs.",
+    "The master and bridge team remain responsible for every navigational decision."
+  ],
+  "source": {
+    "title": "Marine Insight Academy – Marine RADAR Used Onboard Ships",
+    "url": "https://academy.marineinsight.com/courses/radar-and-arpa-course-marine-electronic-navigation/"
+  },
+  "additionalSources": [
+    {
+      "title": "IMO – Performance Standards for Automatic Radar Plotting Aids",
+      "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.823%2819%29.pdf"
+    },
+    {
+      "title": "IMO – COLREG: Preventing Collisions at Sea",
+      "url": "https://www.imo.org/en/ourwork/safety/pages/preventing-collisions.aspx"
+    }
+  ]
+}
