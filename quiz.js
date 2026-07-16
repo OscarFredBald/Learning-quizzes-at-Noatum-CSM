@@ -52,7 +52,12 @@ const quizFiles = {
   "vessel-traffic-services": {
     file: "./data/vessel-traffic-services.json",
     fallbackTitle: "Vessel Traffic Services (VTS)"
-  }
+  }, 
+  
+  "bridge-workstations": {
+  file: "./data/bridge-workstations.json",
+  fallbackTitle: "Ship Navigation Bridge and Workstations"
+}
 };
 
 const parameters =
