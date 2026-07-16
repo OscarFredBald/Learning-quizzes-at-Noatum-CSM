@@ -204,7 +204,7 @@ const quizzes = [
   badge: "Bridge systems",
   description:
     "Learn bridge layout, navigation workstations, radar, ECDIS, AIS, communication equipment, emergency systems and integrated bridge operations.",
-  image: "./images/bridge-workstations.png",
+  image: "./images/bridge-workstations.jpg",
   imageAlt:
     "Modern ship navigation bridge with integrated navigation workstations",
   icon: "🧭",
