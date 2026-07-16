@@ -367,53 +367,97 @@
       background: #f1f6fa;
     }
 
-    .card-footer {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 16px;
-      padding-top: 20px;
-      border-top: 1px solid var(--border);
-    }
+.card-footer{
+    margin-top:20px;
+    padding-top:20px;
+    border-top:1px solid var(--border);
+}
 
-    .question-count {
-      color: var(--muted);
-      font-size: 0.84rem;
-      font-weight: 600;
-    }
+.question-count{
+    display:block;
+    margin-bottom:18px;
+    color:var(--muted);
+    font-size:.9rem;
+    font-weight:700;
+}
 
-    .start-button {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      gap: 9px;
-      min-height: 45px;
-      padding: 0 18px;
-      color: white;
-      font-size: 0.88rem;
-      font-weight: 800;
-      text-decoration: none;
-      border-radius: 12px;
-      background:
+.card-actions{
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+}
+
+.read-button,
+.start-button{
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    width:100%;
+    min-height:48px;
+
+    font-size:.9rem;
+    font-weight:800;
+
+    border-radius:12px;
+
+    text-decoration:none;
+
+    transition:
+        transform .2s,
+        box-shadow .2s;
+}
+
+.read-button{
+
+    color:white;
+
+    background:
         linear-gradient(
-          135deg,
-          var(--blue),
-          var(--blue-light)
+            135deg,
+            #5bb8ff,
+            #2b8de8
         );
-      box-shadow:
-        0 8px 20px
-        rgba(20, 121, 201, 0.22);
-      transition:
-        transform 0.2s ease,
-        box-shadow 0.2s ease;
-    }
 
-    .start-button:hover {
-      transform: translateY(-2px);
-      box-shadow:
+    box-shadow:
+        0 8px 20px
+        rgba(20,121,201,.18);
+}
+
+.read-button:hover{
+
+    transform:translateY(-2px);
+
+    box-shadow:
         0 11px 25px
-        rgba(20, 121, 201, 0.3);
-    }
+        rgba(20,121,201,.28);
+}
+
+.start-button{
+
+    color:white;
+
+    background:
+        linear-gradient(
+            135deg,
+            var(--blue),
+            var(--blue-light)
+        );
+
+    box-shadow:
+        0 8px 20px
+        rgba(20,121,201,.22);
+}
+
+.start-button:hover{
+
+    transform:translateY(-2px);
+
+    box-shadow:
+        0 11px 25px
+        rgba(20,121,201,.32);
+}
 
     .loading-message,
     .error-message {
