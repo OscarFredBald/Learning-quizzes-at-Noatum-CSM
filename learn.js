@@ -52,7 +52,12 @@ const topicFiles = {
   "vessel-traffic-services": {
     file: "./learning/vessel-traffic-services.json",
     fallbackTitle: "Vessel Traffic Services"
-  }
+  },
+
+  "bridge-workstations": {
+  file: "./learning/bridge-workstations.json",
+  fallbackTitle: "Ship Navigation Bridge and Workstations"
+}
 };
 
 const parameters =
