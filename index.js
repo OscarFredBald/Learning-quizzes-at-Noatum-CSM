@@ -317,6 +317,16 @@ function createQuizCard(quiz) {
         >
           Loading questions...
         </span>
+      </div>
+
+      <div class="card-actions">
+        <a
+          class="read-button"
+          href="./learn.html?topic=${encodeURIComponent(quiz.id)}"
+        >
+          <span aria-hidden="true">📖</span>
+          Read first
+        </a>
 
         <a
           class="start-button"
