@@ -1,0 +1,176 @@
+{
+  "title": "Bulk Carrier Design",
+  "readingTime": "7 minutes",
+  "introduction": "Bulk carriers are purpose-built cargo ships designed to transport large quantities of unpackaged dry bulk cargo such as iron ore, coal, grain, bauxite and fertilizers. Every aspect of their design is intended to maximize cargo capacity while maintaining sufficient structural strength, stability and operational efficiency.",
+  "sections": [
+    {
+      "title": "1. What is a Bulk Carrier?",
+      "paragraphs": [
+        "A bulk carrier is a merchant vessel designed to carry dry cargo directly inside large cargo holds rather than inside containers or tanks.",
+        "The cargo is loaded and discharged through large hatch openings using grabs, conveyors or other shore-based cargo handling equipment."
+      ],
+      "points": [
+        "Carries unpackaged dry bulk cargo.",
+        "Large box-shaped cargo holds.",
+        "Large hatch openings.",
+        "Designed for high cargo capacity."
+      ]
+    },
+    {
+      "title": "2. Types of Bulk Carriers",
+      "paragraphs": [
+        "Bulk carriers are commonly classified according to their deadweight or the ports and canals they can use.",
+        "Larger vessels normally transport iron ore and coal on long international trade routes."
+      ],
+      "points": [
+        "Handysize",
+        "Handymax / Supramax",
+        "Panamax",
+        "Post-Panamax",
+        "Capesize",
+        "Very Large Ore Carrier (VLOC)"
+      ]
+    },
+    {
+      "title": "3. Hull Form",
+      "paragraphs": [
+        "Bulk carriers have a full-form hull with a high block coefficient. The wide, deep hull provides maximum cargo volume while maintaining sufficient buoyancy.",
+        "Modern bulk carriers typically use a bulbous bow and a transom stern to improve hydrodynamic efficiency."
+      ],
+      "points": [
+        "High block coefficient.",
+        "Large cargo volume.",
+        "Bulbous bow.",
+        "Transom stern.",
+        "Typical service speed between 12 and 18 knots."
+      ]
+    },
+    {
+      "title": "4. Cargo Holds",
+      "paragraphs": [
+        "Cargo holds occupy most of the vessel's length and are separated by transverse bulkheads.",
+        "The holds are designed to withstand very heavy cargo loads while allowing rapid loading and discharge."
+      ],
+      "points": [
+        "Large unobstructed holds.",
+        "Separated by watertight bulkheads.",
+        "Designed for heavy concentrated loads."
+      ]
+    },
+    {
+      "title": "5. Hatch Covers",
+      "paragraphs": [
+        "Bulk carriers have extremely large hatch openings to improve loading efficiency.",
+        "Steel hatch covers protect the cargo from seawater and weather while contributing to hull strength."
+      ],
+      "points": [
+        "Weather-tight.",
+        "Carry structural loads.",
+        "Allow rapid cargo operations.",
+        "Require regular inspection and maintenance."
+      ]
+    },
+    {
+      "title": "6. Double Bottom and Ballast Tanks",
+      "paragraphs": [
+        "Most modern bulk carriers have a double bottom extending through the cargo area.",
+        "The double bottom provides structural strength, ballast capacity and protection against bottom damage."
+      ],
+      "points": [
+        "Stores ballast water.",
+        "Improves structural strength.",
+        "Protects against grounding damage.",
+        "Contains duct keel and piping."
+      ]
+    },
+    {
+      "title": "7. Hopper and Topside Tanks",
+      "paragraphs": [
+        "Sloping hopper tanks at the bottom and topside tanks near the deck improve cargo flow and reduce cargo shifting.",
+        "They also contribute to the vessel's structural strength."
+      ],
+      "points": [
+        "Improve self-trimming.",
+        "Reduce cargo shifting.",
+        "Increase hull strength.",
+        "Provide additional ballast space."
+      ]
+    },
+    {
+      "title": "8. Structural Design",
+      "paragraphs": [
+        "Bulk carriers experience extremely high longitudinal bending moments because heavy cargo is carried inside relatively few large holds.",
+        "For this reason, the hull is primarily longitudinally stiffened."
+      ],
+      "points": [
+        "Longitudinal stiffeners.",
+        "Plate floors.",
+        "Deep web frames.",
+        "Strong deck structure.",
+        "Heavy tank top plating."
+      ]
+    },
+    {
+      "title": "9. Alternate Hold Loading",
+      "paragraphs": [
+        "Very dense cargoes such as iron ore may overload the hull if every hold is filled.",
+        "Many bulk carriers therefore use alternate hold loading, where only selected cargo holds are loaded."
+      ],
+      "points": [
+        "Reduces hull girder stresses.",
+        "Distributes cargo weight.",
+        "Protects structural integrity."
+      ]
+    },
+    {
+      "title": "10. Ballast Voyages",
+      "paragraphs": [
+        "Bulk carriers often return without cargo after discharging. During these ballast voyages, ballast water is carried to maintain draft, trim, propeller immersion and stability."
+      ],
+      "points": [
+        "Maintains propeller immersion.",
+        "Improves stability.",
+        "Controls trim.",
+        "Reduces hull stresses."
+      ]
+    },
+    {
+      "title": "11. Common Hazards",
+      "paragraphs": [
+        "Bulk cargoes can create several operational hazards. Heavy cargoes may overstress the hull, while some cargoes may liquefy or shift during the voyage."
+      ],
+      "points": [
+        "Cargo liquefaction.",
+        "Cargo shifting.",
+        "Overloading.",
+        "Corrosion.",
+        "Fatigue cracking.",
+        "Water ingress."
+      ]
+    },
+    {
+      "title": "12. Why Bulk Carrier Design Matters",
+      "paragraphs": [
+        "Every structural component on a bulk carrier has been designed to maximize cargo capacity while maintaining safety and structural integrity.",
+        "Understanding the relationship between cargo, ballast and hull structure helps officers make safe operational decisions during loading, unloading and ballast operations."
+      ]
+    }
+  ],
+  "keyPoint": "Bulk carrier design is a balance between maximum cargo capacity and sufficient structural strength. Every design feature—from the hull form to the hatch covers and ballast tanks—exists for a specific operational or structural reason.",
+  "commonMistake": "Many people think the large hatch covers only protect the cargo from weather. In reality, hatch covers are also structural components that contribute to the longitudinal strength of the vessel.",
+  "summary": [
+    "Bulk carriers transport unpackaged dry bulk cargo.",
+    "A full-form hull maximizes cargo capacity.",
+    "Large hatch openings improve cargo handling.",
+    "Double bottoms provide ballast capacity and structural protection.",
+    "Hopper and topside tanks improve cargo flow and stability.",
+    "Bulk carriers are primarily longitudinally stiffened.",
+    "Alternate hold loading reduces structural stress.",
+    "Ballast water maintains stability during ballast voyages.",
+    "Proper loading is essential for hull strength and vessel safety."
+  ],
+  "source": {
+    "title": "Marine Insight Academy – Bulk Carrier Design Explained",
+    "url": "https://academy.marineinsight.com/courses/bulk-carrier-design/"
+  }
+}
