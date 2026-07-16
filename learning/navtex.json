@@ -1,0 +1,145 @@
+{
+  "title": "NAVTEX - Navigation Telex for Ships",
+  "readingTime": "5 minutes",
+  "introduction": "NAVTEX (Navigational Telex) is an automated Maritime Safety Information (MSI) broadcast system forming part of the Global Maritime Distress and Safety System (GMDSS). It enables ships to automatically receive navigational warnings, weather warnings, meteorological forecasts and search and rescue information without requiring a radio operator to monitor transmissions continuously.",
+  "sections": [
+    {
+      "title": "1. What is NAVTEX?",
+      "paragraphs": [
+        "NAVTEX is an international automated text messaging service designed to provide important safety information directly to ships operating in coastal waters.",
+        "Messages are transmitted by coastal radio stations and received automatically by dedicated NAVTEX receivers installed onboard."
+      ],
+      "points": [
+        "Part of GMDSS.",
+        "Broadcasts Maritime Safety Information (MSI).",
+        "Messages are received automatically.",
+        "No operator is required during normal reception."
+      ]
+    },
+    {
+      "title": "2. Purpose of NAVTEX",
+      "paragraphs": [
+        "The purpose of NAVTEX is to ensure that every vessel receives essential safety information needed for safe navigation.",
+        "Unlike distress communications, NAVTEX continuously distributes information that may affect voyage planning and navigation."
+      ],
+      "points": [
+        "Navigation warnings.",
+        "Meteorological warnings.",
+        "Weather forecasts.",
+        "Search and Rescue (SAR) information.",
+        "Other urgent maritime safety information."
+      ]
+    },
+    {
+      "title": "3. NAVTEX Frequencies",
+      "paragraphs": [
+        "International NAVTEX broadcasts are normally transmitted on 518 kHz in English.",
+        "Many countries also transmit domestic NAVTEX broadcasts on 490 kHz in their national language.",
+        "Some remote regions additionally use 4209.5 kHz where MF reception is limited."
+      ],
+      "points": [
+        "518 kHz – International English broadcasts.",
+        "490 kHz – National language broadcasts.",
+        "4209.5 kHz – Longer-range service in selected regions."
+      ]
+    },
+    {
+      "title": "4. How NAVTEX Works",
+      "paragraphs": [
+        "Each transmitting station is assigned a unique identification letter and transmits according to a fixed broadcast schedule.",
+        "The receiver automatically prints or displays new messages while filtering duplicates."
+      ],
+      "points": [
+        "Coastal station broadcasts the message.",
+        "Receiver automatically decodes it.",
+        "Duplicate messages are rejected.",
+        "New messages are stored for later review."
+      ]
+    },
+    {
+      "title": "5. Message Categories",
+      "paragraphs": [
+        "Every NAVTEX message belongs to a specific category identified by a message code.",
+        "Some categories are mandatory and cannot normally be rejected by the receiver."
+      ],
+      "points": [
+        "Navigational warnings.",
+        "Meteorological warnings.",
+        "Weather forecasts.",
+        "Search and Rescue information.",
+        "Pilot service messages.",
+        "LORAN or navigation system messages.",
+        "Additional local information."
+      ]
+    },
+    {
+      "title": "6. NAVTEX Message Format",
+      "paragraphs": [
+        "Each message begins with an identifier showing the transmitting station, message category and serial number.",
+        "This allows the receiver to recognise duplicate messages and organise received information efficiently."
+      ]
+    },
+    {
+      "title": "7. Message Filtering",
+      "paragraphs": [
+        "The receiver allows operators to select which message categories should be displayed.",
+        "However, navigational warnings, meteorological warnings and Search and Rescue messages are generally protected from being switched off because of their safety importance."
+      ]
+    },
+    {
+      "title": "8. NAVTEX and GMDSS",
+      "paragraphs": [
+        "NAVTEX is one of several GMDSS subsystems used to improve maritime safety.",
+        "It complements VHF DSC, MF/HF DSC, Inmarsat services, EPIRB and SART by providing routine safety broadcasts instead of distress communications."
+      ],
+      "points": [
+        "Automatic reception.",
+        "Continuous MSI distribution.",
+        "Supports safe voyage planning.",
+        "Required equipment for many SOLAS ships operating in Sea Area A1."
+      ]
+    },
+    {
+      "title": "9. Limitations",
+      "paragraphs": [
+        "NAVTEX coverage is limited by radio propagation and the location of transmitting stations.",
+        "It should never be considered the only source of navigational information."
+      ],
+      "points": [
+        "Limited transmission range.",
+        "Reception depends on atmospheric conditions.",
+        "Equipment faults may prevent reception.",
+        "Bridge team should cross-check with Notices to Mariners, ECDIS updates and other official sources."
+      ]
+    },
+    {
+      "title": "10. Good NAVTEX Practice",
+      "paragraphs": [
+        "Bridge officers should review received NAVTEX messages regularly and determine whether any message affects the current or planned voyage.",
+        "Important warnings should be acknowledged, communicated to the bridge team and incorporated into the voyage plan where appropriate."
+      ],
+      "points": [
+        "Review messages every watch.",
+        "Remove outdated messages.",
+        "Check receiver operation regularly.",
+        "Verify correct station selection.",
+        "Apply relevant warnings to voyage planning."
+      ]
+    }
+  ],
+  "keyPoint": "NAVTEX automatically provides ships with essential Maritime Safety Information. Receiving the message is only the first step—the bridge team must also understand and apply the information.",
+  "commonMistake": "Many officers believe NAVTEX replaces chart corrections or ECDIS updates. It does not. NAVTEX distributes urgent safety information, while permanent chart corrections must still be applied through official chart update procedures.",
+  "summary": [
+    "NAVTEX is an automated MSI broadcast system within GMDSS.",
+    "International broadcasts are normally transmitted on 518 kHz.",
+    "National broadcasts commonly use 490 kHz.",
+    "NAVTEX distributes navigational warnings, weather information and SAR messages.",
+    "Messages are automatically received and duplicate transmissions are filtered.",
+    "Bridge officers should review every message for operational relevance.",
+    "NAVTEX supplements—but does not replace—other navigational publications and chart updates."
+  ],
+  "source": {
+    "title": "Marine Insight Academy – NAVTEX: Navigation Telex for Ships",
+    "url": "https://academy.marineinsight.com/courses/navtex-for-ships-course-gmdss-marine-telex-training/"
+  }
+}
