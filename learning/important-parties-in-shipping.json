@@ -1,0 +1,141 @@
+{
+  "title": "Important Parties in Shipping",
+  "readingTime": "5 minutes",
+  "introduction": "The shipping industry is built around cooperation between several key parties. Every shipment, from booking cargo to final delivery, requires coordination between commercial, technical and operational stakeholders. Understanding each party's role is essential for anyone working in ship management, chartering, logistics or maritime operations.",
+  "sections": [
+    {
+      "title": "1. The Shipping Chain",
+      "paragraphs": [
+        "A shipment normally begins with a shipper who wants to transport cargo and ends with a consignee receiving the goods. Between these two parties, shipowners, charterers, managers, crew and freight forwarders work together to ensure that the cargo is transported safely and efficiently."
+      ]
+    },
+    {
+      "title": "2. Shipper (Consignor)",
+      "paragraphs": [
+        "The shipper is the party sending the cargo. This is often the manufacturer, exporter or seller of the goods.",
+        "The shipper is responsible for preparing the cargo, arranging documentation and ensuring that the shipment complies with applicable regulations."
+      ],
+      "points": [
+        "Prepares cargo for transport.",
+        "Provides shipping instructions.",
+        "Completes export documentation.",
+        "Ensures correct packaging and marking.",
+        "Hands cargo over for transportation."
+      ]
+    },
+    {
+      "title": "3. Consignee",
+      "paragraphs": [
+        "The consignee is the person or company receiving the cargo at its destination.",
+        "Depending on the sales agreement, the consignee is responsible for customs clearance, accepting delivery and reporting any cargo damage."
+      ],
+      "points": [
+        "Receives the cargo.",
+        "Completes import formalities.",
+        "Pays duties and taxes when required.",
+        "Inspects the cargo upon arrival.",
+        "Reports shortages or damage."
+      ]
+    },
+    {
+      "title": "4. Shipowner",
+      "paragraphs": [
+        "The shipowner owns the vessel and is ultimately responsible for keeping it seaworthy and commercially available.",
+        "Some owners operate their own ships, while others employ ship management companies or charter the vessel to another company."
+      ],
+      "points": [
+        "Owns the vessel.",
+        "Maintains seaworthiness.",
+        "Ensures regulatory compliance.",
+        "Provides insurance.",
+        "Pays operating and maintenance costs."
+      ]
+    },
+    {
+      "title": "5. Charterer",
+      "paragraphs": [
+        "A charterer hires the vessel to transport cargo. Depending on the charterparty agreement, the charterer may control the commercial operation of the ship while the owner remains responsible for technical management.",
+        "The most common charter types are voyage charter, time charter and bareboat charter."
+      ],
+      "points": [
+        "Hires the vessel.",
+        "Arranges cargo transportation.",
+        "Negotiates freight or hire.",
+        "Plans voyages under certain charter types.",
+        "Operates according to the charterparty agreement."
+      ]
+    },
+    {
+      "title": "6. Ship Management Company",
+      "paragraphs": [
+        "Many shipowners outsource day-to-day vessel management to a professional ship management company.",
+        "The manager ensures that the vessel remains technically sound, properly crewed and compliant with international regulations."
+      ],
+      "points": [
+        "Technical management.",
+        "Crew management.",
+        "Maintenance planning.",
+        "Regulatory compliance.",
+        "Budget and operational management."
+      ]
+    },
+    {
+      "title": "7. Ship's Crew",
+      "paragraphs": [
+        "The crew operates the vessel safely throughout the voyage. This includes navigation, cargo handling, machinery operation, maintenance and emergency response.",
+        "Every crew member has specific duties, while the Master has overall responsibility for the safe operation of the vessel."
+      ],
+      "points": [
+        "Navigation.",
+        "Engine operation.",
+        "Cargo operations.",
+        "Maintenance.",
+        "Emergency response.",
+        "Compliance with international regulations."
+      ]
+    },
+    {
+      "title": "8. Freight Forwarder",
+      "paragraphs": [
+        "A freight forwarder acts as a logistics specialist coordinating the transportation of cargo between different transport providers.",
+        "Although the forwarder usually does not own the cargo or the ship, they play a vital role in organizing international transport."
+      ],
+      "points": [
+        "Books cargo space.",
+        "Coordinates multimodal transport.",
+        "Prepares shipping documentation.",
+        "Assists with customs procedures.",
+        "Provides logistics solutions."
+      ]
+    },
+    {
+      "title": "9. How the Parties Work Together",
+      "paragraphs": [
+        "Shipping depends on cooperation between all stakeholders. A successful voyage requires accurate documentation, clear communication and well-defined contractual responsibilities.",
+        "If one party fails to perform its responsibilities correctly, delays, claims and additional costs may occur."
+      ]
+    },
+    {
+      "title": "10. Why These Parties Matter",
+      "paragraphs": [
+        "Understanding the different parties helps explain how commercial shipping functions and why contracts, communication and responsibility are so important.",
+        "Most maritime professionals interact with several of these parties every day, whether they work onboard ships or ashore."
+      ]
+    }
+  ],
+  "keyPoint": "Every shipment involves several specialised parties. No single organisation completes the entire transport process alone—successful shipping depends on cooperation between all stakeholders.",
+  "commonMistake": "Many people confuse the shipowner with the charterer. The shipowner owns the vessel, while the charterer hires the vessel to transport cargo under the terms of a charterparty.",
+  "summary": [
+    "The shipper sends the cargo.",
+    "The consignee receives the cargo.",
+    "The shipowner owns and maintains the vessel.",
+    "The charterer hires the vessel for commercial purposes.",
+    "The ship management company operates the vessel on behalf of the owner.",
+    "The crew safely navigates and operates the ship.",
+    "The freight forwarder coordinates the transportation and logistics."
+  ],
+  "source": {
+    "title": "Marine Insight – 7 Important Parties in Shipping",
+    "url": "https://www.marineinsight.com/7-important-parties-in-shipping/"
+  }
+}
