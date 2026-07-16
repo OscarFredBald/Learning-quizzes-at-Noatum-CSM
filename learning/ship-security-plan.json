@@ -1,0 +1,173 @@
+{
+  "title": "Ship Security Plan and ISPS Code",
+  "readingTime": "5 minutes",
+  "introduction": "A Ship Security Plan, commonly called an SSP, is a vessel-specific and confidential plan describing how the ship will protect its personnel, cargo, stores, restricted areas and essential operations against security threats. The plan explains the procedures and responsibilities that apply at each of the three security levels established by the ISPS Code.",
+  "sections": [
+    {
+      "title": "1. What is a Ship Security Plan?",
+      "paragraphs": [
+        "The Ship Security Plan describes the security measures that must be maintained onboard during normal operations and during periods of increased threat.",
+        "The plan is specific to the individual vessel. It should reflect the ship's design, trading pattern, access points, restricted areas, cargo operations and identified vulnerabilities.",
+        "Because the plan contains sensitive information about the vessel's security arrangements, access to it must be controlled."
+      ]
+    },
+    {
+      "title": "2. The ISPS Code",
+      "paragraphs": [
+        "The International Ship and Port Facility Security Code, known as the ISPS Code, forms part of the international maritime security regime established under SOLAS Chapter XI-2.",
+        "The Code provides a framework through which governments, port facilities, shipping companies and ships cooperate to identify and manage security threats."
+      ],
+      "points": [
+        "Part A contains mandatory security requirements.",
+        "Part B provides guidance on how the mandatory requirements may be implemented.",
+        "Applicable ships must carry an approved Ship Security Plan.",
+        "Ship and port security measures must be coordinated at the ship-port interface."
+      ]
+    },
+    {
+      "title": "3. Ship Security Assessment",
+      "paragraphs": [
+        "The Ship Security Assessment, or SSA, is completed before the Ship Security Plan is prepared.",
+        "Its purpose is to identify potential threats, important shipboard operations, existing protective measures and weaknesses that could be exploited during a security incident.",
+        "The findings of the assessment form the basis of the measures included in the SSP."
+      ],
+      "points": [
+        "Identify access points and possible unauthorized-entry routes.",
+        "Identify restricted areas and essential shipboard locations.",
+        "Consider threats to passengers, crew, cargo, stores and equipment.",
+        "Evaluate existing security procedures and physical safeguards.",
+        "Recommend measures to reduce identified vulnerabilities."
+      ]
+    },
+    {
+      "title": "4. Security Responsibilities",
+      "paragraphs": [
+        "Effective ship security depends on cooperation between personnel onboard, the shipping company and the port facility."
+      ],
+      "points": [
+        "Company Security Officer (CSO): Coordinates security matters at company level and ensures that assessments, plans, training and amendments are properly managed.",
+        "Ship Security Officer (SSO): Implements, maintains and monitors the Ship Security Plan onboard.",
+        "Port Facility Security Officer (PFSO): Manages security at the port facility and coordinates with ships using the facility.",
+        "Master: Retains overall authority onboard and may take decisions necessary to protect the safety and security of the ship.",
+        "Crew: Must understand and perform the security duties assigned to them."
+      ]
+    },
+    {
+      "title": "5. The Three Security Levels",
+      "paragraphs": [
+        "The security level determines the protective measures that must be maintained by the ship. A change in level does not automatically mean that all operations must stop, but the additional measures specified in the SSP must be implemented."
+      ],
+      "points": [
+        "Security Level 1 – Normal: Minimum appropriate protective security measures are maintained at all times.",
+        "Security Level 2 – Heightened: Additional protective measures are maintained while there is an increased risk of a security incident.",
+        "Security Level 3 – Exceptional: Further specific measures are implemented for a limited period when a security incident is probable or imminent."
+      ]
+    },
+    {
+      "title": "6. Access Control",
+      "paragraphs": [
+        "Controlling access to the vessel is one of the most important parts of ship security, especially while the vessel is in port.",
+        "Persons requesting access should be identified, their authorization confirmed and their movement onboard controlled according to the applicable security level."
+      ],
+      "points": [
+        "Maintain an effective gangway watch.",
+        "Verify visitor, contractor and service-provider identification.",
+        "Record persons entering and leaving the vessel when required.",
+        "Inspect baggage, stores or vehicles according to the SSP.",
+        "Escort or monitor visitors where required.",
+        "Challenge unfamiliar or unauthorized persons."
+      ]
+    },
+    {
+      "title": "7. Restricted Areas",
+      "paragraphs": [
+        "Restricted areas are locations where unauthorized access could threaten the ship, its personnel or its essential systems.",
+        "The Ship Security Plan identifies these areas and describes how access is controlled and monitored."
+      ],
+      "points": [
+        "Bridge and navigation spaces",
+        "Engine-control and machinery spaces",
+        "Radio and communications rooms",
+        "Security equipment and SSAS locations",
+        "Cargo-control spaces",
+        "Steering-gear spaces",
+        "Other locations containing essential systems or sensitive information"
+      ]
+    },
+    {
+      "title": "8. Monitoring the Ship",
+      "paragraphs": [
+        "The ship must be capable of monitoring relevant areas, access points and activities according to the current security level.",
+        "Monitoring may involve physical patrols, lighting, alarms, surveillance equipment and communication between watchkeepers."
+      ],
+      "points": [
+        "Monitor the vessel's deck and waterside boundary.",
+        "Check restricted areas regularly.",
+        "Maintain suitable security lighting.",
+        "Report suspicious activity immediately.",
+        "Increase patrols and monitoring at higher security levels."
+      ]
+    },
+    {
+      "title": "9. Ship Security Alert System",
+      "paragraphs": [
+        "The Ship Security Alert System, or SSAS, is designed to transmit a covert security alert to designated recipients.",
+        "Unlike the general alarm, it is not intended to warn persons onboard or nearby vessels. Its purpose is to notify shore-based authorities or company personnel that the ship's security may be threatened.",
+        "The locations and operation of SSAS activation points are security-sensitive information."
+      ]
+    },
+    {
+      "title": "10. Security Drills and Training",
+      "paragraphs": [
+        "Crew members must understand their assigned duties before a real security incident occurs. Drills are used to test communication, access control, reporting procedures and the crew's response to simulated threats.",
+        "Drills may include unauthorized boarding, suspicious packages, threats to restricted areas, attempted hijacking or other situations identified in the SSP."
+      ],
+      "points": [
+        "Know whom to contact and how to report an incident.",
+        "Understand duties at Security Levels 1, 2 and 3.",
+        "Know the procedures for controlling access and restricted areas.",
+        "Participate seriously in drills and exercises.",
+        "Report weaknesses identified during training."
+      ]
+    },
+    {
+      "title": "11. Records and Reviews",
+      "paragraphs": [
+        "Security activities must be documented where required. Records help demonstrate that the vessel is implementing its approved procedures and provide evidence during audits and inspections.",
+        "The plan should also be reviewed after security incidents, identified deficiencies, changes to the vessel or changes in its operations."
+      ],
+      "points": [
+        "Security drills and exercises",
+        "Security incidents and breaches",
+        "Changes in security level",
+        "Maintenance and testing of security equipment",
+        "Security-related communications",
+        "Internal reviews and audits",
+        "Approved amendments to the Ship Security Plan"
+      ]
+    },
+    {
+      "title": "12. Ship and Port Cooperation",
+      "paragraphs": [
+        "Security at the ship-port interface requires communication between the SSO and PFSO.",
+        "A Declaration of Security may be completed when additional coordination is required, for example when the ship and port operate at different security levels or when specific risks justify clearly allocating security responsibilities."
+      ]
+    }
+  ],
+  "keyPoint": "The Ship Security Plan provides the procedures, responsibilities and protective measures used onboard, but effective security depends on the crew understanding and correctly applying those measures.",
+  "commonMistake": "Do not confuse ship security with ordinary ship safety. Safety focuses mainly on accidental hazards, while security addresses deliberate acts such as unauthorized access, sabotage, piracy, terrorism or the introduction of prohibited items.",
+  "summary": [
+    "The SSP is vessel-specific, approved and confidential.",
+    "The Ship Security Assessment forms the basis of the plan.",
+    "The CSO manages company-level security, while the SSO implements the plan onboard.",
+    "Security Levels 1, 2 and 3 require progressively stronger protective measures.",
+    "Access control, restricted areas, monitoring and reporting are central parts of ship security.",
+    "The SSAS transmits a covert security alert to designated shore-based recipients.",
+    "The master and crew must remain familiar with their duties through training and drills.",
+    "Security records and plan reviews support continued compliance and improvement."
+  ],
+  "source": {
+    "title": "Marine Insight – Ship Security Plan (SSP): Requirements, Contents and Implementation",
+    "url": "https://www.marineinsight.com/understanding-ship-security-plan-board-ships/"
+  }
+}
