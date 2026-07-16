@@ -1,0 +1,142 @@
+{
+  "title": "MARPOL - International Convention for the Prevention of Pollution from Ships",
+  "readingTime": "6 minutes",
+  "introduction": "MARPOL is the International Convention for the Prevention of Pollution from Ships. Developed by the International Maritime Organization (IMO), it is the primary international treaty aimed at preventing pollution of the marine environment caused by ships during both normal operations and accidental incidents. Today, MARPOL is one of the most important environmental regulations in the maritime industry.",
+  "sections": [
+    {
+      "title": "1. What is MARPOL?",
+      "paragraphs": [
+        "MARPOL was adopted by the International Maritime Organization (IMO) to minimize pollution from ships operating worldwide.",
+        "The Convention applies to pollution resulting from both routine ship operations and accidental discharges.",
+        "The original convention was adopted in 1973 and later modified by the 1978 and 1997 Protocols."
+      ]
+    },
+    {
+      "title": "2. Objectives of MARPOL",
+      "paragraphs": [
+        "The purpose of MARPOL is to protect the marine environment by reducing pollution from ships through internationally agreed technical standards and operational procedures."
+      ],
+      "points": [
+        "Prevent operational pollution.",
+        "Reduce accidental pollution.",
+        "Protect marine ecosystems.",
+        "Improve environmental performance of ships.",
+        "Establish uniform international standards."
+      ]
+    },
+    {
+      "title": "3. The Six MARPOL Annexes",
+      "paragraphs": [
+        "The Convention currently contains six technical annexes. Each annex addresses a different source of ship-generated pollution."
+      ],
+      "points": [
+        "Annex I – Prevention of Pollution by Oil.",
+        "Annex II – Control of Pollution by Noxious Liquid Substances carried in Bulk.",
+        "Annex III – Prevention of Pollution by Harmful Substances carried in Packaged Form.",
+        "Annex IV – Prevention of Pollution by Sewage from Ships.",
+        "Annex V – Prevention of Pollution by Garbage from Ships.",
+        "Annex VI – Prevention of Air Pollution from Ships."
+      ]
+    },
+    {
+      "title": "4. Annex I – Oil Pollution",
+      "paragraphs": [
+        "Annex I establishes requirements to prevent pollution by oil from both routine operations and accidental discharges.",
+        "It includes requirements for equipment, operational procedures, Oil Record Books and double-hull construction for oil tankers."
+      ]
+    },
+    {
+      "title": "5. Annex II – Noxious Liquid Substances",
+      "paragraphs": [
+        "Annex II regulates the transport and discharge of noxious liquid substances carried in bulk.",
+        "Discharge is only permitted under very specific conditions, while many residues must be delivered to approved reception facilities."
+      ]
+    },
+    {
+      "title": "6. Annex III – Harmful Substances in Packaged Form",
+      "paragraphs": [
+        "Annex III establishes requirements for packing, marking, labelling, documentation, stowage and transport of marine pollutants carried in packaged form.",
+        "The IMDG Code provides the detailed standards supporting Annex III."
+      ]
+    },
+    {
+      "title": "7. Annex IV – Sewage",
+      "paragraphs": [
+        "Annex IV regulates sewage discharges from ships.",
+        "Ships may discharge sewage only under specified conditions, or by using approved sewage treatment plants."
+      ]
+    },
+    {
+      "title": "8. Annex V – Garbage",
+      "paragraphs": [
+        "Annex V regulates garbage generated onboard ships.",
+        "One of its most important rules is the general prohibition on discharging plastics into the sea."
+      ],
+      "points": [
+        "Plastic discharge is prohibited.",
+        "Different garbage categories have different discharge requirements.",
+        "Garbage Record Books are required for many vessels.",
+        "Port reception facilities should be used whenever required."
+      ]
+    },
+    {
+      "title": "9. Annex VI – Air Pollution",
+      "paragraphs": [
+        "Annex VI limits air emissions from ships.",
+        "It regulates sulphur oxide (SOx), nitrogen oxide (NOx), ozone-depleting substances and greenhouse-gas reduction measures.",
+        "Emission Control Areas (ECAs) apply stricter emission standards in designated sea areas."
+      ],
+      "points": [
+        "SOx emission limits.",
+        "NOx emission standards.",
+        "Fuel sulphur requirements.",
+        "Energy efficiency measures.",
+        "Greenhouse gas reduction."
+      ]
+    },
+    {
+      "title": "10. Special Areas",
+      "paragraphs": [
+        "Several MARPOL annexes establish Special Areas where stricter discharge requirements apply because of ecological sensitivity, limited water exchange or heavy maritime traffic.",
+        "Ships operating in these areas must comply with more restrictive pollution-control measures."
+      ]
+    },
+    {
+      "title": "11. Shipboard Compliance",
+      "paragraphs": [
+        "Compliance with MARPOL requires both technical equipment and correct operational procedures.",
+        "Port State Control inspectors frequently verify that ships comply with MARPOL requirements during inspections."
+      ],
+      "points": [
+        "Maintain required record books.",
+        "Operate pollution-prevention equipment correctly.",
+        "Follow approved discharge procedures.",
+        "Use reception facilities when required.",
+        "Maintain crew awareness and training."
+      ]
+    },
+    {
+      "title": "12. Why MARPOL Matters",
+      "paragraphs": [
+        "Without MARPOL, pollution from ships would have a much greater impact on the marine environment.",
+        "The Convention provides a common international framework that applies regardless of where ships trade, helping to ensure consistent environmental protection worldwide."
+      ]
+    }
+  ],
+  "keyPoint": "MARPOL is the world's primary international convention for preventing pollution from ships and applies to both operational and accidental pollution.",
+  "commonMistake": "Many people believe MARPOL only concerns oil pollution. In reality, the Convention regulates six major pollution categories, including oil, chemicals, sewage, garbage and air emissions.",
+  "summary": [
+    "MARPOL is administered by the International Maritime Organization (IMO).",
+    "The Convention aims to prevent pollution from both routine operations and accidents.",
+    "MARPOL currently contains six technical annexes.",
+    "Each annex regulates a different type of marine pollution.",
+    "Special Areas require stricter discharge controls.",
+    "Compliance depends on proper equipment, procedures and recordkeeping.",
+    "Port State Control may inspect ships for MARPOL compliance.",
+    "MARPOL is one of the most important environmental conventions in international shipping."
+  ],
+  "source": {
+    "title": "International Maritime Organization (IMO) – International Convention for the Prevention of Pollution from Ships (MARPOL)",
+    "url": "https://www.imo.org/en/about/conventions/pages/international-convention-for-the-prevention-of-pollution-from-ships-(marpol).aspx"
+  }
+}
