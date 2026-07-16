@@ -1,0 +1,246 @@
+{
+  "title": "Marine Radar and ARPA",
+  "description": "Test your understanding of marine radar, radar controls, display modes, target tracking, CPA, TCPA, ARPA limitations and practical collision-risk assessment.",
+  "questions": [
+    {
+      "question": "What is the primary purpose of marine radar?",
+      "options": [
+        "To measure the vessel's fuel consumption",
+        "To detect and display targets using reflected radio energy",
+        "To transmit the vessel's identity to nearby ships",
+        "To calculate cargo stability"
+      ],
+      "answer": 1,
+      "difficulty": "Easy",
+      "explanation": "Marine radar transmits radio pulses and displays echoes reflected from ships, land and other objects."
+    },
+    {
+      "question": "What is the main purpose of ARPA?",
+      "options": [
+        "To automatically track radar targets and calculate their movement",
+        "To replace the vessel's steering system",
+        "To transmit navigational warnings",
+        "To control the radar antenna speed"
+      ],
+      "answer": 0,
+      "difficulty": "Easy",
+      "explanation": "ARPA tracks selected targets and calculates information such as course, speed, CPA and TCPA."
+    },
+    {
+      "question": "What does CPA mean?",
+      "options": [
+        "Course Prediction Alarm",
+        "Closest Point of Approach",
+        "Calculated Position Accuracy",
+        "Coastal Passage Area"
+      ],
+      "answer": 1,
+      "difficulty": "Easy",
+      "explanation": "CPA is the predicted minimum distance between own ship and a tracked target if both maintain their current movement."
+    },
+    {
+      "question": "What does TCPA indicate?",
+      "options": [
+        "The target's true course",
+        "The time remaining until the predicted closest point of approach",
+        "The distance to the target at present",
+        "The time since the target was first detected"
+      ],
+      "answer": 1,
+      "difficulty": "Easy",
+      "explanation": "TCPA is the predicted time until CPA occurs."
+    },
+    {
+      "question": "Which radar band generally provides better target definition in normal conditions?",
+      "options": [
+        "S-band",
+        "X-band",
+        "MF-band",
+        "VHF-band"
+      ],
+      "answer": 1,
+      "difficulty": "Easy",
+      "explanation": "X-band radar normally provides finer target definition because of its shorter wavelength."
+    },
+    {
+      "question": "What is the purpose of the radar gain control?",
+      "options": [
+        "To adjust receiver sensitivity and the strength of displayed echoes",
+        "To change the vessel's heading input",
+        "To control antenna rotation speed",
+        "To set the target's predicted course"
+      ],
+      "answer": 0,
+      "difficulty": "Medium",
+      "explanation": "Gain controls receiver sensitivity. Too little gain may hide weak targets, while excessive gain may create background noise."
+    },
+    {
+      "question": "Which control is primarily used to reduce echoes caused by waves close to the vessel?",
+      "options": [
+        "Rain clutter control",
+        "Sea clutter control",
+        "Pulse length selector",
+        "Heading marker control"
+      ],
+      "answer": 1,
+      "difficulty": "Medium",
+      "explanation": "Sea clutter control reduces unwanted echoes caused by waves, particularly near own ship."
+    },
+    {
+      "question": "What is a major advantage of S-band radar in heavy rain?",
+      "options": [
+        "It normally suffers less attenuation and rain clutter than X-band radar",
+        "It always detects smaller targets more clearly",
+        "It does not require gain adjustment",
+        "It automatically calculates CPA without ARPA"
+      ],
+      "answer": 0,
+      "difficulty": "Medium",
+      "explanation": "The longer wavelength of S-band radar generally provides better performance through heavy rain and precipitation."
+    },
+    {
+      "question": "What does a relative-motion radar display show?",
+      "options": [
+        "Own ship moving across a stationary chart",
+        "Own ship fixed while other targets move relative to it",
+        "Only the true courses of tracked vessels",
+        "The movement of land relative to north"
+      ],
+      "answer": 1,
+      "difficulty": "Medium",
+      "explanation": "In relative motion, own ship remains fixed on the display while targets move according to their relative movement."
+    },
+    {
+      "question": "Why should radar plotting or systematic target observation be used?",
+      "options": [
+        "To determine whether a target presents a risk of collision",
+        "To identify the target's cargo",
+        "To calculate the target's draft",
+        "To determine the target's flag State"
+      ],
+      "answer": 0,
+      "difficulty": "Medium",
+      "explanation": "Repeated observations or plotting are needed to assess target movement, bearing trend, CPA and collision risk."
+    },
+    {
+      "question": "A target remains on a nearly constant bearing while its range steadily decreases. What does this most strongly indicate?",
+      "options": [
+        "The target is moving away from own ship",
+        "A possible risk of collision exists",
+        "The radar heading input has failed",
+        "The target is stationary"
+      ],
+      "answer": 1,
+      "difficulty": "Hard",
+      "explanation": "A constant or nearly constant bearing with decreasing range is a classic indication of collision risk."
+    },
+    {
+      "question": "An ARPA target displays CPA 0.2 NM and TCPA 10 minutes. What is the correct interpretation?",
+      "options": [
+        "The target is currently 0.2 NM away",
+        "The target is predicted to pass 0.2 NM away in approximately 10 minutes",
+        "The target will alter course in 10 minutes",
+        "Own ship must alter course by 0.2 degrees"
+      ],
+      "answer": 1,
+      "difficulty": "Hard",
+      "explanation": "CPA is the predicted passing distance, while TCPA is the predicted time until that closest approach."
+    },
+    {
+      "question": "After own ship makes a large alteration of course, why may ARPA target data be temporarily unreliable?",
+      "options": [
+        "ARPA requires time to recalculate target movement using the new own-ship data",
+        "Radar cannot transmit while the rudder is moving",
+        "All targets automatically change their true course",
+        "The radar antenna stops during alterations"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "Following manoeuvres, ARPA needs time and valid sensor data to stabilize and recalculate vectors, CPA and TCPA."
+    },
+    {
+      "question": "Heavy rain causes large areas of clutter on the radar display. What is the best initial response?",
+      "options": [
+        "Increase gain to maximum",
+        "Adjust rain clutter carefully while ensuring genuine targets remain visible",
+        "Switch off the radar until the rain passes",
+        "Reduce the range scale to zero"
+      ],
+      "answer": 1,
+      "difficulty": "Hard",
+      "explanation": "Rain clutter control should be adjusted carefully because excessive suppression may also remove genuine targets."
+    },
+    {
+      "question": "A small target close to a large vessel disappears temporarily from the display. Which radar limitation is the most plausible explanation?",
+      "options": [
+        "Target masking or shadowing by the larger vessel",
+        "Second-trace echo",
+        "Multiple echo",
+        "Incorrect pulse length"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "A larger target may mask a smaller nearby target or create an area where the smaller echo cannot be distinguished."
+    },
+    {
+      "question": "Several equally spaced echoes appear beyond a large nearby target on the same bearing. What are they most likely to be?",
+      "options": [
+        "Side-lobe echoes",
+        "Multiple echoes",
+        "AIS targets",
+        "Second-trace echoes"
+      ],
+      "answer": 1,
+      "difficulty": "Hard",
+      "explanation": "Multiple echoes can occur when radar energy reflects repeatedly between own ship and a large nearby target."
+    },
+    {
+      "question": "A strong false echo appears at the same range as a real target but on a slightly different bearing. Which phenomenon may cause this?",
+      "options": [
+        "Side-lobe echoes",
+        "Sea stabilization",
+        "True-motion reset",
+        "Target swap"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "Side lobes can produce false echoes around strong targets, often at the same range but on different bearings."
+    },
+    {
+      "question": "An ARPA-tracked target passes very close to another target and the displayed vectors appear to exchange between them. What has most likely occurred?",
+      "options": [
+        "Second-trace interference",
+        "Target swap",
+        "Sea clutter",
+        "Radar shadowing"
+      ],
+      "answer": 1,
+      "difficulty": "Hard",
+      "explanation": "Target swap occurs when the tracking system confuses two close targets and transfers tracking data from one echo to another."
+    },
+    {
+      "question": "Why should ARPA information not be used as the sole basis for collision-avoidance decisions?",
+      "options": [
+        "ARPA data depends on correct sensor inputs, target tracking and operator settings",
+        "ARPA only functions in port",
+        "ARPA cannot calculate target speed",
+        "ARPA information is not permitted under COLREG"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "ARPA is an aid. Errors in heading, speed, tracking, stabilization or operator settings can produce misleading information, so all available means must be used."
+    },
+    {
+      "question": "In restricted visibility, a radar target is detected forward of the beam and collision risk is developing. Which principle is most appropriate?",
+      "options": [
+        "Maintain course and speed because the target is not visually observed",
+        "Assess the situation using radar and take appropriate avoiding action in accordance with the COLREGs",
+        "Alter course to port in every situation",
+        "Rely only on the target's AIS information"
+      ],
+      "answer": 1,
+      "difficulty": "Hard",
+      "explanation": "A vessel detecting another vessel by radar in restricted visibility must determine whether collision risk exists and take appropriate action under Rule 19."
+    }
+  ]
+}
