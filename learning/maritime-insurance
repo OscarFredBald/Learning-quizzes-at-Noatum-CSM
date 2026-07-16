@@ -1,0 +1,153 @@
+{
+  "title": "Key Concepts in Maritime Insurance",
+  "readingTime": "6 minutes",
+  "introduction": "Maritime insurance protects shipowners, cargo interests and other stakeholders against financial losses arising from maritime risks. While insurance policies differ depending on the type of coverage, they are all built upon a number of fundamental legal principles. Understanding these concepts is essential for anyone working in shipping, marine operations or maritime law.",
+  "sections": [
+    {
+      "title": "1. What is Maritime Insurance?",
+      "paragraphs": [
+        "Maritime insurance transfers financial risk from the insured to the insurer in exchange for the payment of a premium.",
+        "Its purpose is not to prevent accidents, but to reduce the financial consequences when losses occur.",
+        "Marine insurance may cover vessels, cargo, freight, liabilities and many other maritime interests."
+      ]
+    },
+    {
+      "title": "2. Why Maritime Insurance is Important",
+      "paragraphs": [
+        "Shipping is exposed to numerous risks including severe weather, collisions, machinery failures, fire, piracy and pollution incidents.",
+        "Insurance provides financial protection that allows international trade to continue even when unexpected losses occur."
+      ],
+      "points": [
+        "Protects against major financial losses.",
+        "Supports international trade.",
+        "Provides confidence for shipowners and cargo owners.",
+        "Allows commercial shipping to operate despite significant risks."
+      ]
+    },
+    {
+      "title": "3. Insurable Interest",
+      "paragraphs": [
+        "A person can only insure something if they have an insurable interest in it.",
+        "This means they would suffer a genuine financial loss if the insured property were damaged or lost.",
+        "Without insurable interest, a marine insurance contract cannot normally be enforced."
+      ],
+      "points": [
+        "Shipowners have an interest in their vessels.",
+        "Cargo owners have an interest in their cargo.",
+        "Charterers may also have insurable interests depending on contractual responsibilities."
+      ]
+    },
+    {
+      "title": "4. Utmost Good Faith (Uberrimae Fidei)",
+      "paragraphs": [
+        "Marine insurance is based on the principle of utmost good faith.",
+        "The insured must disclose every material fact that could influence the insurer's decision to accept the risk or determine the premium.",
+        "Failure to disclose important information may allow the insurer to avoid the policy."
+      ],
+      "points": [
+        "Disclose vessel condition.",
+        "Disclose previous losses.",
+        "Disclose trading areas.",
+        "Disclose unusual cargoes or risks."
+      ]
+    },
+    {
+      "title": "5. Principle of Indemnity",
+      "paragraphs": [
+        "Insurance is intended to restore the insured to approximately the same financial position they occupied before the loss.",
+        "It is not intended to allow the insured to make a profit from an accident.",
+        "Compensation is therefore normally limited to the actual financial loss, subject to policy limits."
+      ]
+    },
+    {
+      "title": "6. Proximate Cause",
+      "paragraphs": [
+        "Not every loss at sea is automatically covered.",
+        "The insurer first determines the proximate cause, meaning the dominant or effective cause of the loss.",
+        "Only losses resulting from insured perils are normally covered."
+      ]
+    },
+    {
+      "title": "7. Warranties",
+      "paragraphs": [
+        "Marine insurance policies often contain warranties that require the insured to comply with specific conditions.",
+        "Examples include trading limits, safety requirements or maintaining required certificates.",
+        "Failure to comply with a warranty may affect insurance coverage."
+      ],
+      "points": [
+        "Trading limits.",
+        "Crew qualifications.",
+        "Safety equipment.",
+        "Regulatory compliance."
+      ]
+    },
+    {
+      "title": "8. Subrogation",
+      "paragraphs": [
+        "Once an insurer has paid a valid claim, it acquires the right of subrogation.",
+        "This allows the insurer to recover its losses from any third party legally responsible for the damage.",
+        "Subrogation prevents the insured from receiving compensation twice for the same loss."
+      ]
+    },
+    {
+      "title": "9. Contribution",
+      "paragraphs": [
+        "Sometimes the same property is insured under more than one insurance policy.",
+        "The principle of contribution ensures that each insurer pays only its fair share of the total loss.",
+        "This prevents over-compensation."
+      ]
+    },
+    {
+      "title": "10. Claims Handling",
+      "paragraphs": [
+        "When a loss occurs, the insured must normally notify the insurer promptly and provide supporting documentation.",
+        "Surveyors, adjusters and claims specialists may investigate the incident before compensation is determined."
+      ],
+      "points": [
+        "Notify the insurer.",
+        "Document the loss.",
+        "Cooperate with surveyors.",
+        "Submit supporting evidence.",
+        "Follow the insurer's claims procedure."
+      ]
+    },
+    {
+      "title": "11. Common Types of Maritime Insurance",
+      "paragraphs": [
+        "Several different insurance products are used within the maritime industry depending on the type of risk being insured."
+      ],
+      "points": [
+        "Hull and Machinery (H&M).",
+        "Protection and Indemnity (P&I).",
+        "Cargo Insurance.",
+        "Freight Insurance.",
+        "War Risk Insurance."
+      ]
+    },
+    {
+      "title": "12. Why These Principles Matter",
+      "paragraphs": [
+        "These legal principles form the foundation of nearly every marine insurance contract.",
+        "Whether dealing with underwriting, claims handling or legal disputes, maritime professionals rely on these concepts to determine how risks are allocated and how losses should be compensated."
+      ]
+    }
+  ],
+  "keyPoint": "Marine insurance is not designed to eliminate risk—it transfers financial risk from the insured to the insurer under clearly defined legal principles and policy conditions.",
+  "commonMistake": "Many people believe that every loss at sea is automatically covered by insurance. In reality, coverage depends on the policy wording, the proximate cause of the loss and whether all policy conditions and warranties have been complied with.",
+  "summary": [
+    "Maritime insurance protects against financial loss rather than preventing accidents.",
+    "An insurable interest is required before insurance can be enforced.",
+    "Utmost good faith requires full disclosure of material facts.",
+    "Indemnity restores financial position but does not allow profit from a loss.",
+    "Proximate cause determines whether a loss is covered.",
+    "Warranties impose important contractual obligations.",
+    "Subrogation allows insurers to recover losses from responsible third parties.",
+    "Contribution prevents multiple insurers from paying more than the total loss.",
+    "Claims require proper documentation and investigation.",
+    "Hull & Machinery, P&I and Cargo Insurance are among the most common forms of maritime insurance."
+  ],
+  "source": {
+    "title": "Marine Insight – Key Concepts in Maritime Insurance",
+    "url": "https://www.marineinsight.com/key-concepts-in-maritime-insurance/"
+  }
+}
