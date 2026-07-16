@@ -195,7 +195,26 @@ const quizzes = [
       "Traffic organization",
       "Port operations"
     ]
-  }
+  }, 
+
+  {
+  id: "bridge-workstations",
+  title: "Ship Navigation Bridge and Workstations",
+  category: "Navigation & Bridge Operations",
+  badge: "Bridge systems",
+  description:
+    "Learn bridge layout, navigation workstations, radar, ECDIS, AIS, communication equipment, emergency systems and integrated bridge operations.",
+  image: "./images/bridge-workstations.jpg",
+  imageAlt:
+    "Modern ship navigation bridge with integrated navigation workstations",
+  icon: "🧭",
+  tags: [
+    "Bridge layout",
+    "Navigation equipment",
+    "Conning",
+    "Bridge operations"
+  ]
+}
 ];
 
 const quizGrid =
