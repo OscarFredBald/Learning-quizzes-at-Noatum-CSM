@@ -1,141 +1,213 @@
 {
-  "title": "Important Parties in Shipping",
-  "readingTime": "5 minutes",
-  "introduction": "The shipping industry is built around cooperation between several key parties. Every shipment, from booking cargo to final delivery, requires coordination between commercial, technical and operational stakeholders. Understanding each party's role is essential for anyone working in ship management, chartering, logistics or maritime operations.",
+  "title": "Commercial Shipping – Who's Who",
+  "readingTime": "8 minutes",
+  "introduction": "Commercial shipping is a global business involving many different organizations, each with specific responsibilities. Some companies own ships, others operate them, while others arrange cargo, insurance, legal services or port operations. Understanding who does what is essential for anyone working in the maritime industry. Although these parties often work together, each has its own contractual responsibilities and commercial interests.",
+
   "sections": [
     {
-      "title": "1. The Shipping Chain",
+      "title": "1. Introduction to Commercial Shipping",
       "paragraphs": [
-        "A shipment normally begins with a shipper who wants to transport cargo and ends with a consignee receiving the goods. Between these two parties, shipowners, charterers, managers, crew and freight forwarders work together to ensure that the cargo is transported safely and efficiently."
-      ]
-    },
-    {
-      "title": "2. Shipper (Consignor)",
-      "paragraphs": [
-        "The shipper is the party sending the cargo. This is often the manufacturer, exporter or seller of the goods.",
-        "The shipper is responsible for preparing the cargo, arranging documentation and ensuring that the shipment complies with applicable regulations."
+        "A merchant vessel is much more than just a ship at sea. Behind every voyage is a network of companies responsible for financing, operating, maintaining, chartering, insuring and supplying the vessel.",
+        "Modern commercial shipping relies on cooperation between technical specialists, commercial operators, legal advisors, insurers and cargo interests. Each voyage involves contracts between several independent companies."
       ],
       "points": [
-        "Prepares cargo for transport.",
-        "Provides shipping instructions.",
-        "Completes export documentation.",
-        "Ensures correct packaging and marking.",
-        "Hands cargo over for transportation."
+        "Shipowners",
+        "Ship Managers",
+        "Charterers",
+        "Cargo Interests",
+        "Ship Brokers",
+        "Agents",
+        "Surveyors",
+        "Insurers",
+        "Lawyers"
       ]
     },
+
     {
-      "title": "3. Consignee",
+      "title": "2. The Shipowner",
       "paragraphs": [
-        "The consignee is the person or company receiving the cargo at its destination.",
-        "Depending on the sales agreement, the consignee is responsible for customs clearance, accepting delivery and reporting any cargo damage."
+        "The shipowner is the legal owner of the vessel. The owner invests in the ship and is ultimately responsible for its registration, insurance and long-term operation.",
+        "Many owners do not operate their own vessels directly. Instead, they hire professional ship management companies."
       ],
       "points": [
-        "Receives the cargo.",
-        "Completes import formalities.",
-        "Pays duties and taxes when required.",
-        "Inspects the cargo upon arrival.",
-        "Reports shortages or damage."
+        "Owns the vessel",
+        "Pays for major investments",
+        "Responsible for seaworthiness",
+        "Selects ship manager",
+        "May charter the vessel"
       ]
     },
+
     {
-      "title": "4. Shipowner",
+      "title": "3. Ship Management Companies",
       "paragraphs": [
-        "The shipowner owns the vessel and is ultimately responsible for keeping it seaworthy and commercially available.",
-        "Some owners operate their own ships, while others employ ship management companies or charter the vessel to another company."
+        "A ship management company operates the vessel on behalf of the owner. Depending on the contract, it may provide technical management, crewing, purchasing, budgeting and regulatory compliance.",
+        "Large companies such as Noatum CSM manage fleets for many different owners."
       ],
       "points": [
-        "Owns the vessel.",
-        "Maintains seaworthiness.",
-        "Ensures regulatory compliance.",
-        "Provides insurance.",
-        "Pays operating and maintenance costs."
+        "Technical Management",
+        "Crew Management",
+        "Purchasing",
+        "Budgeting",
+        "Maintenance",
+        "Dry Dock Planning",
+        "Regulatory Compliance",
+        "Safety Management"
       ]
     },
+
     {
-      "title": "5. Charterer",
+      "title": "4. Charterers",
       "paragraphs": [
-        "A charterer hires the vessel to transport cargo. Depending on the charterparty agreement, the charterer may control the commercial operation of the ship while the owner remains responsible for technical management.",
-        "The most common charter types are voyage charter, time charter and bareboat charter."
+        "A charterer hires the use of a vessel rather than owning it. Different charter agreements allocate responsibilities differently.",
+        "Understanding the differences between voyage, time and bareboat charters is fundamental in commercial shipping."
       ],
       "points": [
-        "Hires the vessel.",
-        "Arranges cargo transportation.",
-        "Negotiates freight or hire.",
-        "Plans voyages under certain charter types.",
-        "Operates according to the charterparty agreement."
+        "Voyage Charter – hires the vessel for one voyage.",
+        "Time Charter – hires the vessel for a period of time.",
+        "Bareboat Charter – hires the vessel without crew and assumes most operational responsibilities."
       ]
     },
+
     {
-      "title": "6. Ship Management Company",
+      "title": "5. Cargo Interests",
       "paragraphs": [
-        "Many shipowners outsource day-to-day vessel management to a professional ship management company.",
-        "The manager ensures that the vessel remains technically sound, properly crewed and compliant with international regulations."
+        "Cargo interests are the parties involved with the goods being transported. They include those sending, buying and receiving the cargo."
       ],
       "points": [
-        "Technical management.",
-        "Crew management.",
-        "Maintenance planning.",
-        "Regulatory compliance.",
-        "Budget and operational management."
+        "Shipper – sends the cargo.",
+        "Consignee – receives the cargo.",
+        "Cargo Owner – owns the cargo.",
+        "Trader – buys and sells commodities."
       ]
     },
+
     {
-      "title": "7. Ship's Crew",
+      "title": "6. Ship Brokers",
       "paragraphs": [
-        "The crew operates the vessel safely throughout the voyage. This includes navigation, cargo handling, machinery operation, maintenance and emergency response.",
-        "Every crew member has specific duties, while the Master has overall responsibility for the safe operation of the vessel."
+        "Ship brokers act as intermediaries between shipowners and charterers. They do not usually own ships or cargo themselves.",
+        "Their role is to negotiate charter parties, freight rates and commercial terms."
       ],
       "points": [
-        "Navigation.",
-        "Engine operation.",
-        "Cargo operations.",
-        "Maintenance.",
-        "Emergency response.",
-        "Compliance with international regulations."
+        "Find suitable ships",
+        "Find suitable cargo",
+        "Negotiate charter parties",
+        "Negotiate freight rates",
+        "Connect buyers and sellers"
       ]
     },
+
     {
-      "title": "8. Freight Forwarder",
+      "title": "7. Freight Forwarders",
       "paragraphs": [
-        "A freight forwarder acts as a logistics specialist coordinating the transportation of cargo between different transport providers.",
-        "Although the forwarder usually does not own the cargo or the ship, they play a vital role in organizing international transport."
+        "Freight forwarders coordinate the transportation of cargo using ships, trucks, trains and aircraft.",
+        "Unlike brokers, freight forwarders focus on the logistics chain rather than chartering vessels."
       ],
       "points": [
-        "Books cargo space.",
-        "Coordinates multimodal transport.",
-        "Prepares shipping documentation.",
-        "Assists with customs procedures.",
-        "Provides logistics solutions."
+        "Coordinate transport",
+        "Arrange customs",
+        "Prepare documentation",
+        "Organize inland transport",
+        "Book cargo space"
       ]
     },
+
     {
-      "title": "9. How the Parties Work Together",
+      "title": "8. Port and Liner Agents",
       "paragraphs": [
-        "Shipping depends on cooperation between all stakeholders. A successful voyage requires accurate documentation, clear communication and well-defined contractual responsibilities.",
-        "If one party fails to perform its responsibilities correctly, delays, claims and additional costs may occur."
+        "A Port Agent represents the vessel during a port call. The agent coordinates pilotage, towage, customs clearance, berth arrangements and local services.",
+        "A Liner Agent represents a shipping line and often handles bookings, customer service and documentation."
+      ],
+      "points": [
+        "Pilot booking",
+        "Towage",
+        "Berth arrangements",
+        "Port documentation",
+        "Customer support",
+        "Bills of Lading"
       ]
     },
+
     {
-      "title": "10. Why These Parties Matter",
+      "title": "9. Marine Insurance",
       "paragraphs": [
-        "Understanding the different parties helps explain how commercial shipping functions and why contracts, communication and responsibility are so important.",
-        "Most maritime professionals interact with several of these parties every day, whether they work onboard ships or ashore."
+        "Marine insurance is generally divided into Hull & Machinery insurance and Protection & Indemnity insurance.",
+        "Together they protect both the physical ship and the owner's legal liabilities."
+      ],
+      "points": [
+        "Hull & Machinery (H&M) covers physical damage to the vessel.",
+        "Protection & Indemnity (P&I) covers liabilities including pollution, cargo claims and crew injuries."
+      ]
+    },
+
+    {
+      "title": "10. Marine Surveyors",
+      "paragraphs": [
+        "Marine surveyors are independent experts who inspect ships or cargo. Their reports are often used by insurers, owners and courts."
+      ],
+      "points": [
+        "Cargo Surveys",
+        "Condition Surveys",
+        "Damage Surveys",
+        "Pre-purchase Surveys",
+        "Draft Surveys"
+      ]
+    },
+
+    {
+      "title": "11. Maritime Lawyers",
+      "paragraphs": [
+        "Maritime lawyers specialize in shipping law and resolve disputes involving charter parties, cargo claims, collisions, pollution, salvage and insurance."
+      ],
+      "points": [
+        "Charter Parties",
+        "Bills of Lading",
+        "Cargo Claims",
+        "Marine Insurance",
+        "Salvage",
+        "Collisions"
+      ]
+    },
+
+    {
+      "title": "12. How They Work Together",
+      "paragraphs": [
+        "Consider a shipment of iron ore from Brazil to Japan. A trader sells the cargo to a steel manufacturer. The trader charters a bulk carrier through a ship broker. The vessel is owned by one company but technically managed by another. A port agent arranges arrival formalities in Brazil and Japan. The freight forwarder coordinates inland transport. If damage occurs, a surveyor investigates while the P&I Club and maritime lawyers assist with any resulting claims."
+      ],
+      "points": [
+        "Trader sells cargo",
+        "Broker fixes charter",
+        "Shipowner provides vessel",
+        "Ship Manager operates vessel",
+        "Agent arranges port call",
+        "Surveyor investigates damage",
+        "P&I Club handles liabilities",
+        "Consignee receives cargo"
       ]
     }
   ],
-  "keyPoint": "Every shipment involves several specialised parties. No single organisation completes the entire transport process alone—successful shipping depends on cooperation between all stakeholders.",
-  "commonMistake": "Many people confuse the shipowner with the charterer. The shipowner owns the vessel, while the charterer hires the vessel to transport cargo under the terms of a charterparty.",
+
+  "keyPoint": "Commercial shipping depends on cooperation between many independent organizations. Understanding each party's responsibilities is essential for understanding how the maritime industry operates.",
+
+  "commonMistake": "Many people confuse the shipowner with the ship manager. The owner legally owns the vessel, while the ship manager may operate it on the owner's behalf. Likewise, a freight forwarder coordinates logistics but does not normally charter or operate ships like a ship broker.",
+
   "summary": [
-    "The shipper sends the cargo.",
-    "The consignee receives the cargo.",
-    "The shipowner owns and maintains the vessel.",
-    "The charterer hires the vessel for commercial purposes.",
-    "The ship management company operates the vessel on behalf of the owner.",
-    "The crew safely navigates and operates the ship.",
-    "The freight forwarder coordinates the transportation and logistics."
+    "Shipowners own vessels.",
+    "Ship Managers operate vessels for owners.",
+    "Charterers hire vessels.",
+    "Brokers connect owners and charterers.",
+    "Freight Forwarders organize logistics.",
+    "Port Agents handle local port operations.",
+    "Liner Agents represent shipping lines.",
+    "Surveyors inspect ships and cargo.",
+    "H&M covers physical ship damage.",
+    "P&I covers liabilities.",
+    "Maritime lawyers handle shipping law.",
+    "Commercial shipping is built on contracts between all these parties."
   ],
+
   "source": {
-    "title": "Marine Insight – 7 Important Parties in Shipping",
-    "url": "https://www.marineinsight.com/7-important-parties-in-shipping/"
+    "title": "BIMCO – Commercial: Who's Who?",
+    "url": "https://www.bimco.org/news-insights/shipping-explained/commercial/commercial-whos-who/"
   }
 }
