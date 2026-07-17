@@ -1,245 +1,250 @@
 {
-  "title": "Important Parties in Shipping",
+  "title": "Commercial Shipping – Who’s Who",
+  "description": "Learn about the main parties involved in commercial shipping, including shipowners, charterers, ship managers, brokers, agents, insurers, surveyors, freight forwarders and cargo interests.",
   "questions": [
     {
-      "question": "Which party normally arranges for goods to be transported from the seller to the buyer?",
-      "options": [
-        "Shipper",
-        "Consignee",
-        "Ship Manager",
-        "Classification Society"
-      ],
-      "answer": 0,
-      "difficulty": "Easy",
-      "explanation": "The shipper is the party sending the cargo and arranging its transportation."
-    },
-    {
-      "question": "Who is the consignee?",
-      "options": [
-        "The company operating the vessel",
-        "The intended receiver of the cargo",
-        "The company providing marine insurance",
-        "The organization inspecting the vessel"
-      ],
-      "answer": 1,
-      "difficulty": "Easy",
-      "explanation": "The consignee is the party to whom the cargo is delivered."
-    },
-    {
-      "question": "Who normally owns the vessel?",
+      "question": "Which party has legal ownership of a merchant vessel?",
       "options": [
         "The Charterer",
         "The Shipowner",
         "The Freight Forwarder",
-        "The Cargo Surveyor"
+        "The Port Agent"
       ],
       "answer": 1,
       "difficulty": "Easy",
-      "explanation": "The shipowner has legal ownership of the vessel."
+      "explanation": "The shipowner legally owns the vessel and is ultimately responsible for ensuring that it is registered, insured, maintained and operated in accordance with applicable requirements."
     },
     {
-      "question": "Which party primarily organizes the movement of cargo without necessarily owning ships?",
+      "question": "Who is the consignee in a cargo shipment?",
       "options": [
-        "Freight Forwarder",
-        "Chief Engineer",
-        "P&I Club",
-        "Ship Broker"
+        "The party that receives the cargo",
+        "The company that technically manages the vessel",
+        "The insurer covering the vessel's machinery",
+        "The intermediary negotiating the charterparty"
       ],
       "answer": 0,
       "difficulty": "Easy",
-      "explanation": "Freight forwarders arrange transportation and logistics for cargo."
+      "explanation": "The consignee is the party named to receive the cargo at its destination."
     },
     {
-      "question": "Who is responsible for navigating and operating the vessel at sea?",
+      "question": "Which party normally sends the cargo and arranges for it to enter the transport chain?",
       "options": [
-        "The Crew",
-        "The Charterer",
-        "The Consignee",
-        "The Freight Forwarder"
-      ],
-      "answer": 0,
-      "difficulty": "Easy",
-      "explanation": "The crew safely operates and navigates the vessel."
-    },
-    {
-      "question": "Which party normally decides what cargo will be carried under a time charter?",
-      "options": [
-        "The Charterer",
-        "The Shipowner",
-        "The Classification Society",
+        "The Ship Surveyor",
+        "The Port Agent",
+        "The Shipper",
         "The P&I Club"
       ],
-      "answer": 0,
-      "difficulty": "Medium",
-      "explanation": "Under a time charter, the charterer controls the commercial employment of the vessel."
+      "answer": 2,
+      "difficulty": "Easy",
+      "explanation": "The shipper is the party that sends or presents the cargo for transportation."
     },
     {
-      "question": "Which responsibility most commonly belongs to a Ship Management Company?",
+      "question": "What is the main role of a freight forwarder?",
       "options": [
-        "Finding buyers for the cargo",
-        "Technical management, crewing and maintenance",
-        "Issuing bills of lading",
-        "Providing cargo insurance"
+        "To classify and certify merchant ships",
+        "To coordinate cargo transportation and logistics",
+        "To command the vessel during a voyage",
+        "To own all vessels used in the transport chain"
+      ],
+      "answer": 1,
+      "difficulty": "Easy",
+      "explanation": "A freight forwarder coordinates the movement of goods from origin to destination, which may include shipping, warehousing, customs clearance and inland transportation."
+    },
+    {
+      "question": "Which party is hired to use a vessel for a voyage or a specified period?",
+      "options": [
+        "The Charterer",
+        "The Consignee",
+        "The Surveyor",
+        "The Crewing Agent"
+      ],
+      "answer": 0,
+      "difficulty": "Easy",
+      "explanation": "A charterer hires the use of a vessel under an agreed charterparty, either for a voyage, a period of time or under a bareboat arrangement."
+    },
+    {
+      "question": "What is the main function of a ship broker?",
+      "options": [
+        "To recruit and train the vessel's crew",
+        "To inspect machinery after an accident",
+        "To connect shipowners and charterers and assist with negotiations",
+        "To arrange medical treatment for seafarers"
+      ],
+      "answer": 2,
+      "difficulty": "Medium",
+      "explanation": "A ship broker acts as a professional intermediary, connecting shipowners and charterers and helping negotiate freight rates, hire, terms and contracts."
+    },
+    {
+      "question": "Which party normally coordinates pilotage, towage, berth arrangements and port documentation for a vessel call?",
+      "options": [
+        "The Cargo Trader",
+        "The Port or Ship Agent",
+        "The Classification Society",
+        "The Maritime Underwriter"
       ],
       "answer": 1,
       "difficulty": "Medium",
-      "explanation": "Ship managers often provide technical management, crewing and vessel maintenance."
+      "explanation": "A port or ship agent represents the owner or charterer locally and coordinates the practical requirements of the vessel's port call."
     },
     {
-      "question": "Which party usually pays freight charges under a CIF contract?",
+      "question": "What does a crewing agent primarily do?",
       "options": [
-        "The Seller (Shipper)",
-        "The Consignee",
-        "The Master",
-        "The Ship Manager"
+        "Negotiates the sale and purchase of vessels",
+        "Provides hull and machinery insurance",
+        "Recruits seafarers and arranges contracts, travel and training",
+        "Purchases commodities for international resale"
+      ],
+      "answer": 2,
+      "difficulty": "Medium",
+      "explanation": "A crewing agent recruits and arranges personnel for vessels and helps ensure that the crew meet regulatory and operational requirements."
+    },
+    {
+      "question": "Which type of marine insurance mainly covers physical damage to the ship and its machinery?",
+      "options": [
+        "Protection and Indemnity insurance",
+        "Hull and Machinery insurance",
+        "Cargo forwarding insurance",
+        "Charter hire insurance"
+      ],
+      "answer": 1,
+      "difficulty": "Medium",
+      "explanation": "Hull and Machinery insurance normally covers physical loss of or damage to the insured vessel, including its hull and machinery, subject to the policy terms."
+    },
+    {
+      "question": "Which organisation commonly covers liabilities such as cargo claims, crew injuries, pollution and certain fines?",
+      "options": [
+        "A P&I Club",
+        "A Ship Broker",
+        "A Liner Agent",
+        "A Freight Forwarder"
       ],
       "answer": 0,
       "difficulty": "Medium",
-      "explanation": "Under CIF contracts, the seller generally arranges and pays for freight."
+      "explanation": "Protection and Indemnity clubs provide mutual liability insurance for risks that are generally not covered by standard Hull and Machinery insurance."
     },
     {
-      "question": "Which party has the strongest commercial interest in ensuring cargo reaches the correct destination?",
+      "question": "A company hires a vessel for one cargo movement from Brazil to China. Which charter arrangement is most likely?",
+      "options": [
+        "Bareboat charter",
+        "Time charter",
+        "Voyage charter",
+        "Ship management agreement"
+      ],
+      "answer": 2,
+      "difficulty": "Hard",
+      "explanation": "A voyage charterer hires a vessel for a specific voyage between agreed loading and discharge locations."
+    },
+    {
+      "question": "A company hires a vessel for twelve months, directs its commercial voyages and normally pays for bunkers and port charges. What type of charterer is it?",
+      "options": [
+        "A Time Charterer",
+        "A Voyage Charterer",
+        "A Cargo Surveyor",
+        "A Liner Agent"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "Under a time charter, the charterer uses the vessel for an agreed period and normally pays voyage-related costs such as bunkers and port charges."
+    },
+    {
+      "question": "A company takes over a vessel without crew or provisions and assumes extensive operational control. Which arrangement does this describe?",
+      "options": [
+        "Voyage charter",
+        "Freight forwarding agreement",
+        "Liner agency agreement",
+        "Bareboat charter"
+      ],
+      "answer": 3,
+      "difficulty": "Hard",
+      "explanation": "A bareboat charterer leases the vessel without crew or provisions and assumes a level of control and responsibility similar to that of an owner for the charter period."
+    },
+    {
+      "question": "A shipowner outsources budgeting, maintenance planning, regulatory compliance and day-to-day technical operation. Which party would normally perform these duties?",
       "options": [
         "The Consignee",
-        "The Crew",
         "The Ship Manager",
-        "The Classification Society"
-      ],
-      "answer": 0,
-      "difficulty": "Medium",
-      "explanation": "The consignee expects to receive the cargo."
-    },
-    {
-      "question": "What is the primary role of a Freight Forwarder?",
-      "options": [
-        "To own vessels",
-        "To coordinate transportation and logistics",
-        "To classify ships",
-        "To inspect cargo damage"
+        "The Cargo Trader",
+        "The Voyage Charterer"
       ],
       "answer": 1,
-      "difficulty": "Medium",
-      "explanation": "Freight forwarders coordinate transportation through multiple carriers."
+      "difficulty": "Hard",
+      "explanation": "A ship manager acts on behalf of the shipowner and may oversee technical operations, maintenance, compliance, budgeting and coordination with maritime stakeholders."
     },
     {
-      "question": "A vessel is on a time charter. The charterer orders the vessel to load coal in Australia and discharge it in Japan. Who normally provides the officers and engineers?",
+      "question": "Which statement best distinguishes a shipowner from a ship manager?",
       "options": [
-        "The Shipowner or Ship Manager",
-        "The Charterer",
-        "The Shipper",
-        "The Consignee"
+        "The manager owns the cargo, while the owner arranges customs clearance",
+        "The owner legally owns the vessel, while the manager may operate it on the owner's behalf",
+        "The manager always charters the vessel, while the owner acts as port agent",
+        "The owner inspects cargo, while the manager provides marine insurance"
+      ],
+      "answer": 1,
+      "difficulty": "Hard",
+      "explanation": "Ownership and management can be separated. The owner retains legal ownership, while a contracted ship manager may handle the vessel's day-to-day technical and administrative operation."
+    },
+    {
+      "question": "A scheduled container shipping company needs a local representative to handle cargo bookings, issue bills of lading, assist customers and coordinate berth scheduling. Who should it appoint?",
+      "options": [
+        "A Liner Agent",
+        "A Bareboat Charterer",
+        "A Marine Surveyor",
+        "A Technical Superintendent"
       ],
       "answer": 0,
       "difficulty": "Hard",
-      "explanation": "Under a time charter, the owner normally provides the crew while the charterer controls commercial employment."
+      "explanation": "A liner agent represents a shipping line and may handle bookings, bills of lading, customer contact, customs documentation and port coordination."
     },
     {
-      "question": "A vessel suffers a main engine failure. Which party would normally arrange repairs if technical management has been outsourced?",
+      "question": "Following cargo damage, an independent professional is appointed to inspect the goods, establish their condition and issue a factual report. Who is this?",
       "options": [
-        "Ship Management Company",
-        "Consignee",
-        "Freight Forwarder",
-        "Cargo Owner"
+        "The Ship Broker",
+        "The Marine Surveyor",
+        "The Crewing Agent",
+        "The Time Charterer"
+      ],
+      "answer": 1,
+      "difficulty": "Hard",
+      "explanation": "A marine or cargo surveyor inspects ships or cargo and reports on condition, damage, quality, quantity, value or compliance."
+    },
+    {
+      "question": "A dispute arises over charterparty terms, cargo liability, salvage and general average. Which specialist is most likely to advise the parties?",
+      "options": [
+        "A Maritime Lawyer",
+        "A Freight Forwarder",
+        "A Port Agent",
+        "A Crewing Agent"
       ],
       "answer": 0,
       "difficulty": "Hard",
-      "explanation": "Technical managers typically arrange repairs and maintenance."
+      "explanation": "Maritime lawyers specialise in legal matters such as charterparties, cargo claims, collision, salvage, insurance, pollution and general average."
     },
     {
-      "question": "Who has the greatest commercial interest in minimizing off-hire during a time charter?",
+      "question": "A business buys grain internationally and contracts shipping services to deliver it to overseas buyers. Which commercial role best describes the business?",
       "options": [
-        "The Charterer",
-        "The Pilot",
-        "The Freight Forwarder",
-        "The Cargo Surveyor"
+        "Ship Surveyor",
+        "Trader",
+        "P&I Correspondent",
+        "Liner Agent"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "Hard",
-      "explanation": "The charterer loses commercial use of the vessel during off-hire."
+      "explanation": "A trader buys and sells commodities such as grain, oil or metals and may contract vessels or other transport services to move those commodities."
     },
     {
-      "question": "Which party would most likely negotiate voyage instructions with terminals and ports on behalf of the vessel's commercial operation?",
+      "question": "Which sequence most accurately represents a simple cargo movement while distinguishing the cargo interests from the carrier?",
       "options": [
-        "The Charterer",
-        "The Crew",
-        "The Consignee",
-        "The Ship Chandler"
-      ],
-      "answer": 0,
-      "difficulty": "Hard",
-      "explanation": "Commercial voyage instructions are usually provided by the charterer."
-    },
-    {
-      "question": "A cargo arrives damaged. Which party ultimately receives the damaged cargo?",
-      "options": [
-        "The Consignee",
-        "The Freight Forwarder",
-        "The Charterer",
-        "The Ship Manager"
-      ],
-      "answer": 0,
-      "difficulty": "Hard",
-      "explanation": "The consignee receives the cargo, whether damaged or not."
-    },
-    {
-      "question": "Which party normally has contractual responsibility for maintaining the vessel's seaworthiness?",
-      "options": [
-        "The Shipowner",
-        "The Shipper",
-        "The Consignee",
-        "The Freight Forwarder"
-      ],
-      "answer": 0,
-      "difficulty": "Hard",
-      "explanation": "Maintaining seaworthiness is primarily the owner's responsibility."
-    },
-    {
-      "question": "Which combination correctly distinguishes commercial management from technical management?",
-      "options": [
-        "Commercial management concerns cargo employment, while technical management concerns maintenance and crewing.",
-        "Commercial management concerns maintenance, while technical management concerns cargo sales.",
-        "Commercial management concerns insurance, while technical management concerns chartering.",
-        "Commercial management concerns vessel ownership, while technical management concerns financing."
-      ],
-      "answer": 0,
-      "difficulty": "Hard",
-      "explanation": "Commercial management deals with employment of the vessel, while technical management deals with operating it safely."
-    },
-    {
-      "question": "A company owns a vessel but hires another company to operate it technically. Which statement is most accurate?",
-      "options": [
-        "The owner retains ownership while the manager handles technical operations.",
-        "The manager automatically becomes the legal owner.",
-        "The charterer becomes responsible for maintenance.",
-        "The consignee assumes operational responsibility."
-      ],
-      "answer": 0,
-      "difficulty": "Hard",
-      "explanation": "Ownership and technical management are often performed by different companies."
-    },
-    {
-      "question": "Which party is most likely to coordinate several transport modes, customs documentation and inland delivery?",
-      "options": [
-        "Freight Forwarder",
-        "Shipowner",
-        "Master",
-        "P&I Club"
-      ],
-      "answer": 0,
-      "difficulty": "Hard",
-      "explanation": "Freight forwarders coordinate the complete logistics chain."
-    },
-    {
-      "question": "Which sequence correctly follows the normal cargo flow?",
-      "options": [
+        "Port Agent → Ship Manager → P&I Club",
+        "Consignee → Shipowner → Shipper",
         "Shipper → Carrier → Consignee",
-        "Consignee → Charterer → Shipowner",
-        "Freight Forwarder → Crew → Shipper",
-        "Ship Manager → Cargo Surveyor → Consignee"
+        "Surveyor → Charterer → Crewing Agent"
       ],
-      "answer": 0,
+      "answer": 2,
       "difficulty": "Hard",
-      "explanation": "Cargo normally moves from the shipper, through the carrier, to the consignee."
+      "explanation": "In a simplified cargo chain, the shipper sends the goods, the carrier transports them and the consignee receives them."
     }
-  ]
+  ],
+  "source": {
+    "title": "BIMCO – Commercial: Who’s Who?",
+    "url": "https://www.bimco.org/news-insights/shipping-explained/commercial/commercial-whos-who/"
+  }
 }
