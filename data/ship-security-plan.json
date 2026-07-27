@@ -5,240 +5,240 @@
     {
       "question": "What is the main purpose of a Ship Security Plan?",
       "options": [
-        "To define how the vessel protects people, cargo, stores and the ship against security threats",
         "To describe the vessel's planned maintenance system",
+        "To define how the vessel protects people, cargo, stores and the ship against security threats",
         "To calculate the ship's stability during cargo operations",
         "To document pollution-prevention equipment"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "Easy",
       "explanation": "The Ship Security Plan describes the procedures, responsibilities and measures used to protect the vessel and persons onboard against security incidents."
     },
     {
       "question": "Which international code requires applicable ships to carry an approved Ship Security Plan?",
       "options": [
-        "The ISPS Code",
+        "The IBC Code",
         "The ISM Code",
         "The IMDG Code",
-        "The IBC Code"
+        "The ISPS Code"
       ],
-      "answer": 0,
+      "answer": 3,
       "difficulty": "Easy",
       "explanation": "The International Ship and Port Facility Security Code requires applicable ships to maintain an approved Ship Security Plan."
     },
     {
       "question": "Who is primarily responsible for implementing the Ship Security Plan onboard?",
       "options": [
-        "The Ship Security Officer",
+        "The cargo superintendent",
         "The Port Facility Security Officer",
         "The classification surveyor",
-        "The cargo superintendent"
+        "The Ship Security Officer"
       ],
-      "answer": 0,
+      "answer": 3,
       "difficulty": "Easy",
       "explanation": "The Ship Security Officer is responsible for the practical implementation and maintenance of the Ship Security Plan onboard the vessel."
     },
     {
       "question": "What does Security Level 1 represent?",
       "options": [
-        "The normal minimum security measures maintained at all times",
+        "A condition requiring immediate evacuation",
         "A probable or imminent security incident",
         "A temporary suspension of the ISPS Code",
-        "A condition requiring immediate evacuation"
+        "The normal minimum security measures maintained at all times"
       ],
-      "answer": 0,
+      "answer": 3,
       "difficulty": "Easy",
       "explanation": "Security Level 1 is the normal baseline level at which minimum appropriate protective security measures are maintained continuously."
     },
     {
       "question": "What is the Ship Security Alert System designed to do?",
       "options": [
-        "Send a silent security alert without warning persons onboard",
         "Sound the general alarm throughout the vessel",
+        "Send a silent security alert without warning persons onboard",
         "Automatically stop the main engine",
         "Transmit a distress message to nearby vessels by VHF"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "Easy",
       "explanation": "The SSAS sends a covert alert containing the ship's identity and position without sounding an audible alarm onboard."
     },
     {
       "question": "What is the relationship between the Ship Security Assessment and the Ship Security Plan?",
       "options": [
-        "The assessment identifies threats and vulnerabilities that the plan must address",
-        "The plan is completed before the assessment begins",
         "The assessment replaces the need for an approved plan",
+        "The plan is completed before the assessment begins",
+        "The assessment identifies threats and vulnerabilities that the plan must address",
         "The plan is only used when the assessment is unavailable"
       ],
-      "answer": 0,
+      "answer": 2,
       "difficulty": "Medium",
       "explanation": "The Ship Security Assessment identifies security risks and vulnerabilities, and its findings form the basis of the Ship Security Plan."
     },
     {
       "question": "Which responsibility most commonly belongs to the Company Security Officer?",
       "options": [
-        "Coordinating company-wide security and submitting SSP amendments for approval",
         "Maintaining the gangway watch during each port call",
+        "Coordinating company-wide security and submitting SSP amendments for approval",
         "Controlling access to the engine room during normal operations",
         "Conducting every security patrol personally onboard"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "Medium",
       "explanation": "The CSO manages security at company level, ensures assessments and plans are prepared and submits amendments to the Administration or RSO."
     },
     {
       "question": "What is the primary role of the Port Facility Security Officer?",
       "options": [
-        "To coordinate security arrangements at the ship-port interface",
         "To approve the vessel's Ship Security Plan",
+        "To coordinate security arrangements at the ship-port interface",
         "To maintain the ship's SSAS",
         "To supervise the vessel's engine-room watch"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "Medium",
       "explanation": "The PFSO manages port-facility security and coordinates security measures with the vessel during the port call."
     },
     {
       "question": "What normally changes when a vessel moves from Security Level 1 to Security Level 2?",
       "options": [
-        "Additional access controls, patrols and monitoring measures are introduced",
         "The vessel automatically activates the SSAS",
+        "Additional access controls, patrols and monitoring measures are introduced",
         "All cargo operations must stop immediately",
         "The International Ship Security Certificate becomes invalid"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "Medium",
       "explanation": "Security Level 2 requires additional protective measures because of an elevated risk of a security incident."
     },
     {
       "question": "Why is the Ship Security Plan treated as a confidential document?",
       "options": [
-        "It contains sensitive details about vulnerabilities, restricted areas and security procedures",
         "It contains the vessel's confidential fuel-consumption figures",
+        "It contains sensitive details about vulnerabilities, restricted areas and security procedures",
         "It includes personal salary information for the crew",
         "It replaces the vessel's official logbook"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "Medium",
       "explanation": "The SSP contains security-sensitive information that could be misused if disclosed to unauthorized persons."
     },
     {
       "question": "A visitor arrives at the gangway with an expired identification pass and claims that the agent has already approved the visit. What should the gangway watch do first?",
       "options": [
-        "Refuse access until the visitor's identity and authorization are verified",
+        "Activate the Ship Security Alert System immediately",
         "Permit access because the visitor knows the ship's agent",
         "Allow the visitor onboard but restrict access to the bridge",
-        "Activate the Ship Security Alert System immediately"
+        "Refuse access until the visitor's identity and authorization are verified"
       ],
-      "answer": 0,
+      "answer": 3,
       "difficulty": "Hard",
       "explanation": "The visitor should not be allowed onboard until identity and authorization have been confirmed according to the vessel's access-control procedures."
     },
     {
       "question": "A Port State Control officer requests unrestricted access to the entire Ship Security Plan during a routine inspection. What is the most appropriate response?",
       "options": [
-        "Explain that routine inspection normally verifies certification and does not permit unrestricted review of the SSP",
         "Provide the entire document immediately without consulting the master",
+        "Explain that routine inspection normally verifies certification and does not permit unrestricted review of the SSP",
         "Refuse to show any security-related certificate",
         "Delete the electronic copy before the inspection begins"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "Hard",
       "explanation": "During a routine inspection, officers normally verify the ISSC. Inspection of the SSP is restricted and requires specific grounds, limited scope and the master's consent."
     },
     {
       "question": "The vessel receives instructions that Security Level 3 is now in effect. Which response is most consistent with that level?",
       "options": [
-        "Implement the specific exceptional measures directed by the relevant authority",
         "Continue normal operations with only routine gangway checks",
+        "Implement the specific exceptional measures directed by the relevant authority",
         "Activate the SSAS automatically regardless of circumstances",
         "Lower the security level because the vessel is already alongside"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "Hard",
       "explanation": "Security Level 3 applies when a security incident is probable or imminent and requires exceptional measures directed by the competent authority."
     },
     {
       "question": "A security drill reveals that crew members do not know who should report an attempted unauthorized boarding. What does this most clearly indicate?",
       "options": [
-        "A weakness in training and assigned security duties under the SSP",
+        "A problem with the vessel's stability calculations",
         "A failure of the vessel's pollution-prevention procedures",
         "A defect in the International Ship Security Certificate",
-        "A problem with the vessel's stability calculations"
+        "A weakness in training and assigned security duties under the SSP"
       ],
-      "answer": 0,
+      "answer": 3,
       "difficulty": "Hard",
       "explanation": "The SSP must define security responsibilities and reporting procedures, and crew members must understand their assigned duties."
     },
     {
       "question": "More than 25 percent of the crew is replaced by personnel who have not participated in a security drill on that vessel during the preceding three months. What is normally required?",
       "options": [
-        "A security drill should be conducted within one week of the crew change",
+        "The ship must remain at Security Level 2 for one month",
         "The vessel must immediately undergo a new flag-State survey",
         "The Ship Security Plan must be rewritten before departure",
-        "The ship must remain at Security Level 2 for one month"
+        "A security drill should be conducted within one week of the crew change"
       ],
-      "answer": 0,
+      "answer": 3,
       "difficulty": "Hard",
       "explanation": "A security drill is required within one week when a significant proportion of the crew is replaced by personnel unfamiliar with the vessel's recent drills."
     },
     {
       "question": "The SSO identifies a weakness in the vessel's access-control procedures that requires a permanent change to the Ship Security Plan. What should happen next?",
       "options": [
-        "The SSO should submit the recommendation through the CSO for formal approval before implementation",
         "The SSO should permanently amend the approved plan without notifying anyone",
+        "The SSO should submit the recommendation through the CSO for formal approval before implementation",
         "The PFSO should approve the vessel's revised plan",
         "The crew should vote on whether the amendment is necessary"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "Hard",
       "explanation": "The SSO reports deficiencies to the CSO, who evaluates and submits the proposed amendment to the Administration or RSO for approval."
     },
     {
       "question": "A covert SSAS test is planned while the vessel is at sea. Why should the flag State normally be informed before the transmission?",
       "options": [
-        "To prevent the test signal from being treated as a genuine security alert",
+        "To suspend the vessel's International Ship Security Certificate",
         "To obtain permission to stop the main engine",
         "To allow the nearest port to activate its general alarm",
-        "To suspend the vessel's International Ship Security Certificate"
+        "To prevent the test signal from being treated as a genuine security alert"
       ],
-      "answer": 0,
+      "answer": 3,
       "difficulty": "Hard",
       "explanation": "Advance notification prevents authorities from interpreting the test transmission as a real security emergency."
     },
     {
       "question": "A port facility is operating at Security Level 2 while the vessel remains instructed to operate at Security Level 1. What should the vessel normally do?",
       "options": [
-        "Coordinate with the port and implement appropriate additional measures for the ship-port interface",
+        "Suspend all communication with the PFSO",
         "Ignore the port's security level because only the flag State matters",
         "Automatically declare Security Level 3 onboard",
-        "Suspend all communication with the PFSO"
+        "Coordinate with the port and implement appropriate additional measures for the ship-port interface"
       ],
-      "answer": 0,
+      "answer": 3,
       "difficulty": "Hard",
       "explanation": "The vessel must coordinate with the port facility and adopt appropriate measures so the ship-port interface is protected at the higher applicable level."
     },
     {
       "question": "A contractor is authorized to repair equipment in the engine room. Which security control remains most appropriate?",
       "options": [
-        "Verify authorization, control access and escort or monitor the contractor as required by the SSP",
-        "Give the contractor unrestricted access because the repair is necessary",
         "Issue the contractor a permanent crew identification card",
+        "Give the contractor unrestricted access because the repair is necessary",
+        "Verify authorization, control access and escort or monitor the contractor as required by the SSP",
         "Permit access without records if the Chief Engineer recognizes the contractor"
       ],
-      "answer": 0,
+      "answer": 2,
       "difficulty": "Hard",
       "explanation": "Authorized visitors and contractors remain subject to identity verification, access restrictions, monitoring and recordkeeping."
     },
     {
       "question": "After a security incident, the existing SSP procedures are found to have been ineffective. Which action is most appropriate?",
       "options": [
-        "Review the security assessment and submit necessary SSP amendments for approval",
         "Continue using the existing procedures because the plan is already approved",
+        "Review the security assessment and submit necessary SSP amendments for approval",
         "Remove all security records relating to the incident",
         "Transfer responsibility for the SSP to the port facility"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "Hard",
       "explanation": "A security incident should trigger review of the assessment and plan, with formal approval obtained for any necessary amendments."
     }
