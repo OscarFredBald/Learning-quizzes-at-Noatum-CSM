@@ -5,22 +5,22 @@
     {
       "question": "What is the main purpose of a Vessel Traffic Service?",
       "options": [
+        "To coordinate commercial services such as pilotage, towage and berth allocation",
+        "To provide vessels with mandatory courses and headings throughout the VTS area",
         "To improve the safety and efficiency of vessel traffic and help protect the environment",
-        "To replace the bridge team during port approaches",
-        "To provide technical maintenance instructions to vessels",
-        "To approve charter parties for ships entering the area"
+        "To assume navigational responsibility from the master in congested waters"
       ],
-      "answer": 0,
+      "answer": 2,
       "difficulty": "Easy",
       "explanation": "A VTS is established to improve vessel-traffic safety and efficiency and to support protection of the marine environment."
     },
     {
       "question": "Who normally establishes or authorizes a Vessel Traffic Service?",
       "options": [
-        "An individual shipowner",
+        "The principal pilotage organization serving the port",
         "A competent authority",
-        "The vessel's classification society",
-        "The local ship agent"
+        "A recognized classification society acting for local shipowners",
+        "The largest terminal operator within the geographical area"
       ],
       "answer": 1,
       "difficulty": "Easy",
@@ -29,22 +29,22 @@
     {
       "question": "Which communication method is commonly used between vessels and a VTS centre?",
       "options": [
-        "VHF radio",
-        "NAVTEX transmission",
-        "Emergency position-indicating radio beacon",
-        "Engine-room telephone"
+        "NAVTEX broadcasts on the navigational warning frequency",
+        "AIS safety-related messages as the primary voice communication method",
+        "Satellite telephone calls between the master and VTS supervisor",
+        "VHF radio"
       ],
-      "answer": 0,
+      "answer": 3,
       "difficulty": "Easy",
       "explanation": "VHF radio is commonly used for vessel reports, traffic information and operational communication with VTS."
     },
     {
       "question": "Which party remains responsible for the safe navigation of a vessel inside a VTS area?",
       "options": [
-        "The VTS operator",
-        "The port agent",
+        "The VTS operator whenever the vessel has reported its position",
+        "The pilot, whether or not a pilot is actually onboard",
         "The master and bridge team",
-        "The harbour authority's finance department"
+        "The competent authority responsible for the VTS area"
       ],
       "answer": 2,
       "difficulty": "Easy",
@@ -54,9 +54,9 @@
       "question": "What is a VTS area?",
       "options": [
         "A defined geographical area in which a Vessel Traffic Service is provided",
-        "Any sea area covered by the vessel's radar",
-        "The restricted area around the ship's bridge",
-        "A designated anchorage used only by tankers"
+        "The full radar-surveillance range available from a coastal station",
+        "Any compulsory pilotage district established by a port authority",
+        "A traffic separation scheme monitored by one or more coastal stations"
       ],
       "answer": 0,
       "difficulty": "Easy",
@@ -65,144 +65,144 @@
     {
       "question": "What is the primary purpose of a VTS Information Service?",
       "options": [
+        "To issue binding manoeuvring instructions whenever vessels are in sight of each other",
         "To ensure that essential information is available for onboard navigational decision-making",
-        "To take direct control of a vessel's steering system",
-        "To arrange pilotage contracts for each arriving vessel",
-        "To calculate the vessel's cargo stability"
+        "To allocate pilots, tugs and berths to arriving vessels",
+        "To verify that vessels comply with all technical and statutory certification requirements"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "Medium",
       "explanation": "An Information Service provides timely information that supports navigational decisions onboard."
     },
     {
       "question": "When is a Navigational Assistance Service most likely to be useful?",
       "options": [
+        "When the VTS needs to establish the vessel's identity before entering the area",
+        "When port control needs to sequence several vessels for berth arrival",
         "When a vessel requires support with onboard navigational decision-making",
-        "When a vessel requires spare parts for its main engine",
-        "When a charterer requests a new cargo nomination",
-        "When the crew needs assistance completing customs declarations"
+        "When the vessel requests confirmation that its passage plan complies with company procedures"
       ],
-      "answer": 0,
+      "answer": 2,
       "difficulty": "Medium",
       "explanation": "Navigational Assistance Service supports onboard navigational decision-making and may monitor the effect of those decisions."
     },
     {
       "question": "What is the main purpose of a Traffic Organization Service?",
       "options": [
-        "To prevent dangerous traffic situations and support safe and efficient traffic movement",
-        "To inspect the vessel's lifesaving appliances",
-        "To assign crew members to bridge watches",
-        "To determine which company owns each vessel"
+        "To provide vessels with weather, hydrographic and navigational-warning information",
+        "To advise individual vessels on radar plotting and collision-avoidance calculations",
+        "To coordinate pilot boarding and tug assistance for each vessel",
+        "To prevent dangerous traffic situations and support safe and efficient traffic movement"
       ],
-      "answer": 0,
+      "answer": 3,
       "difficulty": "Medium",
       "explanation": "Traffic Organization Service manages traffic movements to reduce congestion and prevent dangerous situations."
     },
     {
       "question": "Why are vessels required to report at designated reporting points in some VTS areas?",
       "options": [
+        "To allow the VTS to approve each vessel's detailed passage plan",
         "To provide updated information about identity, position, movement and intentions",
-        "To request permission to use the vessel's radar",
-        "To confirm that the cargo has been insured",
-        "To transmit the vessel's engine-maintenance records"
+        "To transfer navigational responsibility to the VTS operator",
+        "To confirm that the vessel has received all current chart corrections"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "Medium",
       "explanation": "Reports help the VTS maintain an accurate traffic picture and provide relevant information and organization."
     },
     {
       "question": "Which combination of equipment may contribute to the traffic picture at a VTS centre?",
       "options": [
+        "Radar, echo sounder, gyrocompass and speed log",
+        "AIS, NAVTEX, EPIRB and satellite telephone",
         "Radar, AIS, VHF and CCTV",
-        "Echo sounder, oily-water separator and NAVTEX",
-        "Gyrocompass, incinerator and sewage-treatment plant",
-        "Ballast pumps, GPS and emergency generator"
+        "GPS, ECDIS, BNWAS and voyage data recorder"
       ],
-      "answer": 0,
+      "answer": 2,
       "difficulty": "Medium",
       "explanation": "VTS centres commonly integrate information from radar, AIS, radio communications, cameras and other surveillance systems."
     },
     {
       "question": "A vessel enters a mandatory VTS area without making the required initial report. What is the primary operational concern?",
       "options": [
-        "The VTS may not have accurate information about the vessel's position, movement and intentions",
-        "The vessel's AIS will automatically stop transmitting",
-        "The vessel's classification certificate becomes invalid",
-        "The pilot station must permanently refuse service"
+        "The vessel may be excluded from receiving pilotage services during that port call",
+        "The VTS will be unable to display the vessel because AIS data cannot be used without a voice report",
+        "The vessel will automatically be treated as non-compliant with the COLREGs",
+        "The VTS may not have accurate information about the vessel's position, movement and intentions"
       ],
-      "answer": 0,
+      "answer": 3,
       "difficulty": "Hard",
       "explanation": "Without the required report, the VTS traffic picture may be incomplete, reducing its ability to provide timely information and organize traffic."
     },
     {
       "question": "Two vessels are approaching a narrow channel from opposite directions. The VTS assigns different entry times to avoid meeting in the narrowest section. Which service is being provided?",
       "options": [
+        "Traffic Organization Service",
         "Navigational Assistance Service",
         "Information Service",
-        "Traffic Organization Service",
-        "Search and Rescue Service"
+        "Maritime Assistance Service"
       ],
-      "answer": 2,
+      "answer": 0,
       "difficulty": "Hard",
       "explanation": "Coordinating entry times and traffic sequence is an example of Traffic Organization Service."
     },
     {
       "question": "A vessel experiences a gyrocompass failure while approaching a congested port and requests assistance from VTS. Which response best describes the role of VTS?",
       "options": [
+        "VTS should take over the conduct of the vessel until the gyrocompass is repaired",
         "VTS may provide relevant navigational information and assistance, while the master retains responsibility for navigation",
-        "VTS automatically becomes responsible for conning the vessel",
-        "VTS may remotely operate the vessel's rudder",
-        "VTS must order the crew to abandon the bridge"
+        "VTS should issue direct helm orders based on the vessel's radar position",
+        "VTS must require the vessel to anchor immediately, regardless of the surrounding traffic situation"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "Hard",
       "explanation": "VTS may assist the vessel's decision-making, but responsibility for the vessel's safe navigation remains onboard."
     },
     {
       "question": "A VTS operator observes that two vessels are developing a close-quarters situation, but neither has reported any concern. What is the most appropriate initial action?",
       "options": [
+        "Issue specific collision-avoidance manoeuvres to both vessels without first establishing communication",
+        "Notify the pilot station and allow the pilots to contact the vessels",
         "Provide timely traffic information and establish communication as appropriate",
-        "Wait until the vessels collide before making contact",
-        "Transmit an SSAS alert on behalf of both vessels",
-        "Immediately cancel both vessels' statutory certificates"
+        "Wait until one vessel formally requests Navigational Assistance Service"
       ],
-      "answer": 0,
+      "answer": 2,
       "difficulty": "Hard",
       "explanation": "The operator should provide relevant, timely information and interact with the traffic according to local procedures."
     },
     {
       "question": "A vessel receives traffic information from VTS that conflicts with observations made by radar and visual bearings. What should the bridge team do?",
       "options": [
-        "Cross-check all available information and clarify the discrepancy with VTS",
-        "Ignore the vessel's own radar because VTS information is always correct",
-        "Alter course immediately without assessing the situation",
-        "Switch off AIS to prevent further conflicting information"
+        "Follow the VTS information because shore-based surveillance normally has priority over onboard observations",
+        "Disregard the VTS report and continue solely on the basis of visual information",
+        "Alter course immediately to create additional passing distance before contacting VTS",
+        "Cross-check all available information and clarify the discrepancy with VTS"
       ],
-      "answer": 0,
+      "answer": 3,
       "difficulty": "Hard",
       "explanation": "VTS information is an aid and should be checked against onboard observations and all other available means."
     },
     {
       "question": "A tanker reports a steering failure inside a busy VTS area. Which information is most urgent for the VTS operator to establish?",
       "options": [
+        "Whether the vessel has arranged tug assistance for arrival",
         "The vessel's position, movement, limitations and immediate intentions",
-        "The vessel's next dry-docking date",
-        "The price paid for the vessel's bunker fuel",
-        "The number of crew members due to sign off"
+        "Whether the failure is covered by the vessel's planned maintenance system",
+        "The vessel's draught, cargo quantity and next port of call"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "Hard",
       "explanation": "Position, movement, manoeuvring limitations and intentions are essential for assessing the developing traffic risk."
     },
     {
       "question": "A vessel is instructed to maintain listening watch on a designated VTS channel but changes to another working channel without informing VTS. What is the main risk?",
       "options": [
+        "The VTS may remove the vessel from its traffic display",
+        "The vessel may be unable to receive navigational warnings transmitted by NAVTEX",
         "The vessel may miss urgent traffic information or operational instructions",
-        "The vessel's radar range will be reduced",
-        "Its AIS identity will automatically change",
-        "The ship will lose its International Ship Security Certificate"
+        "The vessel's AIS information may no longer be accepted by the VTS system"
       ],
-      "answer": 0,
+      "answer": 2,
       "difficulty": "Hard",
       "explanation": "Maintaining the required listening watch is essential so the vessel can receive urgent safety and traffic communications."
     },
@@ -210,9 +210,9 @@
       "question": "A vessel receives a VTS message stating: 'Traffic information: outbound tanker passing the entrance in ten minutes.' How should this message normally be interpreted?",
       "options": [
         "As information to support the bridge team's own assessment and navigational decisions",
-        "As an instruction to stop the vessel immediately",
-        "As confirmation that the tanker is required to give way",
-        "As permission to disregard the COLREGs"
+        "As an instruction requiring the vessel to remain outside the entrance for at least ten minutes",
+        "As confirmation that the outbound tanker has priority over all inbound traffic",
+        "As a navigational-assistance instruction that replaces the bridge team's COLREG assessment"
       ],
       "answer": 0,
       "difficulty": "Hard",
@@ -221,24 +221,24 @@
     {
       "question": "Visibility deteriorates rapidly in a congested VTS area. Which change is most likely in VTS operations?",
       "options": [
-        "More frequent traffic monitoring, reporting and information may be required",
-        "All radar and AIS equipment should be switched off",
-        "VTS responsibility for navigation automatically replaces the master's responsibility",
-        "Vessel reports are suspended because positions cannot be observed visually"
+        "VTS may reduce radio communication to avoid distracting bridge teams",
+        "Vessels may be permitted to stop making position reports because radar and AIS remain available",
+        "Responsibility for collision avoidance may temporarily transfer to the VTS centre",
+        "More frequent traffic monitoring, reporting and information may be required"
       ],
-      "answer": 0,
+      "answer": 3,
       "difficulty": "Hard",
       "explanation": "Restricted visibility may require intensified monitoring, reporting and traffic-management measures."
     },
     {
       "question": "A master believes that a VTS traffic instruction would place the vessel in immediate danger because of an unreported machinery limitation. What is the most appropriate response?",
       "options": [
+        "Comply with the instruction initially and report the limitation once the vessel is clear of traffic",
         "Inform VTS immediately of the limitation and explain why the instruction cannot safely be followed",
-        "Follow the instruction without question because VTS assumes navigational responsibility",
-        "Ignore VTS and stop all radio communication",
-        "Comply first and report the limitation after leaving the area"
+        "Stop the vessel in its present position and wait for VTS to develop a revised passage plan",
+        "Change to another VHF channel and continue according to the original passage plan"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "Hard",
       "explanation": "The master should communicate the vessel's limitations immediately. A VTS instruction does not remove the master's duty to protect the vessel."
     }
