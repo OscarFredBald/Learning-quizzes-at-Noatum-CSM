@@ -5,48 +5,48 @@
     {
       "question": "What is the primary purpose of a ship's navigation bridge?",
       "options": [
+        "To coordinate cargo operations and maintain the vessel's loading records",
         "To control navigation, monitor the vessel and coordinate bridge operations",
-        "To store cargo documentation and spare equipment",
-        "To perform engine maintenance and fuel treatment",
-        "To accommodate the ship's emergency generator"
+        "To supervise machinery operation and control fuel consumption",
+        "To manage emergency equipment and lifesaving-appliance maintenance"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "Easy",
       "explanation": "The bridge is the vessel's main navigation and command centre, where the bridge team monitors and controls the ship."
     },
     {
       "question": "Why are bridge wings particularly useful during berthing operations?",
       "options": [
+        "They allow the officer to monitor radar targets without leaving the central console",
+        "They provide direct access to the ship's mooring decks",
         "They provide a clear view along the ship's sides and toward the berth",
-        "They contain the vessel's main radio transmitters",
-        "They provide access to the cargo holds",
-        "They increase the range of the ship's radar"
+        "They improve reception from VHF and satellite communication antennas"
       ],
-      "answer": 0,
+      "answer": 2,
       "difficulty": "Easy",
       "explanation": "Bridge wings allow the master, pilot or officer to observe the ship's side, berth, tugs and mooring operations."
     },
     {
       "question": "Which bridge instrument normally provides the vessel's true heading?",
       "options": [
-        "Gyrocompass",
-        "Echo sounder",
+        "Magnetic compass",
         "Speed log",
-        "EPIRB"
+        "Gyrocompass",
+        "Global Navigation Satellite System receiver"
       ],
-      "answer": 0,
+      "answer": 2,
       "difficulty": "Easy",
       "explanation": "The gyrocompass normally provides a true-north heading reference to the bridge and connected navigation systems."
     },
     {
       "question": "What is the main purpose of an echo sounder?",
       "options": [
-        "To measure the water depth beneath the vessel",
-        "To measure the vessel's speed through the water",
-        "To identify nearby ships",
-        "To transmit distress alerts"
+        "To determine the distance and bearing of nearby vessels",
+        "To measure the vessel's speed relative to the seabed",
+        "To monitor the vessel's under-keel clearance from chart data",
+        "To measure the water depth beneath the vessel"
       ],
-      "answer": 0,
+      "answer": 3,
       "difficulty": "Easy",
       "explanation": "The echo sounder transmits sound pulses toward the seabed and measures the return time to determine water depth."
     },
@@ -54,9 +54,9 @@
       "question": "What is the primary purpose of an EPIRB?",
       "options": [
         "To transmit a distress alert and help rescuers locate the vessel",
-        "To provide routine communication with VTS",
-        "To display the vessel's planned route",
-        "To measure wind direction"
+        "To provide two-way emergency communication with rescue services",
+        "To transmit navigational warnings to nearby vessels",
+        "To identify survival craft on a rescuing vessel's radar"
       ],
       "answer": 0,
       "difficulty": "Easy",
@@ -65,24 +65,24 @@
     {
       "question": "Which statement best describes the relationship between radar and ECDIS?",
       "options": [
+        "ECDIS detects physical targets, while radar provides the vessel's official chart display",
         "Radar detects actual echoes, while ECDIS displays chart and sensor information",
-        "Radar and ECDIS always show identical information",
-        "ECDIS detects targets while radar provides official charts",
-        "Both systems depend entirely on AIS transmissions"
+        "Radar and ECDIS provide identical information when radar overlay is selected",
+        "Both systems depend primarily on AIS data to display surrounding traffic"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "Medium",
       "explanation": "Radar detects reflected energy from real targets, while ECDIS displays electronic chart data integrated with navigation sensors."
     },
     {
       "question": "Why should AIS target information be checked against radar?",
       "options": [
+        "Radar always provides more accurate vessel identification than AIS",
         "AIS data may be incorrect, outdated or unavailable",
-        "Radar can identify every target's cargo and destination",
-        "AIS only works while the vessel is alongside",
-        "Radar automatically corrects AIS identity information"
+        "AIS cannot provide course or speed information while a vessel is underway",
+        "Radar automatically verifies all information manually entered into AIS"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "Medium",
       "explanation": "AIS depends on transmitted and manually entered data. Radar provides an independent means of detecting and monitoring targets."
     },
@@ -90,9 +90,9 @@
       "question": "What is the main operational purpose of the conning position?",
       "options": [
         "To provide essential information and controls for directing the vessel",
-        "To store paper charts and publications",
-        "To monitor machinery-space bilges",
-        "To test the emergency generator"
+        "To provide a dedicated position for GMDSS distress communication",
+        "To monitor machinery alarms and engineering parameters",
+        "To prepare and correct electronic and paper navigational charts"
       ],
       "answer": 0,
       "difficulty": "Medium",
@@ -101,72 +101,72 @@
     {
       "question": "Which information is normally supplied by a speed log?",
       "options": [
+        "The vessel's course made good and geographical position",
+        "The rate of turn and heading relative to true north",
         "Vessel speed and sometimes distance travelled",
-        "Geographical position and time",
-        "Water depth and seabed type",
-        "Wind direction and atmospheric pressure"
+        "The depth beneath the keel and the nature of the seabed"
       ],
-      "answer": 0,
+      "answer": 2,
       "difficulty": "Medium",
       "explanation": "A speed log measures speed through the water or over the ground, depending on its design, and may also calculate distance."
     },
     {
       "question": "What is the main function of a radar SART?",
       "options": [
-        "To help rescuers locate survival craft by producing a distinctive radar response",
-        "To transmit routine weather reports",
-        "To display navigational warnings on ECDIS",
-        "To activate the ship's general alarm"
+        "To transmit the survival craft's identity and position through AIS",
+        "To send a satellite distress alert to a rescue coordination centre",
+        "To provide voice communication between survival craft and rescuers",
+        "To help rescuers locate survival craft by producing a distinctive radar response"
       ],
-      "answer": 0,
+      "answer": 3,
       "difficulty": "Medium",
       "explanation": "A radar SART responds to radar signals and produces a recognizable pattern on the rescuing vessel's radar display."
     },
     {
       "question": "The ECDIS position suddenly shifts several hundred metres, but radar ranges and visual bearings remain consistent with the previous position. What should the officer do first?",
       "options": [
+        "Alter course to place the vessel symbol back on the planned route",
         "Treat the displayed position as unreliable and verify it using independent methods",
-        "Alter course immediately to return the ship symbol to the planned route",
-        "Assume the radar and visual bearings are incorrect",
-        "Disable all ECDIS alarms and continue"
+        "Reset the ECDIS safety settings and continue monitoring",
+        "Assume that radar ranges and visual bearings are affected by the same sensor error"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "Hard",
       "explanation": "A sudden position jump may indicate a GNSS or sensor error. The officer should verify the vessel's position before taking navigational action."
     },
     {
       "question": "The gyrocompass heading supplied to radar and ECDIS is incorrect. Which consequence is most likely?",
       "options": [
+        "The GNSS position may shift by several hundred metres",
+        "The echo sounder may calculate an incorrect under-keel clearance",
         "Radar bearings, overlays and displayed target vectors may become misleading",
-        "The echo sounder will display an incorrect depth",
-        "The EPIRB will activate automatically",
-        "The speed log will stop measuring distance"
+        "The speed log may provide speed through the water instead of speed over the ground"
       ],
-      "answer": 0,
+      "answer": 2,
       "difficulty": "Hard",
       "explanation": "Incorrect heading input can affect radar orientation, target calculations, ECDIS presentation and other connected systems."
     },
     {
       "question": "During berthing, the master is using a bridge-wing control station. Which information is most important to verify before relying on the controls?",
       "options": [
+        "That the vessel's heading sensors agree with the magnetic compass",
         "That steering, engine and thruster controls are correctly transferred and responding",
-        "That the NAVTEX receiver is printing messages",
-        "That the EPIRB hydrostatic release is valid",
-        "That the chart catalogue is updated"
+        "That the berthing plan has been entered into ECDIS",
+        "That all internal communication systems are operating on emergency power"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "Hard",
       "explanation": "Before manoeuvring from a wing station, the operator must verify that control has been transferred and that propulsion, steering and thrusters respond correctly."
     },
     {
       "question": "An AIS target shows a vessel proceeding at 12 knots, while radar plotting indicates that the target is nearly stationary. What is the best response?",
       "options": [
-        "Treat the information as conflicting and verify the target using radar, visual observation and communication",
-        "Use AIS because its digital information is always more accurate",
-        "Use radar only and switch off AIS",
-        "Assume the target has an equipment exemption"
+        "Use the radar information because manually entered AIS data should be disregarded",
+        "Use AIS because transmitted course and speed data are normally more current",
+        "Contact VTS and accept its traffic picture as the definitive source",
+        "Treat the information as conflicting and verify the target using radar, visual observation and communication"
       ],
-      "answer": 0,
+      "answer": 3,
       "difficulty": "Hard",
       "explanation": "Conflicting information must be investigated. AIS may contain delayed or incorrect data, while radar tracking may also be affected by errors."
     },
@@ -174,9 +174,9 @@
       "question": "Why should the magnetic compass remain available when a gyrocompass is fitted?",
       "options": [
         "It provides an independent heading reference if the gyro or electrical supply fails",
-        "It automatically corrects GPS errors",
-        "It supplies speed data to ARPA",
-        "It replaces the echo sounder in shallow water"
+        "It provides a more accurate true-north reference at high latitudes",
+        "It supplies heading information directly to radar and ECDIS without electrical power",
+        "It automatically detects and corrects gyrocompass error"
       ],
       "answer": 0,
       "difficulty": "Hard",
@@ -185,24 +185,24 @@
     {
       "question": "The bridge team reduces screen brightness excessively during night navigation. What is the main risk?",
       "options": [
+        "The displays may no longer receive sensor information correctly",
         "Important chart, radar or alarm information may become difficult to detect",
-        "The radar transmitter may overheat",
-        "The ship's heading will become inaccurate",
-        "The EPIRB battery will discharge"
+        "The reduced brightness may cause radar targets to be filtered as clutter",
+        "The ECDIS safety contour may automatically become less visible to other systems"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "Hard",
       "explanation": "Night lighting must preserve night vision while keeping essential displays, controls and alarms readable."
     },
     {
       "question": "A radar target is visible, but no corresponding AIS target appears. What should the officer conclude?",
       "options": [
+        "The radar echo is probably caused by sea clutter or atmospheric interference",
+        "The target is likely operating illegally and should be reported immediately",
         "The radar echo may still represent a genuine target that is not transmitting AIS",
-        "The radar echo must be false because all ships transmit AIS",
-        "The target is automatically required to keep clear",
-        "The radar should be switched to standby"
+        "The target can be disregarded because vessels in the area are required to carry AIS"
       ],
-      "answer": 0,
+      "answer": 2,
       "difficulty": "Hard",
       "explanation": "Not every target carries or correctly operates AIS. Radar and visual observation remain essential."
     },
@@ -210,9 +210,9 @@
       "question": "The vessel's echo sounder indicates rapidly decreasing depth, while the planned route and ECDIS position appear normal. What is the most appropriate response?",
       "options": [
         "Investigate immediately by checking position, charted depths, under-keel clearance and independent information",
-        "Ignore the echo sounder because ECDIS is the primary system",
-        "Increase speed to pass the shallow area more quickly",
-        "Reduce the safety contour until the alarm clears"
+        "Maintain course while monitoring whether the depth stabilizes",
+        "Adjust the ECDIS safety contour to correspond with the observed depth",
+        "Assume the echo sounder is affected by aeration or seabed conditions unless a depth alarm activates"
       ],
       "answer": 0,
       "difficulty": "Hard",
@@ -221,24 +221,24 @@
     {
       "question": "Why is a bridge workstation designed so essential information is visible from the operator's normal position?",
       "options": [
+        "To allow bridge operations to be conducted by a single officer in all conditions",
+        "To ensure all navigation displays can be viewed without adjusting their brightness",
         "To reduce workload, movement and loss of situational awareness",
-        "To allow one person to replace the entire bridge team",
-        "To remove the requirement for bridge windows",
-        "To prevent equipment from receiving sensor data"
+        "To ensure the operator can supervise both bridge and engine-room systems simultaneously"
       ],
-      "answer": 0,
+      "answer": 2,
       "difficulty": "Hard",
       "explanation": "Good ergonomic design reduces distraction and enables the operator to monitor the vessel and surrounding environment efficiently."
     },
     {
       "question": "A bridge alarm repeatedly sounds and is silenced without identifying its cause. Why is this unsafe?",
       "options": [
+        "Repeated acknowledgement may prevent the alarm from being recorded by the voyage data recorder",
         "The alarm may indicate a developing navigational or equipment failure that remains unresolved",
-        "Silencing an alarm permanently damages the radar antenna",
-        "The magnetic compass will become unreliable",
-        "The vessel will automatically alter course"
+        "Silencing the alarm may transfer control of the affected equipment to backup mode",
+        "The alarm system may become unable to distinguish navigational alarms from machinery alarms"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "Hard",
       "explanation": "Alarms should be acknowledged, understood and acted upon. Silencing them without investigation may hide an unsafe condition."
     }
